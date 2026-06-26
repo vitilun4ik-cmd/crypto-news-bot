@@ -37,6 +37,13 @@ PRICE_ALERT_THRESHOLD_PCT = 3.0
 PRICE_ALERT_MIN_INTERVAL_SECONDS = 30 * 60
 DIGEST_UTC_HOUR = 14   # ~21:00 local (UTC+7)
 FNG_UTC_HOUR = 2        # ~09:00 local (UTC+7)
+WEEKLY_UTC_HOUR = 14   # ~21:00 local (UTC+7), Monday
+VOLUME_SPIKE_PCT = 60.0
+VOLUME_ALERT_MIN_INTERVAL_SECONDS = 60 * 60
+WHALE_BTC_THRESHOLD = 50
+WHALE_SEEN_MAX_AGE_SECONDS = 3 * 60 * 60
+RISK_OFF_THRESHOLD_PCT = -1.5
+RISK_OFF_RECOVERY_PCT = -0.5
 
 CRYPTO_FEEDS = {
     "CoinDesk": "https://www.coindesk.com/arc/outboundfeeds/rss",
@@ -149,6 +156,7 @@ def prune_state(state):
     state["breaking_today"] = [
         it for it in state.get("breaking_today", []) if it["ts"] >= cutoff
     ]
+    prune_whale_seen(state)
 
 
 def entry_hash(link, title):
@@ -355,6 +363,186 @@ def maybe_send_daily_digest(state, prices):
     state["breaking_today"] = []
 
 
+# -------------------------------------------------------------- market data
+
+def get_market_data():
+    url = (
+        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd"
+        "&order=market_cap_desc&per_page=20&page=1&price_change_percentage=7d"
+    )
+    try:
+        resp = requests.get(url, timeout=10)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
+        print(f"Failed to fetch market data: {e}", file=sys.stderr)
+        return None
+
+
+def maybe_send_weekly_review(state, market_data, prices):
+    now = datetime.now(timezone.utc)
+    if now.weekday() != 0 or now.hour != WEEKLY_UTC_HOUR:
+        return
+    today = now.strftime("%Y-%m-%d")
+    if state.get("last_weekly_date") == today:
+        return
+    if not market_data:
+        state["last_weekly_date"] = today
+        return
+
+    ranked = sorted(
+        market_data,
+        key=lambda c: c.get("price_change_percentage_7d_in_currency") or 0,
+        reverse=True,
+    )
+    gainers = ranked[:3]
+    losers = ranked[-3:]
+
+    lines = ["📅 <b>Итоги недели</b>\n"]
+    if prices:
+        lines.append(format_price_line(prices))
+        lines.append("")
+    lines.append("🟢 Лидеры роста (7д):")
+    for c in gainers:
+        pct = c.get("price_change_percentage_7d_in_currency") or 0
+        lines.append(f"  {c['symbol'].upper()}: {pct:+.1f}%")
+    lines.append("\n🔴 Лидеры падения (7д):")
+    for c in reversed(losers):
+        pct = c.get("price_change_percentage_7d_in_currency") or 0
+        lines.append(f"  {c['symbol'].upper()}: {pct:+.1f}%")
+
+    telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": "\n".join(lines), "parse_mode": "HTML"})
+    state["last_weekly_date"] = today
+
+
+def maybe_send_weekly_poll(state):
+    now = datetime.now(timezone.utc)
+    if now.weekday() != 0 or now.hour != WEEKLY_UTC_HOUR:
+        return
+    week_key = now.strftime("%Y-W%U")
+    if state.get("last_poll_week") == week_key:
+        return
+    telegram_call("sendPoll", {
+        "chat_id": CHAT_ID,
+        "question": "Куда пойдёт BTC на этой неделе?",
+        "options": ["🚀 Вверх", "🔻 Вниз", "➡️ Без изменений"],
+        "is_anonymous": True,
+    })
+    state["last_poll_week"] = week_key
+
+
+def check_volume_spike(state, market_data):
+    if not market_data:
+        return
+    btc = next((c for c in market_data if c["id"] == "bitcoin"), None)
+    eth = next((c for c in market_data if c["id"] == "ethereum"), None)
+    if not btc or not eth:
+        return
+
+    now = time.time()
+    baseline = state.get("volume_baseline")
+    if not baseline:
+        state["volume_baseline"] = {
+            "btc": btc["total_volume"], "eth": eth["total_volume"], "ts": now,
+        }
+        return
+    if now - baseline["ts"] < VOLUME_ALERT_MIN_INTERVAL_SECONDS:
+        return
+
+    alerts = []
+    for sym, key, cur in (("BTC", "btc", btc["total_volume"]), ("ETH", "eth", eth["total_volume"])):
+        old = baseline.get(key, 0)
+        if old <= 0:
+            continue
+        pct = (cur - old) / old * 100
+        if pct >= VOLUME_SPIKE_PCT:
+            alerts.append(f"📊 {sym}: объём торгов вырос на {pct:+.0f}% за последний час")
+
+    if alerts:
+        text = "⚠️ <b>Аномальный объём торгов</b>\n\n" + "\n".join(alerts)
+        telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": text, "parse_mode": "HTML"})
+
+    state["volume_baseline"] = {"btc": btc["total_volume"], "eth": eth["total_volume"], "ts": now}
+
+
+# -------------------------------------------------------------- whale alerts
+
+def fetch_btc_whale_alerts(state, prices):
+    state.setdefault("whale_seen", [])
+    try:
+        resp = requests.get("https://blockchain.info/unconfirmed-transactions?format=json", timeout=10)
+        resp.raise_for_status()
+        txs = resp.json().get("txs", [])
+    except Exception as e:
+        print(f"Whale fetch failed: {e}", file=sys.stderr)
+        return
+
+    seen_hashes = {w["hash"] for w in state["whale_seen"]}
+    btc_usd = prices["btc"]["usd"] if prices else None
+    alerts = []
+
+    for tx in txs:
+        h = tx.get("hash")
+        if not h or h in seen_hashes:
+            continue
+        seen_hashes.add(h)
+        state["whale_seen"].append({"hash": h, "ts": time.time()})
+
+        total_sat = sum(o.get("value", 0) for o in tx.get("out", []))
+        btc_amount = total_sat / 1e8
+        if btc_amount >= WHALE_BTC_THRESHOLD:
+            usd_val = f" (~${btc_amount * btc_usd:,.0f})" if btc_usd else ""
+            alerts.append(f"🐳 {btc_amount:,.0f} BTC{usd_val}")
+
+    if alerts:
+        text = "🐳 <b>Крупные транзакции BTC</b>\n\n" + "\n".join(alerts[:5])
+        telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": text, "parse_mode": "HTML"})
+
+
+def prune_whale_seen(state):
+    cutoff = time.time() - WHALE_SEEN_MAX_AGE_SECONDS
+    state["whale_seen"] = [w for w in state.get("whale_seen", []) if w["ts"] >= cutoff]
+
+
+# --------------------------------------------------------------- risk-off
+
+def get_index_data():
+    indices = {}
+    for name, yid in (("S&P500", "%5EGSPC"), ("Nasdaq", "%5EIXIC")):
+        try:
+            resp = requests.get(
+                f"https://query1.finance.yahoo.com/v8/finance/chart/{yid}?interval=1d&range=1d",
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=10,
+            )
+            resp.raise_for_status()
+            meta = resp.json()["chart"]["result"][0]["meta"]
+            price = meta.get("regularMarketPrice")
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            if price and prev:
+                indices[name] = (price - prev) / prev * 100
+        except Exception as e:
+            print(f"Index fetch failed for {name}: {e}", file=sys.stderr)
+    return indices
+
+
+def check_risk_off(state, indices):
+    if not indices:
+        return
+    worst = min(indices.values())
+    active = state.get("risk_off_active", False)
+
+    if worst <= RISK_OFF_THRESHOLD_PCT and not active:
+        lines = ["⚠️ <b>Risk-off на рынках акций</b>", "", "Падение индексов может потащить крипту вниз:"]
+        for name, pct in indices.items():
+            lines.append(f"{name}: {pct:+.1f}%")
+        telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": "\n".join(lines), "parse_mode": "HTML"})
+        state["risk_off_active"] = True
+    elif worst > RISK_OFF_RECOVERY_PCT and active:
+        state["risk_off_active"] = False
+
+
+
 # ----------------------------------------------------------------- telegram
 
 def telegram_call(method, payload, return_response=False):
@@ -458,6 +646,13 @@ def main():
     update_pinned_ticker(state, prices)
     check_price_alert(state, prices)
 
+    market_data = get_market_data()
+    check_volume_spike(state, market_data)
+    fetch_btc_whale_alerts(state, prices)
+
+    indices = get_index_data()
+    check_risk_off(state, indices)
+
     entries = fetch_rss_entries() + fetch_cryptopanic_entries()
     bootstrap = not state.get("bootstrapped", False)
 
@@ -510,6 +705,8 @@ def main():
                 state["breaking_today"].append({"title": title_ru, "ts": time.time()})
             time.sleep(SEND_DELAY_SECONDS)
 
+    maybe_send_weekly_review(state, market_data, prices)
+    maybe_send_weekly_poll(state)
     maybe_send_daily_digest(state, prices)
     maybe_send_fear_greed(state)
 
