@@ -343,6 +343,38 @@ def check_price_alert(state, prices):
     }
 
 
+MILESTONE_STEP = {"btc": 10_000, "eth": 100, "ton": 1}
+MILESTONE_NAME = {"btc": "Bitcoin", "eth": "Ethereum", "ton": "TON"}
+
+
+def check_price_milestones(state, prices):
+    if not prices:
+        return
+    milestones = state.setdefault("milestone_prices", {})
+    alerts = []
+
+    for sym, step in MILESTONE_STEP.items():
+        price = prices[sym]["usd"]
+        prev = milestones.get(sym)
+        milestones[sym] = price
+        if prev is None:
+            continue
+
+        prev_level = int(prev // step)
+        new_level = int(price // step)
+        if new_level == prev_level:
+            continue
+
+        up = new_level > prev_level
+        boundary = max(prev_level, new_level) * step
+        arrow = "🚀" if up else "⚠️"
+        verb = "пробивает" if up else "падает ниже"
+        alerts.append(f"{arrow} <b>{MILESTONE_NAME[sym]} {verb} ${boundary:,.0f}</b>")
+
+    for text in alerts:
+        telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": text, "parse_mode": "HTML"})
+
+
 def maybe_send_fear_greed(state):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     now_hour = datetime.now(timezone.utc).hour
@@ -882,6 +914,7 @@ def main():
     prices = get_prices()
     update_pinned_ticker(state, prices)
     check_price_alert(state, prices)
+    check_price_milestones(state, prices)
 
     market_data = get_market_data()
     check_volume_spike(state, market_data)
