@@ -109,6 +109,24 @@ BREAKING_KEYWORDS = [
     "collapse", "liquidat", "rate cut", "rate hike", "default",
 ]
 
+BULLISH_KEYWORDS = [
+    "all-time high", "record high", "surge", "surges", "rally", "rallies",
+    "soar", "soars", "jumps", "approved", "approval", "adoption",
+    "partnership", "integrates", "etf approved", "bullish", "inflow",
+    "inflows", "accumulat", "breakthrough", "outperform", "buyback",
+    "wins approval", "green light", "skyrocket",
+]
+
+BEARISH_KEYWORDS = [
+    "hack", "hacked", "exploit", "exploited", "breach", "stolen",
+    "halts trading", "suspends trading", "bankrupt", "bankruptcy",
+    "rejected", "lawsuit", "sues", "sued", "charges", "plunge", "plunges",
+    "crash", "crashes", "bans", "banned", "delist", "delisting", "outflow",
+    "outflows", "sell-off", "selloff", "dumps", "liquidated", "liquidation",
+    "collapse", "collapses", "default", "bearish", "downgrade", "fraud",
+    "scam", "fined", "penalty", "investigation", "probe", "recession",
+]
+
 TICKER_TAGS = [
     ("bitcoin", "#BTC"), ("btc", "#BTC"), ("ethereum", "#ETH"), ("eth", "#ETH"),
     ("coinbase", "#COIN"), ("microstrategy", "#MSTR"), ("tesla", "#TSLA"),
@@ -212,6 +230,16 @@ def is_crypto_relevant(category, text_lower):
 
 def is_breaking(text_lower):
     return any(kw in text_lower for kw in BREAKING_KEYWORDS)
+
+
+def detect_sentiment(text_lower):
+    bearish = any(kw in text_lower for kw in BEARISH_KEYWORDS)
+    bullish = any(kw in text_lower for kw in BULLISH_KEYWORDS)
+    if bearish and not bullish:
+        return "down"
+    if bullish and not bearish:
+        return "up"
+    return None  # mixed or no clear signal - don't guess
 
 
 def tags_for(text_lower):
@@ -790,9 +818,14 @@ def telegram_call(method, payload, return_response=False):
     return data if return_response else True
 
 
-def format_message(title_ru, summary_ru, tags, breaking, prices):
+SENTIMENT_ICON = {"up": "📈", "down": "📉"}
+
+
+def format_message(title_ru, summary_ru, tags, breaking, prices, sentiment=None):
     prefix = "🚨 <b>СРОЧНО</b>\n" if breaking else ""
-    tag_line = f"\n{' '.join(tags)}" if tags else ""
+    tag_parts = [SENTIMENT_ICON[sentiment]] if sentiment in SENTIMENT_ICON else []
+    tag_parts += tags
+    tag_line = f"\n{' '.join(tag_parts)}" if tag_parts else ""
     summary_block = f"\n{escape_html(summary_ru)}\n" if summary_ru else "\n"
     price_block = f"\n{format_price_line(prices)}" if prices else ""
     return (
@@ -963,11 +996,12 @@ def main():
         text_lower = entry["text_lower"]
         breaking = is_breaking(text_lower)
         tags = tags_for(text_lower)
+        sentiment = detect_sentiment(text_lower)
 
         title_ru = translate_ru(entry["title"])
         summary_ru = translate_ru(entry["summary"]) if entry["summary"] else ""
 
-        message = format_message(title_ru, summary_ru, tags, breaking, prices)
+        message = format_message(title_ru, summary_ru, tags, breaking, prices, sentiment)
         if telegram_call("sendMessage", {
             "chat_id": CHAT_ID, "text": message, "parse_mode": "HTML",
             "disable_web_page_preview": True,
