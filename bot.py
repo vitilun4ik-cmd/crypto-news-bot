@@ -251,8 +251,8 @@ def format_price_line(prices):
         return ""
     btc, eth = prices["btc"], prices["eth"]
     return (
-        f"🟠 BTC: ${btc['usd']:,.0f} ({btc['change_24h']:+.1f}% 24ч) {trend_emoji(btc['change_24h'])}\n"
-        f"🔷 ETH: ${eth['usd']:,.0f} ({eth['change_24h']:+.1f}% 24ч) {trend_emoji(eth['change_24h'])}"
+        f"Ⓑ BTC: ${btc['usd']:,.0f} ({btc['change_24h']:+.1f}% 24ч) {trend_emoji(btc['change_24h'])}\n"
+        f"Ⓔ ETH: ${eth['usd']:,.0f} ({eth['change_24h']:+.1f}% 24ч) {trend_emoji(eth['change_24h'])}"
     )
 
 
