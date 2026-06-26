@@ -2746,6 +2746,99 @@
         "debut"
       ],
       "ts": 1782507616.7799304
+    },
+    {
+      "hash": "7ab457b4a6202b4a6a99c922e6c9004e4ad4b4ae81daa821021e864feef4494d",
+      "tokens": [
+        "firms",
+        "survive",
+        "packaging",
+        "treasury",
+        "can",
+        "bitcoin",
+        "metaplanet",
+        "bets",
+        "income"
+      ],
+      "ts": 1782509041.0074492
+    },
+    {
+      "hash": "e1ba216b32d8388b1bc190cf9ff43f136b2ebe4dcd87b8cd889053079b7947c7",
+      "tokens": [
+        "eth",
+        "ethereum",
+        "cap",
+        "tops",
+        "briefly",
+        "tether",
+        "during",
+        "overtakes",
+        "off",
+        "sell",
+        "market",
+        "stablecoin"
+      ],
+      "ts": 1782509041.0077536
+    },
+    {
+      "hash": "433a48f96bf4ded4c6ecd170f4c498e114be0a0e3a647844c0571f62d96f3b6d",
+      "tokens": [
+        "rise",
+        "sandisk",
+        "earnings",
+        "inflation",
+        "dow",
+        "futures",
+        "techs",
+        "due",
+        "fed",
+        "micron",
+        "soaring",
+        "data",
+        "jones",
+        "send"
+      ],
+      "ts": 1782509041.0083873
+    },
+    {
+      "hash": "99af739110e82e6ec546c0ff000036a24be3c29da65ac2ff44a136ee44fac547",
+      "tokens": [
+        "cathie",
+        "act",
+        "under",
+        "makes",
+        "timeline",
+        "buys",
+        "wood",
+        "clarity",
+        "crypto",
+        "comes",
+        "threat"
+      ],
+      "ts": 1782509041.0087132
+    },
+    {
+      "hash": "6f2c25e014d086350b9addf21f97e2934be99cee0efb613a2d56a588a193b204",
+      "tokens": [
+        "sandisk",
+        "semi",
+        "more",
+        "explain",
+        "today",
+        "moderna",
+        "stocks",
+        "market",
+        "nvidia",
+        "palantir"
+      ],
+      "ts": 1782509041.0090413
     }
-  ]
+  ],
+  "breaking_today": [],
+  "pinned_ticker_message_id": 14,
+  "price_alert_baseline": {
+    "btc": 59670,
+    "eth": 1570.71,
+    "ts": 1782509037.9106495
+  }
 }
