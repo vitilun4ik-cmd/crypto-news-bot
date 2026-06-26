@@ -40,7 +40,13 @@ FNG_UTC_HOUR = 2        # ~09:00 local (UTC+7)
 WEEKLY_UTC_HOUR = 14   # ~21:00 local (UTC+7), Monday
 VOLUME_SPIKE_PCT = 60.0
 VOLUME_ALERT_MIN_INTERVAL_SECONDS = 60 * 60
-WHALE_BTC_THRESHOLD = 50
+WHALE_USD_THRESHOLD = 500_000
+USDT_CONTRACT = "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+USDT_TRANSFER_TOPIC = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+ETH_RPC_URL = "https://eth.drpc.org"
+ETH_MAX_BLOCKS_PER_RUN = 40
+TON_API_URL = "https://toncenter.com/api/v2"
+TON_MAX_TX_DETAILS_PER_RUN = 10
 WHALE_SEEN_MAX_AGE_SECONDS = 3 * 60 * 60
 RISK_OFF_THRESHOLD_PCT = -1.5
 RISK_OFF_RECOVERY_PCT = -0.5
@@ -495,18 +501,34 @@ def check_volume_spike(state, market_data):
 
 # -------------------------------------------------------------- whale alerts
 
-def fetch_btc_whale_alerts(state, prices):
+def _whale_mark_seen(state, h):
     state.setdefault("whale_seen", [])
+    state["whale_seen"].append({"hash": h, "ts": time.time()})
+
+
+def _whale_seen_hashes(state):
+    return {w["hash"] for w in state.get("whale_seen", [])}
+
+
+def _send_whale_alert(title, lines):
+    if not lines:
+        return
+    text = f"🐳 <b>{title}</b>\n\n" + "\n".join(lines[:5])
+    telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": text, "parse_mode": "HTML"})
+
+
+def fetch_btc_whale_alerts(state, prices):
     try:
         resp = requests.get("https://blockchain.info/unconfirmed-transactions?format=json", timeout=10)
         resp.raise_for_status()
         txs = resp.json().get("txs", [])
     except Exception as e:
-        print(f"Whale fetch failed: {e}", file=sys.stderr)
+        print(f"BTC whale fetch failed: {e}", file=sys.stderr)
         return
 
-    seen_hashes = {w["hash"] for w in state["whale_seen"]}
+    seen_hashes = _whale_seen_hashes(state)
     btc_usd = prices["btc"]["usd"] if prices else None
+    threshold_btc = (WHALE_USD_THRESHOLD / btc_usd) if btc_usd else 10
     alerts = []
 
     for tx in txs:
@@ -514,17 +536,160 @@ def fetch_btc_whale_alerts(state, prices):
         if not h or h in seen_hashes:
             continue
         seen_hashes.add(h)
-        state["whale_seen"].append({"hash": h, "ts": time.time()})
+        _whale_mark_seen(state, h)
 
         total_sat = sum(o.get("value", 0) for o in tx.get("out", []))
         btc_amount = total_sat / 1e8
-        if btc_amount >= WHALE_BTC_THRESHOLD:
+        if btc_amount >= threshold_btc:
             usd_val = f" (~${btc_amount * btc_usd:,.0f})" if btc_usd else ""
-            alerts.append(f"🐳 {btc_amount:,.0f} BTC{usd_val}")
+            alerts.append(f"Ⓑ {btc_amount:,.1f} BTC{usd_val}")
 
-    if alerts:
-        text = "🐳 <b>Крупные транзакции BTC</b>\n\n" + "\n".join(alerts[:5])
-        telegram_call("sendMessage", {"chat_id": CHAT_ID, "text": text, "parse_mode": "HTML"})
+    _send_whale_alert("Крупные транзакции BTC", alerts)
+
+
+def eth_rpc(method, params):
+    resp = requests.post(
+        ETH_RPC_URL, json={"jsonrpc": "2.0", "method": method, "params": params, "id": 1}, timeout=15,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    if "error" in data:
+        raise RuntimeError(data["error"])
+    return data["result"]
+
+
+def fetch_eth_and_usdt_whale_alerts(state, prices):
+    try:
+        latest_hex = eth_rpc("eth_blockNumber", [])
+        latest = int(latest_hex, 16)
+    except Exception as e:
+        print(f"ETH RPC fetch failed: {e}", file=sys.stderr)
+        return
+
+    last_block = state.get("last_eth_block")
+    if last_block is None:
+        state["last_eth_block"] = latest
+        return
+
+    from_block = max(last_block + 1, latest - ETH_MAX_BLOCKS_PER_RUN + 1)
+    if from_block > latest:
+        return
+
+    seen_hashes = _whale_seen_hashes(state)
+    eth_usd = prices["eth"]["usd"] if prices else None
+    threshold_eth = (WHALE_USD_THRESHOLD / eth_usd) if eth_usd else 200
+
+    eth_alerts = []
+    for block_num in range(from_block, latest + 1):
+        try:
+            block = eth_rpc("eth_getBlockByNumber", [hex(block_num), True])
+        except Exception as e:
+            print(f"ETH block {block_num} fetch failed: {e}", file=sys.stderr)
+            continue
+        if not block:
+            continue
+        for tx in block.get("transactions", []):
+            h = tx.get("hash")
+            if not h or h in seen_hashes or not tx.get("to"):
+                continue
+            value_eth = int(tx["value"], 16) / 1e18
+            if value_eth >= threshold_eth:
+                seen_hashes.add(h)
+                _whale_mark_seen(state, h)
+                usd_val = f" (~${value_eth * eth_usd:,.0f})" if eth_usd else ""
+                eth_alerts.append(f"Ⓔ {value_eth:,.0f} ETH{usd_val}")
+
+    _send_whale_alert("Крупные транзакции ETH", eth_alerts)
+
+    usdt_alerts = []
+    try:
+        logs = eth_rpc("eth_getLogs", [{
+            "fromBlock": hex(from_block), "toBlock": hex(latest),
+            "address": USDT_CONTRACT, "topics": [USDT_TRANSFER_TOPIC],
+        }])
+        for log in logs:
+            h = log.get("transactionHash")
+            log_index = log.get("logIndex", "0")
+            key = f"{h}:{log_index}"
+            if not h or key in seen_hashes:
+                continue
+            amount = int(log["data"], 16) / 1e6
+            if amount >= WHALE_USD_THRESHOLD:
+                seen_hashes.add(key)
+                _whale_mark_seen(state, key)
+                usdt_alerts.append(f"💵 {amount:,.0f} USDT (~${amount:,.0f})")
+    except Exception as e:
+        print(f"USDT logs fetch failed: {e}", file=sys.stderr)
+
+    _send_whale_alert("Крупные транзакции USDT", usdt_alerts)
+
+    state["last_eth_block"] = latest
+
+
+def ton_rpc(method, params):
+    resp = requests.get(f"{TON_API_URL}/{method}", params=params, timeout=15)
+    resp.raise_for_status()
+    data = resp.json()
+    if not data.get("ok"):
+        raise RuntimeError(data.get("error"))
+    return data["result"]
+
+
+def fetch_ton_whale_alerts(state, prices):
+    """Best-effort: TON has no free API for network-wide large-transfer
+    scanning, so this samples a handful of transactions from the latest
+    masterchain block only. It will miss most whale activity, but it's
+    the best coverage achievable without a paid API."""
+    try:
+        info = ton_rpc("getMasterchainInfo", {})
+        seqno = info["last"]["seqno"]
+        shards = ton_rpc("shards", {"seqno": seqno})["shards"]
+    except Exception as e:
+        print(f"TON shards fetch failed: {e}", file=sys.stderr)
+        return
+
+    seen_hashes = _whale_seen_hashes(state)
+    ton_usd = prices["ton"]["usd"] if prices else None
+    threshold_ton = (WHALE_USD_THRESHOLD / ton_usd) if ton_usd else 300_000
+
+    short_txs = []
+    for shard in shards[:2]:
+        try:
+            res = ton_rpc("getBlockTransactions", {
+                "workchain": shard["workchain"], "shard": shard["shard"],
+                "seqno": shard["seqno"], "count": 20,
+            })
+            short_txs.extend(res.get("transactions", []))
+        except Exception as e:
+            print(f"TON block transactions fetch failed: {e}", file=sys.stderr)
+
+    alerts = []
+    for stx in short_txs[:TON_MAX_TX_DETAILS_PER_RUN]:
+        h = stx.get("hash")
+        if not h or h in seen_hashes:
+            continue
+        seen_hashes.add(h)
+        _whale_mark_seen(state, h)
+
+        time.sleep(0.4)  # be polite to the free, unauthenticated rate limit
+        try:
+            detail = ton_rpc("getTransactions", {
+                "address": stx["account"], "lt": stx["lt"], "hash": h, "limit": 1,
+            })
+        except Exception as e:
+            print(f"TON tx detail fetch failed: {e}", file=sys.stderr)
+            continue
+        if not detail:
+            continue
+        tx = detail[0]
+        values_nanoton = [int(tx.get("in_msg", {}).get("value", 0) or 0)]
+        values_nanoton += [int(m.get("value", 0) or 0) for m in tx.get("out_msgs", [])]
+        max_ton = max(values_nanoton, default=0) / 1e9
+        if max_ton >= threshold_ton:
+            usd_val = f" (~${max_ton * ton_usd:,.0f})" if ton_usd else ""
+            alerts.append(f"Ⓝ {max_ton:,.0f} TON{usd_val}")
+
+    _send_whale_alert("Крупные транзакции TON", alerts)
 
 
 def prune_whale_seen(state):
@@ -721,6 +886,8 @@ def main():
     market_data = get_market_data()
     check_volume_spike(state, market_data)
     fetch_btc_whale_alerts(state, prices)
+    fetch_eth_and_usdt_whale_alerts(state, prices)
+    fetch_ton_whale_alerts(state, prices)
 
     indices = get_index_data()
     check_risk_off(state, indices)
