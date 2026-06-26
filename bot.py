@@ -218,18 +218,26 @@ def tags_for(text_lower):
 
 # ------------------------------------------------------------- price helpers
 
+PRICE_COINS = {"btc": "bitcoin", "eth": "ethereum", "ton": "the-open-network"}
+
+
 def get_prices():
+    ids = ",".join(PRICE_COINS.values())
     url = (
-        "https://api.coingecko.com/api/v3/simple/price"
-        "?ids=bitcoin,ethereum&vs_currencies=usd&include_24hr_change=true"
+        f"https://api.coingecko.com/api/v3/simple/price?ids={ids}"
+        "&vs_currencies=usd,rub&include_24hr_change=true"
     )
     try:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         data = resp.json()
         return {
-            "btc": {"usd": data["bitcoin"]["usd"], "change_24h": data["bitcoin"]["usd_24h_change"]},
-            "eth": {"usd": data["ethereum"]["usd"], "change_24h": data["ethereum"]["usd_24h_change"]},
+            sym: {
+                "usd": data[coin_id]["usd"],
+                "rub": data[coin_id]["rub"],
+                "change_24h": data[coin_id]["usd_24h_change"],
+            }
+            for sym, coin_id in PRICE_COINS.items()
         }
     except Exception as e:
         print(f"Failed to fetch prices: {e}", file=sys.stderr)
@@ -249,11 +257,16 @@ def trend_emoji(change_pct):
 def format_price_line(prices):
     if not prices:
         return ""
-    btc, eth = prices["btc"], prices["eth"]
-    return (
-        f"Ⓑ BTC: ${btc['usd']:,.0f} ({btc['change_24h']:+.1f}% 24ч) {trend_emoji(btc['change_24h'])}\n"
-        f"Ⓔ ETH: ${eth['usd']:,.0f} ({eth['change_24h']:+.1f}% 24ч) {trend_emoji(eth['change_24h'])}"
-    )
+    lines = []
+    for symbol, icon in (("btc", "Ⓑ"), ("eth", "Ⓔ"), ("ton", "Ⓝ")):
+        c = prices[symbol]
+        rub_fmt = f"{c['rub']:,.2f}" if c['rub'] < 100 else f"{c['rub']:,.0f}"
+        usd_fmt = f"{c['usd']:,.2f}" if c['usd'] < 100 else f"{c['usd']:,.0f}"
+        lines.append(
+            f"{icon} {symbol.upper()}: ${usd_fmt} / {rub_fmt}₽ "
+            f"({c['change_24h']:+.1f}% 24ч) {trend_emoji(c['change_24h'])}"
+        )
+    return "\n".join(lines)
 
 
 def format_ticker_text(prices):
@@ -261,7 +274,7 @@ def format_ticker_text(prices):
         return "Курс временно недоступен"
     now = datetime.now(timezone.utc).strftime("%H:%M UTC")
     return (
-        "📌 <b>Курс BTC / ETH</b>\n\n"
+        "📌 <b>Курс BTC / ETH / TON</b>\n\n"
         f"{format_price_line(prices)}\n\n"
         f"Обновлено: {now}"
     )
