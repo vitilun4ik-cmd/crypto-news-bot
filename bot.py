@@ -57,7 +57,21 @@ CRYPTO_FEEDS = {
     "CoinJournal": "https://coinjournal.net/feed/",
     "DailyHodl": "https://dailyhodl.com/feed/",
     "U.Today": "https://u.today/rss.php",
+    "Reddit r/CryptoCurrency": "https://www.reddit.com/r/CryptoCurrency/hot/.rss",
 }
+
+RECURRING_THREAD_RE = re.compile(
+    r"daily crypto discussion|weekly crypto discussion|monthly crypto discussion",
+    re.I,
+)
+
+BINANCE_CATALOGS = {
+    "New Cryptocurrency Listing",
+    "Delisting",
+}
+# Even inside those catalogs Binance mixes in futures/perpetual-contract and
+# tokenized-securities noise; only actual spot listing/delisting moves price.
+BINANCE_RELEVANT_RE = re.compile(r"\bwill list\b|\bwill add\b|delist", re.I)
 
 MACRO_FEEDS = {
     "CNBC Finance": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
@@ -186,6 +200,7 @@ def is_near_duplicate(tokens, state_items):
 def is_crypto_relevant(category, text_lower):
     if category == "crypto":
         return True
+    # "macro" and "reddit" (community noise/memes) both need a keyword match
     return any(kw in text_lower for kw in CRYPTO_RELEVANCE_KEYWORDS)
 
 
@@ -583,7 +598,14 @@ def format_message(title_ru, summary_ru, tags, breaking, prices):
 def fetch_rss_entries():
     collected = []
     for source, url in ALL_FEEDS.items():
-        category = "crypto" if source in CRYPTO_FEEDS else "macro"
+        is_reddit = source == "Reddit r/CryptoCurrency"
+        if is_reddit:
+            category = "reddit"
+        elif source in CRYPTO_FEEDS:
+            category = "crypto"
+        else:
+            category = "macro"
+
         try:
             parsed = feedparser.parse(url)
         except Exception as e:
@@ -594,12 +616,49 @@ def fetch_rss_entries():
             link = entry.get("link", "").strip()
             if not title or not link:
                 continue
-            summary = clean_text(entry.get("summary", ""))
+            if is_reddit and RECURRING_THREAD_RE.search(title):
+                continue
+            # Reddit's RSS summary is raw post markup (image tables, mod
+            # disclaimers) - not useful as a news body, so skip it.
+            summary = "" if is_reddit else clean_text(entry.get("summary", ""))
             text_lower = f"{title} {summary}".lower()
             collected.append({
                 "source": source, "category": category,
                 "title": title, "link": link,
                 "summary": summary, "text_lower": text_lower,
+            })
+    return collected
+
+
+def fetch_binance_entries():
+    url = (
+        "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query"
+        "?type=1&pageNo=1&pageSize=15"
+    )
+    try:
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        resp.raise_for_status()
+        catalogs = resp.json().get("data", {}).get("catalogs", [])
+    except Exception as e:
+        print(f"Binance fetch failed: {e}", file=sys.stderr)
+        return []
+
+    collected = []
+    for catalog in catalogs:
+        if catalog.get("catalogName") not in BINANCE_CATALOGS:
+            continue
+        for article in catalog.get("articles", [])[:15]:
+            title = clean_text(article.get("title", ""))
+            code = article.get("code")
+            if not title or not code:
+                continue
+            if not BINANCE_RELEVANT_RE.search(title):
+                continue
+            link = f"https://www.binance.com/en/support/announcement/{code}"
+            collected.append({
+                "source": "Binance", "category": "crypto",
+                "title": title, "link": link,
+                "summary": "", "text_lower": title.lower(),
             })
     return collected
 
@@ -653,7 +712,7 @@ def main():
     indices = get_index_data()
     check_risk_off(state, indices)
 
-    entries = fetch_rss_entries() + fetch_cryptopanic_entries()
+    entries = fetch_rss_entries() + fetch_cryptopanic_entries() + fetch_binance_entries()
     bootstrap = not state.get("bootstrapped", False)
 
     to_send = []
