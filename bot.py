@@ -236,8 +236,8 @@ def format_price_line(prices):
         return ""
     btc, eth = prices["btc"], prices["eth"]
     return (
-        f"₿ BTC: ${btc['usd']:,.0f} ({btc['change_24h']:+.1f}% 24ч) {trend_emoji(btc['change_24h'])}\n"
-        f"Ξ ETH: ${eth['usd']:,.0f} ({eth['change_24h']:+.1f}% 24ч) {trend_emoji(eth['change_24h'])}"
+        f"🟠 BTC: ${btc['usd']:,.0f} ({btc['change_24h']:+.1f}% 24ч) {trend_emoji(btc['change_24h'])}\n"
+        f"🔷 ETH: ${eth['usd']:,.0f} ({eth['change_24h']:+.1f}% 24ч) {trend_emoji(eth['change_24h'])}"
     )
 
 
@@ -565,17 +565,17 @@ def telegram_call(method, payload, return_response=False):
     return data if return_response else True
 
 
-def format_message(title_ru, summary_ru, source, tags, breaking, prices):
+def format_message(title_ru, summary_ru, tags, breaking, prices):
     prefix = "🚨 <b>СРОЧНО</b>\n" if breaking else ""
     tag_line = f"\n{' '.join(tags)}" if tags else ""
     summary_block = f"\n{escape_html(summary_ru)}\n" if summary_ru else "\n"
-    price_block = f"\n{format_price_line(prices)}\n" if prices else ""
+    price_block = f"\n{format_price_line(prices)}" if prices else ""
     return (
         f"{prefix}<b>{escape_html(title_ru)}</b>\n"
         f"{summary_block}"
         f"{price_block}"
-        f"📰 {escape_html(source)}{tag_line}"
-    )
+        f"{tag_line}"
+    ).rstrip()
 
 
 # -------------------------------------------------------------------- fetch
@@ -695,7 +695,7 @@ def main():
         title_ru = translate_ru(entry["title"])
         summary_ru = translate_ru(entry["summary"]) if entry["summary"] else ""
 
-        message = format_message(title_ru, summary_ru, entry["source"], tags, breaking, prices)
+        message = format_message(title_ru, summary_ru, tags, breaking, prices)
         if telegram_call("sendMessage", {
             "chat_id": CHAT_ID, "text": message, "parse_mode": "HTML",
             "disable_web_page_preview": True,
