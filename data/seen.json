@@ -2,212 +2,6 @@
   "bootstrapped": true,
   "items": [
     {
-      "hash": "1422eae3efbc98be4520d25ba505636c55c781e44a1230c5c172c86bcb6dab20",
-      "tokens": [
-        "proposal",
-        "solana",
-        "burns",
-        "aims",
-        "sol",
-        "000",
-        "daily",
-        "ramp",
-        "650"
-      ],
-      "ts": 1785823912.9717503
-    },
-    {
-      "hash": "5ec33299238f1bb8f2c6a04694a669833a64c357429ce2c8d96f25c9ff18f581",
-      "tokens": [
-        "strategy",
-        "traders",
-        "nears",
-        "sales",
-        "sweeps",
-        "coldcard",
-        "000",
-        "bitcoin",
-        "look",
-        "past",
-        "btc"
-      ],
-      "ts": 1785823912.9729
-    },
-    {
-      "hash": "2dfb1c95cae020bcab3508aba7cc3aaa9ddd86dbc41663cb977f68b5735e0b71",
-      "tokens": [
-        "2013",
-        "million",
-        "not",
-        "since",
-        "one",
-        "wallet",
-        "only",
-        "bitcoin",
-        "dormant",
-        "moved"
-      ],
-      "ts": 1785823912.974005
-    },
-    {
-      "hash": "b58f9d0c805821d503a8a89e4e3ced5224b6abe0acf976567bede42ca9c6318c",
-      "tokens": [
-        "waves",
-        "galaxy",
-        "attack",
-        "theft",
-        "across",
-        "coldcard",
-        "confirmed",
-        "bitcoin",
-        "tops",
-        "100m"
-      ],
-      "ts": 1785823912.9751375
-    },
-    {
-      "hash": "2eab56e8e92f529eeb3484c40512c69bff0f6259c0ed9b4bde701cb07652183d",
-      "tokens": [
-        "shares",
-        "adds",
-        "eth",
-        "repurchases",
-        "bitmine"
-      ],
-      "ts": 1785823912.9761083
-    },
-    {
-      "hash": "60ef462da8c56f97e24468e89b4f7294f4a29d8f2fe135a18b46a08b03aac20e",
-      "tokens": [
-        "release",
-        "prices",
-        "costs",
-        "gta",
-        "force",
-        "looms",
-        "playstation",
-        "raise",
-        "chip",
-        "xbox"
-      ],
-      "ts": 1785823912.9772627
-    },
-    {
-      "hash": "07cbf7cc1d324324c1f86ca31d4ecc16b9aba1d7f6313e7f71ffe887513e12c0",
-      "tokens": [
-        "agent",
-        "charged",
-        "crime",
-        "polices",
-        "fbi",
-        "million",
-        "his",
-        "theft",
-        "own",
-        "bureau",
-        "crypto"
-      ],
-      "ts": 1785823912.97839
-    },
-    {
-      "hash": "75a6e8340838ea99b89320988fa99b8c30347ff0bafbf921f0b64a020a08f24b",
-      "tokens": [
-        "ethereum",
-        "bet",
-        "stakes",
-        "bitmine",
-        "conviction",
-        "fresh",
-        "holdings"
-      ],
-      "ts": 1785823912.979422
-    },
-    {
-      "hash": "e4d9be40f9557fa2c02cd953b099255bcc4755ae4de1f85fa0a223edcb391479",
-      "tokens": [
-        "xrp",
-        "next",
-        "begin",
-        "analyst",
-        "repricing",
-        "months",
-        "few",
-        "major"
-      ],
-      "ts": 1785823912.9804573
-    },
-    {
-      "hash": "3323c9a58742924ffa2d9fdf80a48cc1415ff68c1e02a51aa7f886be457ee293",
-      "tokens": [
-        "uber",
-        "solana",
-        "investor",
-        "early",
-        "urges",
-        "bitcoin",
-        "selling"
-      ],
-      "ts": 1785823912.981554
-    },
-    {
-      "hash": "1717027e22f7b1142c14f00527edd00cf2a80a79712b6e8fdb8e53b3011073a8",
-      "tokens": [
-        "fake",
-        "site",
-        "36k",
-        "scam",
-        "lost",
-        "ledger",
-        "crypto"
-      ],
-      "ts": 1785823912.9826324
-    },
-    {
-      "hash": "0209bc0587317ebec7f879d73d529b08cf5c3e47b495939fea85c29c90e68144",
-      "tokens": [
-        "received",
-        "nft",
-        "quietly",
-        "traumatizing",
-        "ton",
-        "wallet"
-      ],
-      "ts": 1785823912.9836566
-    },
-    {
-      "hash": "ab35a368c1c36096a2138e9cb653a950c7f0e2c6c98652e2b798480726443340",
-      "tokens": [
-        "hard",
-        "dangers",
-        "using",
-        "leverage",
-        "lesson",
-        "about",
-        "investors",
-        "learning"
-      ],
-      "ts": 1785823912.9849668
-    },
-    {
-      "hash": "65fc69398cc14dd3967b315a9816434618787cfe44b8251f849816591dce8dce",
-      "tokens": [
-        "might",
-        "bad",
-        "junk",
-        "bond",
-        "credit",
-        "corporate",
-        "risk",
-        "fitch",
-        "etf",
-        "correction",
-        "big",
-        "market",
-        "news"
-      ],
-      "ts": 1785823912.986134
-    },
-    {
       "hash": "004abb1654bd64620e7caaa78e848dc099a8be0b7b4c31eea872760f37a512e8",
       "tokens": [
         "live",
@@ -14482,6 +14276,39 @@
         "earnings"
       ],
       "ts": 1786168681.6392722
+    },
+    {
+      "hash": "f20d4ef8de630f5463453c3048ef206360eedca173c802d24fd68bc84ce409fd",
+      "tokens": [
+        "domestic",
+        "tokens",
+        "backed",
+        "stablecoins",
+        "boost",
+        "demand",
+        "imf",
+        "dollar"
+      ],
+      "ts": 1786172809.2677944
+    },
+    {
+      "hash": "c6e9d74f159c3c7ffc32f689a6fce5c5319b1dc111461293fafe0bd79aa91fe6",
+      "tokens": [
+        "apy",
+        "interest",
+        "earn",
+        "rates",
+        "august",
+        "yield",
+        "maximize",
+        "2026",
+        "high",
+        "friday",
+        "today",
+        "best",
+        "savings"
+      ],
+      "ts": 1786172809.2697203
     }
   ],
   "breaking_today": [
@@ -14544,423 +14371,11 @@
   ],
   "pinned_ticker_message_id": 58,
   "price_alert_baseline": {
-    "btc": 64953,
-    "eth": 1915.81,
-    "ts": 1786168672.8080437
+    "btc": 64970,
+    "eth": 1914.9,
+    "ts": 1786172800.5774016
   },
   "whale_seen": [
-    {
-      "hash": "85176344abb56989210de303a85d5a3f197952de27c19336d41a8b9755993bf3",
-      "ts": 1786161530.438457
-    },
-    {
-      "hash": "b366e4177dd3f7f652e8970fc8c3f31ca0427818511580d86d6c4818ea23ead2",
-      "ts": 1786161530.4384654
-    },
-    {
-      "hash": "03597c110b1878dce390b34aa22e8610fd8f1db154bb0b91d9d9242d0b5a13d0",
-      "ts": 1786161530.438468
-    },
-    {
-      "hash": "140ac595a5b0236764d0b13d8010880782cf565aaacef086d85d3fcddd7578ce",
-      "ts": 1786161530.43847
-    },
-    {
-      "hash": "d33f408e6d90a2cea33c0c64cbbf6cd7e8e0a17a93c49b41990fe4fd73c155c9",
-      "ts": 1786161530.4384713
-    },
-    {
-      "hash": "9dc4f53badb3acd44cbcd5fb64861a3f1ecb2539dac2193fbb54aea67a857ec0",
-      "ts": 1786161530.4384725
-    },
-    {
-      "hash": "1f8b28e0d70a5e679f9bab002633780b351bf79a175eb307be6af360e9d2ceba",
-      "ts": 1786161530.4384732
-    },
-    {
-      "hash": "74e75ad3005b5f50de01e95e908cb2044ad1f2368619079a9566ddbb32c5d1b9",
-      "ts": 1786161530.4384742
-    },
-    {
-      "hash": "5a9da06ad109cdf08453cbfa70ae6de232fa0b4550e781dc183cf3d94c6bb6b4",
-      "ts": 1786161530.438475
-    },
-    {
-      "hash": "fd3a9cf5cbaa3ab232a1a88a4bb6aac7f19661fab41cfe1b544f5dca10c2117e",
-      "ts": 1786161530.438476
-    },
-    {
-      "hash": "91a91ba345562412f7a79fe71c5151d35b983a0832f882c873c19622be220d77",
-      "ts": 1786161530.4384768
-    },
-    {
-      "hash": "922b82d86344b57fe3a1b6fa6b7b7ac011b9605a358efe036fdde6c01ca2e84a",
-      "ts": 1786161530.4384778
-    },
-    {
-      "hash": "cf3ada9b01cd71277688357e249fbff827ff392b287e6f071355c0108a99032a",
-      "ts": 1786161530.438479
-    },
-    {
-      "hash": "b00b6d67fd585c28456519d452164ddbd258b0afa7d3a619812b2c5cacdebf21",
-      "ts": 1786161530.4384797
-    },
-    {
-      "hash": "6b06b8b298cda36927f90cd1ec42c3af0ec5cb9d95da5915e4d61b7bd37cef0f",
-      "ts": 1786161530.4384806
-    },
-    {
-      "hash": "dc9c2ec6839ce571e9f7a42fd9df16101558365931440be0721081e0e68b10ef",
-      "ts": 1786161530.4384813
-    },
-    {
-      "hash": "e284b923a5e6d38a7fce49168c88ad93225ffb1b28bb13a23bda08573e742eeb",
-      "ts": 1786161530.4384823
-    },
-    {
-      "hash": "139861d67d98d34cca583d6c6fc21e64ac8a4da2cd4df92279f836e3271df6ea",
-      "ts": 1786161530.4384832
-    },
-    {
-      "hash": "338f4afb030690e43e4207c11991dfef61d76fe96063eac2c953cc82a86a37e5",
-      "ts": 1786161530.4384842
-    },
-    {
-      "hash": "077ec8b0ed70776456650ccf9ecd37ac760133947fee03ac5a424c7e155658db",
-      "ts": 1786161530.4384851
-    },
-    {
-      "hash": "df458d459a6854695044cdecb7235122f13cff7726c4f2d9bf14254ec8f61ada",
-      "ts": 1786161530.438486
-    },
-    {
-      "hash": "536f9ba1bfc517b29ccdb7c7225435a8167927bae6858fdd514858c9eb0ebad8",
-      "ts": 1786161530.4384875
-    },
-    {
-      "hash": "605d4781acdbbca7513a1b1fd3e2045b9835f42bd5ea8c7b8c230c45b5b20bc9",
-      "ts": 1786161530.4384882
-    },
-    {
-      "hash": "2a78b5d9f69c3a67b30572cedbfff73421d4986ebdd5f15ef16531d7591ad8c5",
-      "ts": 1786161530.4384894
-    },
-    {
-      "hash": "30e7521e4743d99b038dadfc3e287455da98c5806e8774c1df0d1300c61562bc",
-      "ts": 1786161530.4384904
-    },
-    {
-      "hash": "04d7d5ce9ebae55fa71cd04e200918d4c26b7878948fa90619b97b658dc3c9b2",
-      "ts": 1786161530.4384913
-    },
-    {
-      "hash": "22b871cffbb1f854a68db257998b3c171aac05409e80f33b35198409f92784b1",
-      "ts": 1786161530.4384956
-    },
-    {
-      "hash": "4c9308cb7f9f1cf3f539a0ab8acaafbdb41a8fcaa6984ece7c990def44630690",
-      "ts": 1786161530.4384968
-    },
-    {
-      "hash": "798d67674d31b51d03e24db11656e6498e6f0e9df1ae3ab91d46031577f50885",
-      "ts": 1786161530.4384978
-    },
-    {
-      "hash": "c2e3bbb830c0976dcc3ad659de2d0e90890575b58321aa1ba2dfc5fa8567a780",
-      "ts": 1786161530.4384987
-    },
-    {
-      "hash": "8f41ca0da7ec954fc7c68d1b8f54b7783d9c1c0d847d04d159af0ef481f9c57c",
-      "ts": 1786161530.4385154
-    },
-    {
-      "hash": "19e71606352cb0221080cafc45dcd050ce54ad90c2321c9916207c14fa66a177",
-      "ts": 1786161530.4385166
-    },
-    {
-      "hash": "a88a0939fd4ed9a0a3fd9419833f7d3bb92834c320b520718ffe460dabad0d69",
-      "ts": 1786161530.4385178
-    },
-    {
-      "hash": "0de3160d20496c024f947ab3523ba0726dd27b6ee7b0e44950d44cdac040b65c",
-      "ts": 1786161530.4385188
-    },
-    {
-      "hash": "e136225b42d02dae102c8dccb99873887386318ba299a06db3ebec5e8751f259",
-      "ts": 1786161530.4385195
-    },
-    {
-      "hash": "c78bd48eca05bd2e355e5ea81535c1441ff7e48e87c67fda009e284b1a4ee354",
-      "ts": 1786161530.4385207
-    },
-    {
-      "hash": "59b55bbdaa40830801334c051e06dd4f88ad67fef7cdd451040d10538cb2b04b",
-      "ts": 1786161530.4385214
-    },
-    {
-      "hash": "3ef4b4ea00b1cb7a95b07bb948b74041736590214191538fa78c22cdc1678f46",
-      "ts": 1786161530.4385223
-    },
-    {
-      "hash": "d337f854318da2883207247472f389e4e68ea582a5bc71d58ecf5976bd6b362a",
-      "ts": 1786161530.438523
-    },
-    {
-      "hash": "7a01f8da1bb17cf3e074fef2e237bae3c7f580d07aa2dfe870c7fe380603f71c",
-      "ts": 1786161530.4385242
-    },
-    {
-      "hash": "0feabee4cf258492f0c2f7b41acd49ea5e86bae237b10c7c55e184c93beecb17",
-      "ts": 1786161530.438525
-    },
-    {
-      "hash": "f5f076f84ceb16c28cd948e11f760fb8e58fc1dc0b88b30034b76ef7c7a4c40c",
-      "ts": 1786161530.4385262
-    },
-    {
-      "hash": "91196817625f3ac5b254864497ba52359ab38e7246c01d1e8c6071ef4639dc0a",
-      "ts": 1786161530.4385273
-    },
-    {
-      "hash": "d11c9bf22c01c12dd85658b3cd52ac735024dd0e08eb0c3270b6c104d22d4018",
-      "ts": 1786161530.438528
-    },
-    {
-      "hash": "b98f66a5a93c181189b3631680a666e6e217dff55d85729e749ba78791f000f9",
-      "ts": 1786161530.438529
-    },
-    {
-      "hash": "357c76dd4bafec8416b38d1a11f5ad31d90d90c3b310a68f2bdd5276eaf3fbf1",
-      "ts": 1786161530.4385297
-    },
-    {
-      "hash": "886616cd359c437b769f8696a315867c2b9819031405f3a314122c33e53597ee",
-      "ts": 1786161530.438531
-    },
-    {
-      "hash": "871678662ad0d722b324007988836bf9ba3aba1bc0b47894169d7df8b69d43e9",
-      "ts": 1786161530.4385319
-    },
-    {
-      "hash": "82b90db1e15a2d2473f86a5a24f52936a3d829948e727346dacdaf73987085ac",
-      "ts": 1786161530.4385326
-    },
-    {
-      "hash": "f279830ad1315227e730ab4baeb7dd0e5ca43415e7006a1f398cbf6ffae038a3",
-      "ts": 1786161530.4385335
-    },
-    {
-      "hash": "d1b858b2dad30457a2081c906b7e214031ccbfb52de9d7fc3dd5d1a81ca04786",
-      "ts": 1786161530.4385345
-    },
-    {
-      "hash": "fdf6ed218f0ac762c64f5562083c34b10ab8e6406063c4c3813c7692ea24817c",
-      "ts": 1786161530.4385355
-    },
-    {
-      "hash": "e2667d1cd6f764423d541502016da47963a7561868dbcfb0d33eda9d102dd077",
-      "ts": 1786161530.4385364
-    },
-    {
-      "hash": "fa8eeb2534ba9664aff35cb427347aa61745e0a365d337dcc532e43826d94c5f",
-      "ts": 1786161530.4385374
-    },
-    {
-      "hash": "bd7c0dc8ffdf6aa0f6115e9c0a0d47ceb83f855f0be326abde107c9516c5f009",
-      "ts": 1786161530.4385383
-    },
-    {
-      "hash": "cd78bcc4e08551b4c0ba6e15b088164803b99e8771facca2c4121b84b3ee3704",
-      "ts": 1786161530.438539
-    },
-    {
-      "hash": "6fd054b45f9445ac8062c9376bc4e87196901cc19bf23c589b995f81a57b00f7",
-      "ts": 1786161530.43854
-    },
-    {
-      "hash": "932a63bd17444dcba0633ce60f3a299a72cce03a4e0a211243413a1fae4285f2",
-      "ts": 1786161530.4385433
-    },
-    {
-      "hash": "1d68f669b15aa225a0b1fd019321fc8b3ed8717f4aaf43ee568ecbd7230955f0",
-      "ts": 1786161530.4385443
-    },
-    {
-      "hash": "e341fcc163bf429ad99edbb69e15190544682d777bb9fc235e615c85470e00f0",
-      "ts": 1786161530.4385455
-    },
-    {
-      "hash": "e96d3e9eddb597425f9151f54a743b202a3a0b70e0dd281a761709ce441fd4ef",
-      "ts": 1786161530.4385464
-    },
-    {
-      "hash": "484b9a102ee204ae62c87be26f7bbebb6e25427b10e4bf9010ccfa3c51881cd6",
-      "ts": 1786161530.4385471
-    },
-    {
-      "hash": "cfc7e26554571d121bc798333e427fe432bbe5c4c842003f657979d3def2c1d1",
-      "ts": 1786161530.4385483
-    },
-    {
-      "hash": "2e75565705c310da6cd73e7348900107f77c7ef1d017517f5e0c98cfcf5ab2cd",
-      "ts": 1786161530.438549
-    },
-    {
-      "hash": "35c6cd9a90f3c7a8f5039087dbe8aa8ec7678e0216d0f1f851dab099896b95cd",
-      "ts": 1786161530.4385498
-    },
-    {
-      "hash": "2e3b3c3e1b0bdc54b1a3de540c56b40f9e35bdc4a2092626666e02de15fc3cc6",
-      "ts": 1786161530.4385512
-    },
-    {
-      "hash": "61f5220a703c470aa62d51b6e8dbb2d5775a3b0e45d4dcb54e4789443a871eae",
-      "ts": 1786161530.4385524
-    },
-    {
-      "hash": "95a619fcf869e9823526720d7c0f2ce281aed62c385e3bbbe19ff3907ac3e7a8",
-      "ts": 1786161530.438553
-    },
-    {
-      "hash": "34b1dcd6e9de249995190841257d9b789f869f8dbf048d700e483061b18c919d",
-      "ts": 1786161530.4385538
-    },
-    {
-      "hash": "23e8c88d24be76db2bd1c71345b09ee96f3f0fac506e578b55dd9597c76c079b",
-      "ts": 1786161530.4385548
-    },
-    {
-      "hash": "ab21f9545e0b6f66c415a7495c057bd255dfa6eac2186d102ec1864c064a6e96",
-      "ts": 1786161530.4385579
-    },
-    {
-      "hash": "cc89837c5fd7f386ed5273b0576a5f924c6ddb91a8fabf85b24474e6b771c185",
-      "ts": 1786161530.438559
-    },
-    {
-      "hash": "b7352896c6b0a8daec5c9497320b958b4e3e332990112d3c74cae810728bd179",
-      "ts": 1786161530.43856
-    },
-    {
-      "hash": "9d845932d20c062c927a8a25ea43b94d20abfc996e7ba3587f8978eeebc7eb76",
-      "ts": 1786161530.438561
-    },
-    {
-      "hash": "6da2a2aa88693cbe08cac23fdf4d20ead9452176108b370dcacb90a18298ae67",
-      "ts": 1786161530.4385617
-    },
-    {
-      "hash": "e69ada01b58bcb78f1383f59584afe4bf2b0f636204fa9b866598f6d1831c15d",
-      "ts": 1786161530.4385629
-    },
-    {
-      "hash": "3b962483109f6752ff9c699a621490743e6778fe82916108a46c6c7a45352d24",
-      "ts": 1786161530.4385638
-    },
-    {
-      "hash": "fe9b20e45a6ebb893c91ff93a8b2163557ceee037d19c46bf2cfbea5fef9d719",
-      "ts": 1786161530.438565
-    },
-    {
-      "hash": "daa6744dd0e56996e93d7a4b36dac9444645554230c4065bd6732aaf2f6c5cdf",
-      "ts": 1786161530.4385662
-    },
-    {
-      "hash": "476dc1fce4696d5fadbe00891fb5ada23714ec494772794d27252cc2bd4953f8",
-      "ts": 1786161530.438567
-    },
-    {
-      "hash": "012bd815bf16b659f80f068fd67652e7cd187db484f1e6d1f982e2056b2e66f7",
-      "ts": 1786161530.4385679
-    },
-    {
-      "hash": "83c09fb446fac158b201e40c89958c70169e6e56000357bb25eb89cfa4703fd3",
-      "ts": 1786161530.438569
-    },
-    {
-      "hash": "ca7dd25bec470aeb43a13b19384026e5bf79c08a8b9a9d398f3d19bdb79b35cd",
-      "ts": 1786161530.43857
-    },
-    {
-      "hash": "be331bba8e640696fb9b9912a256483085fd15d1f858e98193f9a0ab6e2f3686",
-      "ts": 1786161530.4385707
-    },
-    {
-      "hash": "8a4b901a8e9ab963c4322379d04ff53a892dce49b071d79617760dcce2e79973",
-      "ts": 1786161530.4385717
-    },
-    {
-      "hash": "b7a08847893e79cdc9a07725c6133d48af4f2748d1b0ad1343314bfcc1d93269",
-      "ts": 1786161530.4385726
-    },
-    {
-      "hash": "b5836b9442e41c5be20fffcda5b92c2970d16cca969a438f73abf3a320d2474a",
-      "ts": 1786161530.4385736
-    },
-    {
-      "hash": "09dca62c0aabf7b877ccdb0a311b11628b36d4afa6e6b207276829ee6b351ddb",
-      "ts": 1786161530.4385743
-    },
-    {
-      "hash": "809fe268a8619d1adc99661bef7b41b82617841201b5961f297d6515e7194398",
-      "ts": 1786161530.4385753
-    },
-    {
-      "hash": "ee8ce0c5e94de74d54ace17fe583674745c9f2aa166dddd0484b4367e778f41a",
-      "ts": 1786161530.4385784
-    },
-    {
-      "hash": "b584b6073ea859854e554b9f1129e7908f39648f50262a2e9b812c13efba5c90",
-      "ts": 1786161530.4385798
-    },
-    {
-      "hash": "a10d24ea64f763be22d408288ad10994f2f0708a75cbb32782b1e8541a083987",
-      "ts": 1786161530.4385805
-    },
-    {
-      "hash": "ced90978441b7344baa6b0ed805125f4f92848aee85f2ab91d14cdd1bd52da74",
-      "ts": 1786161530.438583
-    },
-    {
-      "hash": "ab64cb7080c2add4076e0379c1dd50556cb59396fb3c855dd4253785023ab448",
-      "ts": 1786161530.4385839
-    },
-    {
-      "hash": "45b8d300401fe4769bdcf150c9f50f1b3ec3a87d279dba5acd474d44acbc1842",
-      "ts": 1786161530.438587
-    },
-    {
-      "hash": "9469074e703ce1c3705d492d51308ce982441725f2fece9400b2df7461928833",
-      "ts": 1786161530.438588
-    },
-    {
-      "hash": "c8c46b429d89708632211b1cceed6457a5238c57d57483638b30772cb4e52a2e",
-      "ts": 1786161530.4385889
-    },
-    {
-      "hash": "67ae5f74ba12875f620a042456aa6525ecd5c2dc795841aaec18c063cd23220f",
-      "ts": 1786161530.43859
-    },
-    {
-      "hash": "5a9ebb89ff4f7054c9677842e72c35f4a8d89e3783309adddb140feab4216394",
-      "ts": 1786161530.438591
-    },
-    {
-      "hash": "413d843a0071d4cbd0440f049f89b6666d2043d9ebd6311423e08d7e15ed846e",
-      "ts": 1786161530.4385917
-    },
-    {
-      "hash": "0xe187a0ffdb4ec8f6ef0aea0b1d4aa2a7978e82c6b7bb28095e9772151a392a11",
-      "ts": 1786161536.0836654
-    },
-    {
-      "hash": "0x52d3b3aec7453c26b6619449cfe9398e5c69d49a93c30823b73e95e018077494:0x5a4",
-      "ts": 1786161537.5119388
-    },
-    {
-      "hash": "0x52d3b3aec7453c26b6619449cfe9398e5c69d49a93c30823b73e95e018077494:0x5a6",
-      "ts": 1786161537.5119512
-    },
     {
       "hash": "c542ace4e26641286cc673c2350427441a5ec85a0afa009387b1daa40c42cfdc",
       "ts": 1786165612.9747999
@@ -15796,17 +15211,461 @@
     {
       "hash": "0x81876b398059f3bd794b17f6432fb40187c1f3bce04f0d75ca8fab6a63f544bd:0x23",
       "ts": 1786168677.3191526
+    },
+    {
+      "hash": "618d0d48859cd892bb484959b88c7ade6990665c6afa2e67b45d3e32806fd0df",
+      "ts": 1786172800.9671757
+    },
+    {
+      "hash": "872ff98c0428c76cc62595432743a13df3ca5306f7af01399f3d3444262a4d3f",
+      "ts": 1786172800.9671824
+    },
+    {
+      "hash": "a9f9d6bd7e0f6291c53cb837e6fb9f610317e3dbd58ac3e896cbdd04cbadaff5",
+      "ts": 1786172800.9671855
+    },
+    {
+      "hash": "6b852ee703014942bc719998417dfac30ad42db8f50377187143d6d7d438cb9f",
+      "ts": 1786172800.967187
+    },
+    {
+      "hash": "f26aab89b319fedf14ce2abaf0b13deb3ef159c1d492f11f531aec5509717f22",
+      "ts": 1786172800.9671881
+    },
+    {
+      "hash": "5602b96424e3c4b0904fe60f1fa13f6e49cc6dcbf5fb1419bf3006bd5055ed4d",
+      "ts": 1786172800.9671896
+    },
+    {
+      "hash": "fa55775f111a1830438a16a593f4233b4ca395e6602d1be9e6aa884e3e1ef91e",
+      "ts": 1786172800.9671905
+    },
+    {
+      "hash": "b54d3df1ce9dae4a1cbc8d7e6e7e682d907e74f2b9add1631a0af1a16d766a14",
+      "ts": 1786172800.9671915
+    },
+    {
+      "hash": "aff0adfe0e9a65bff1018831ec60cbfeb878fcb4132e5b4d47e706d74400e668",
+      "ts": 1786172800.9671926
+    },
+    {
+      "hash": "f42dd129ed333b627cfcad2fb3588a342ce89067fe6164067271530dd65b68cb",
+      "ts": 1786172800.9671962
+    },
+    {
+      "hash": "bf9107ba5866a8d7d1c75e61857ff07fbc37c83978841c906f570da8b6ddb3b9",
+      "ts": 1786172800.9671974
+    },
+    {
+      "hash": "779f8df5592986265756ca9094b20c858ad3e58d62062446a05d506417158302",
+      "ts": 1786172800.9671984
+    },
+    {
+      "hash": "3c57f017fa8d4b9fa64b45c4e3e3a4ecc56cbe6e06f42ea188e43f685d31b2c8",
+      "ts": 1786172800.9671996
+    },
+    {
+      "hash": "7cf278c2ee98091498f01f158a594baf39233438d44dbfd8e57acd811ea55f02",
+      "ts": 1786172800.9672005
+    },
+    {
+      "hash": "059f97ff731798d0229876beef733ab282d48e1090b638a57bf75e97663ed1b8",
+      "ts": 1786172800.9672015
+    },
+    {
+      "hash": "636f762fc79c781393a61db93b5e31a84531cf2e98cc3fd32f78e368d61df0e9",
+      "ts": 1786172800.9672036
+    },
+    {
+      "hash": "02767d173a3fa0d8dde2b5f7d7796a0a7b7c00c797c2e982870aa1a46e9956ca",
+      "ts": 1786172800.9672046
+    },
+    {
+      "hash": "5b00b0cf95053e3ece718320d8983e1094dc10ec5212a783fad246d13ff335c9",
+      "ts": 1786172800.9672055
+    },
+    {
+      "hash": "8516d233c05ff35f73782ffe3c2b311d60e5b3b22800fc6f8835dfcd83bc94c1",
+      "ts": 1786172800.9672067
+    },
+    {
+      "hash": "9545e51c629da11030e43c6d559b00105097f594ebbb6f944a0573748cedc2b0",
+      "ts": 1786172800.9672098
+    },
+    {
+      "hash": "b0219e63f56cb5cd53de630999914a67af804eda076bdd5ea0b5cda7ed55cd86",
+      "ts": 1786172800.9672108
+    },
+    {
+      "hash": "41030e31e4cdbed6671a54b17fd24f4bc5036bc19c56554ab5a4afad2e923e58",
+      "ts": 1786172800.9672117
+    },
+    {
+      "hash": "5b927551019fe140f681d7c7dae552f6c35a8b8d4c8bba718994902af349c357",
+      "ts": 1786172800.9672124
+    },
+    {
+      "hash": "cf713bb023e0d9fc505adfc5b72ee652d7dd2c414d6b4dfcabb15d5e29cd174d",
+      "ts": 1786172800.9672136
+    },
+    {
+      "hash": "64e97847bf3e868e8c701fb7fd22c6f7785f2345d8a44efa9d87f8826a12b9e4",
+      "ts": 1786172800.967215
+    },
+    {
+      "hash": "feda2eadb2a64a59173354d72ee4da59c8cd7ab7e31a15a47efc3ed17dbe38ae",
+      "ts": 1786172800.967216
+    },
+    {
+      "hash": "ef916b53d5cb746569f013e387b5aaaeca0977b804f05629a48d72c88ba64a1b",
+      "ts": 1786172800.9672172
+    },
+    {
+      "hash": "c9ac828b1f6bdd333f21e26cc5c92a711c5734a3c17897153ed0b3d9a173b305",
+      "ts": 1786172800.9672184
+    },
+    {
+      "hash": "7514e4ba1f028181e5106d31b133731c712b427b9279853388c2190ee29c9425",
+      "ts": 1786172800.9672194
+    },
+    {
+      "hash": "0734bb6047010cb210f20d82e9e3ca4fb07aaea0fcd43ae59ae928cfad332196",
+      "ts": 1786172800.9672205
+    },
+    {
+      "hash": "8c80c10437c5ca848e6acadf7f477389e11db17467b6810f3727688dbf84e612",
+      "ts": 1786172800.9672215
+    },
+    {
+      "hash": "f8fe8cae6b80f5c4f4920f2dd27ca9fe2b1aab665c29da3e8b0a8d0d23ef93dc",
+      "ts": 1786172800.9672227
+    },
+    {
+      "hash": "d65efa7fbe7f2e3ba5ddbda18db225643df3530258658c4b220b15e74c708ca8",
+      "ts": 1786172800.967224
+    },
+    {
+      "hash": "39bcb73b2c08a146812cd9d9182bec23e08282ddab0c301c2675d29281a7c284",
+      "ts": 1786172800.9672248
+    },
+    {
+      "hash": "b1274e088dd7791cbbb61624ba3012337c0d0c80e858c584ef8794679782e03c",
+      "ts": 1786172800.9672258
+    },
+    {
+      "hash": "e20d08cbc6f8e5c763d293247f2fb1bfe67b4f3f18afc7f0f640cad70fe4d8c9",
+      "ts": 1786172800.967227
+    },
+    {
+      "hash": "81ac4999e38392b18c9f681cea351e8faf01ecb282fa6bc233ea4226020ad087",
+      "ts": 1786172800.967228
+    },
+    {
+      "hash": "9a03a6c3ff400772287ed3b36b41cfa5cce2f7788460f157a864f3ed3229d14f",
+      "ts": 1786172800.967229
+    },
+    {
+      "hash": "198281dd13cc418a1cd945677e07fce12e01ed6e401b349e40329cdc3af14d04",
+      "ts": 1786172800.9672298
+    },
+    {
+      "hash": "91ddd3b3eb64a094e18fe72db4182b5b778e2f44510b5ac162c6b75bedfc91f1",
+      "ts": 1786172800.967231
+    },
+    {
+      "hash": "ef077a89036687f40952730c2ac622e1561965bca538b97ba505cccd138197c4",
+      "ts": 1786172800.967232
+    },
+    {
+      "hash": "192548b1dd954577b1aab552110667d773a9f9d2def03a55616012bb35da936a",
+      "ts": 1786172800.9672332
+    },
+    {
+      "hash": "32b4afd11d0d89e88baccb163b3e8a49d115d0e17f6c1fe3cb12a3f9210cfc5d",
+      "ts": 1786172800.9672363
+    },
+    {
+      "hash": "03c2e42a53d4fc074de20601c66efbb16853dbf53f7c1b01ff2fade1a0d7cecb",
+      "ts": 1786172800.9672377
+    },
+    {
+      "hash": "44c371b689decc7a43c67a62bb7ea540db850beb0c1a0e70fb6100717ee5cd26",
+      "ts": 1786172800.9672387
+    },
+    {
+      "hash": "e447c667a595a351f5bf17e66bf5c910df84480bf0019bcdc186e01395a3e7fb",
+      "ts": 1786172800.9672396
+    },
+    {
+      "hash": "d84a7a63b29d8aeecf42ee36a53b4a3a82d4f882759398a0cb84fc1547a966a5",
+      "ts": 1786172800.9672408
+    },
+    {
+      "hash": "1315813c0e41f5a75b5819ee477db0bd366aff4fa993e6461a7427d43af81667",
+      "ts": 1786172800.9672418
+    },
+    {
+      "hash": "ad115371fe82d9f2e2c8bdd8f29a2764cf14ecd068fd8ef9c16515473a2f733b",
+      "ts": 1786172800.9672427
+    },
+    {
+      "hash": "9460665b11389d01c961ff359cdc218417ea99c75e52ba9f11b71a1ca125842b",
+      "ts": 1786172800.9672437
+    },
+    {
+      "hash": "298a9fe06ec444f892bc72b4c214f418ef3511d3413561b2dbcb443e225ec022",
+      "ts": 1786172800.9672449
+    },
+    {
+      "hash": "be388807c4e6c5851a1847aab0b6d7dbffe9bf14e25cc683ff12947a0a3f0305",
+      "ts": 1786172800.9672477
+    },
+    {
+      "hash": "15ae09f592ea44473de895a054b9bc101eeeeeacdf0616b8d973ac364decad84",
+      "ts": 1786172800.9672487
+    },
+    {
+      "hash": "9f256d14041d5db6684a7f0a4d9dfd5090e9c4cd1dae6d8b26d8962eb8cc6052",
+      "ts": 1786172800.9672499
+    },
+    {
+      "hash": "43cb2474ceafa1d729436b17fedad3d1a352a7a642a42be65885efcc100e4807",
+      "ts": 1786172800.967251
+    },
+    {
+      "hash": "d3ac112a24e612480ab0cdadce6fd9d2a4226df6608a79be4f99938a84c7ddf3",
+      "ts": 1786172800.967252
+    },
+    {
+      "hash": "5ce6583bd852b6c2907af706fa1759ff330bb0895694d47b025be768a027b6c0",
+      "ts": 1786172800.967253
+    },
+    {
+      "hash": "8aed6c0f0b548a632c6780f1519346dbc7fa21bc1728b8dd4715d9c1f78a1683",
+      "ts": 1786172800.967254
+    },
+    {
+      "hash": "1538592219f6b11ee20dfa892bc5508372655820c209f0a3add17e2b75624748",
+      "ts": 1786172800.967255
+    },
+    {
+      "hash": "8633575bbe8de9e61a8fb915d59752616bc837748eee6789fee8d15c190f8d2a",
+      "ts": 1786172800.9672558
+    },
+    {
+      "hash": "7046ad3e88d70115dbd378e7f0410940596cb1a847e38119203fa2198d31491d",
+      "ts": 1786172800.967257
+    },
+    {
+      "hash": "fb76695cf1abe2fb558b32352a24ff81fc8fa81f50b0c70de3c4479296c80158",
+      "ts": 1786172800.9672582
+    },
+    {
+      "hash": "412e459678a385864f09e80d4942fd3c758eba9d35152def48b918a6c41784d5",
+      "ts": 1786172800.9672592
+    },
+    {
+      "hash": "6b9adc3f0b7b46077d6c7471ae9ab7077b94010cc893fa80e4f21a458ff3c456",
+      "ts": 1786172800.9672604
+    },
+    {
+      "hash": "685a9df59e6f35d35a2ec36ef422ae58929879517dfabfa5e95fb3c2593ecba6",
+      "ts": 1786172800.9672616
+    },
+    {
+      "hash": "bca7563307d29bf5fa05f5b5d1f028f2c88d140a46d30140d3927720c4dfb462",
+      "ts": 1786172800.9672623
+    },
+    {
+      "hash": "c1d0a16ca78eec960e73f740bcbbfb5292879cce2ff1149f9b11ad9338595445",
+      "ts": 1786172800.9672635
+    },
+    {
+      "hash": "f3f51ce610c10e6d16cb61211190ad529c6403f6d4f23998dc7f91ba6d272627",
+      "ts": 1786172800.9672644
+    },
+    {
+      "hash": "96b5ee48bed67757769f2fd0dbb5d142db44ecdd6748dfbf4672fbf17fdafd44",
+      "ts": 1786172800.9672658
+    },
+    {
+      "hash": "cc991124e504f66b0e425439592d55b171218b5cab9221c36a1eaf0b20b241d0",
+      "ts": 1786172800.9672668
+    },
+    {
+      "hash": "28026179825777bd67fe4e978aa76a67b25d98ca7ae490390055079065803acc",
+      "ts": 1786172800.9672678
+    },
+    {
+      "hash": "0e30ffb6b4da3b39693df9fb774b8afe4979a67aab68c38a3c1e55c86a6689ca",
+      "ts": 1786172800.967269
+    },
+    {
+      "hash": "02c215191b1053827fec0d0302f786827236d1dec6cf083d59861e321d17d5bd",
+      "ts": 1786172800.9672716
+    },
+    {
+      "hash": "c12d50b0a91c4e5e082895a657d0dd24fd8cf885991888ca49c1f3a61cd4d1ae",
+      "ts": 1786172800.9672728
+    },
+    {
+      "hash": "ec5d68e3fb592d9708db20baf3c8ca3ba0bc5911546470c741fb676a490393a7",
+      "ts": 1786172800.9672737
+    },
+    {
+      "hash": "1cfa4b0dc97d9c182eb7464b55193c60afaf8d0c53473337d64e25fa3f3b182d",
+      "ts": 1786172800.9672747
+    },
+    {
+      "hash": "20724f9458481ed790ca48349b9baa7ede846798a60aaf887151a82319af1928",
+      "ts": 1786172800.967276
+    },
+    {
+      "hash": "fa5bffe82e846f981118f6833d32c38dedbc6284cb9586e6976d489b20a6b80c",
+      "ts": 1786172800.967277
+    },
+    {
+      "hash": "fd703eab308e7c9ad63a1cc0a71faa0dc890b154ac6d22decda03fed19bd9c7f",
+      "ts": 1786172800.967278
+    },
+    {
+      "hash": "22e1b52af6da85be2c4e5b53bc0d09a258de9b7647a67e63669b7ec25661fec4",
+      "ts": 1786172800.9672792
+    },
+    {
+      "hash": "739a48c82c0d35a853046b9c8bc49d0a6bede339e90011357442ec977ddf3790",
+      "ts": 1786172800.9672801
+    },
+    {
+      "hash": "f48229cf56796e0c7d7f2529aa2652ca7d84fe1defa9dd09d826290c6da58306",
+      "ts": 1786172800.9672813
+    },
+    {
+      "hash": "045f466a154fa03c8914c15203e7e636d168ceef4715fd9b4ffe004ac81bcd84",
+      "ts": 1786172800.9672825
+    },
+    {
+      "hash": "70004929ee1be235f79ff9312a2721cad1f4d8b3276b81dcebd62cf03ceb007d",
+      "ts": 1786172800.9672852
+    },
+    {
+      "hash": "29101354f6118e186ff6afb29055f1609018ae8ee9900c9937ac42d131da0359",
+      "ts": 1786172800.9672863
+    },
+    {
+      "hash": "6eea4945303f156dd699f1b16b89e82bb5f6acbb4819be3bc57f888e88b77208",
+      "ts": 1786172800.9672875
+    },
+    {
+      "hash": "8fdf481766419097149f0e4fac8887f178b8eb5d0ea7ba3f6b9838d1f681fbee",
+      "ts": 1786172800.9672885
+    },
+    {
+      "hash": "4fa5036d35025aa9e7b9d4188140d36e20290596bb1b48dc46d758173eeaf4d9",
+      "ts": 1786172800.9672897
+    },
+    {
+      "hash": "002c702842c7c030e9eaa57a29dbe0cfc3e628e0104c2d1d0aa8bfb1290b6c73",
+      "ts": 1786172800.9672906
+    },
+    {
+      "hash": "8efcb8686fd847a84b05ffa3ae7c44b7f3f8d409829e6796dfb18c891fdb6771",
+      "ts": 1786172800.9672916
+    },
+    {
+      "hash": "7f7c56086e0316880882507b1f50c8172787ea2333fe17471ee589774cd94738",
+      "ts": 1786172800.9672928
+    },
+    {
+      "hash": "721bda1f963a6e7f74b5ab710502315cabb743f495536662bf48f7c4c0e1f371",
+      "ts": 1786172800.9673073
+    },
+    {
+      "hash": "5ab800c633776d02a871234091a0406be6a160467bb15d73a2fa764bfeec606a",
+      "ts": 1786172800.9673088
+    },
+    {
+      "hash": "83c1f934b848adb8060453d88c6434db7b57874859dabf3138a830499fbdf46e",
+      "ts": 1786172800.9673097
+    },
+    {
+      "hash": "a12a9d98a0c1c0b97011039a7190c1c1329caf492d4b1dcabee831dcdfdffa60",
+      "ts": 1786172800.9673138
+    },
+    {
+      "hash": "5f4e77d1248cee6b47638cc83a683539663334cb6d0fe362a15bd2fd76935f2d",
+      "ts": 1786172800.9673147
+    },
+    {
+      "hash": "675f160499a29daa1d916c188070b844b2f4de535aa02bb1c824380b47f72c94",
+      "ts": 1786172800.967316
+    },
+    {
+      "hash": "e5e3ccd1b2683fda9e854eb51f6d46b1535a1e05653a7d0d544320ede3174190",
+      "ts": 1786172800.96732
+    },
+    {
+      "hash": "50035f2211693dd886df10c670ca12aaa57aba21cddb31a6f2a57451498bb232",
+      "ts": 1786172800.9673212
+    },
+    {
+      "hash": "b233abec7113dcaf65a269d75969c5024e9a682e576316ef6e410bcfd2b6d1d4",
+      "ts": 1786172800.9673223
+    },
+    {
+      "hash": "0xc34b956223652b448792ab527aead4aa4d1dc72d846684d765a06fdfb86876d0",
+      "ts": 1786172803.3613188
+    },
+    {
+      "hash": "0x37d9391ec56956b43d0b26f2e4e3cd0207ea2d4ea5dd6bfcad05c91ddddee823:0x575",
+      "ts": 1786172803.997597
+    },
+    {
+      "hash": "0xe07405f4d71d95c4bfb22730249d9f034cb8d651c9a539fec06ec94173f35a12:0x23",
+      "ts": 1786172803.997623
+    },
+    {
+      "hash": "0x75efa4aac9c17f133d01f56941c996bee6f898fdcdb39207efe1fae0a0a9774d:0x4e4",
+      "ts": 1786172803.9980617
+    },
+    {
+      "hash": "0xe839c064fda051fecdd30a9f64d165de7f39b84eade1091aac710e951247e465:0x235",
+      "ts": 1786172803.9984403
+    },
+    {
+      "hash": "0xf8d5bf9b1369a5c862d8fb97b0b09d431405f962a3bfe706fdc7296527de9fab:0x8a",
+      "ts": 1786172803.998576
+    },
+    {
+      "hash": "0xf8aba87285ea59227789d292cdcf06f38167cca12250492a4314ab9a33b75bb2:0x89b",
+      "ts": 1786172803.9986694
+    },
+    {
+      "hash": "0x970a970a8f6fd3c25d7675e854df6c7f1b41a1afa00b0c17d9451def16e53f75:0xe0",
+      "ts": 1786172803.9996135
+    },
+    {
+      "hash": "0xc34b956223652b448792ab527aead4aa4d1dc72d846684d765a06fdfb86876d0:0x13",
+      "ts": 1786172803.9996448
+    },
+    {
+      "hash": "0xc34b956223652b448792ab527aead4aa4d1dc72d846684d765a06fdfb86876d0:0x15",
+      "ts": 1786172803.9996467
+    },
+    {
+      "hash": "0xc34b956223652b448792ab527aead4aa4d1dc72d846684d765a06fdfb86876d0:0x17",
+      "ts": 1786172803.999649
     }
   ],
   "volume_baseline": {
-    "btc": 21483611775,
-    "eth": 7586618244,
-    "ts": 1786165612.3986132
+    "btc": 21104767613,
+    "eth": 7307642651,
+    "ts": 1786172800.6231074
   },
-  "last_eth_block": 25708301,
+  "last_eth_block": 25708642,
   "milestone_prices": {
-    "btc": 64953,
-    "eth": 1915.81,
+    "btc": 64970,
+    "eth": 1914.9,
     "ton": 1.35
   },
   "last_fng_date": "2026-08-07",
