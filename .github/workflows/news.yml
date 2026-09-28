@@ -2,7 +2,8 @@ name: Crypto News Bot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Off the top of the hour: GitHub drops/delays scheduled runs at :00 under load.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -15,12 +16,14 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -29,7 +32,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-          CRYPTOPANIC_TOKEN: ${{ secrets.CRYPTOPANIC_TOKEN }}
         run: python bot.py
 
       - name: Commit updated state
@@ -37,5 +39,7 @@ jobs:
           git config user.name "crypto-news-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/seen.json
-          git diff --staged --quiet || git commit -m "Update seen items state"
+          git diff --staged --quiet && exit 0
+          git commit -m "Update seen items state"
+          git pull --rebase --quiet || true
           git push
