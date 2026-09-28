@@ -478,6 +478,10 @@
   {
    "hash": "0x385071ec02b2baba4e43da0818e3834894463adb28e2a7f1061baf9d7f5f5e49:0x217",
    "ts": 1790621062.8582976
+  },
+  {
+   "hash": "0xcbbadaad2d6b7bc2b9c180a5b2f86eb07670e9a5fbf55199ec556430c2db837f",
+   "ts": 1790631666.4972785
   }
  ],
  "volume_baseline": {
@@ -485,7 +489,7 @@
   "eth": 17384405527,
   "ts": 1790631513.2648878
  },
- "last_eth_block": 26078690,
+ "last_eth_block": 26078703,
  "risk_off_active": false,
  "seen": [
   {
@@ -2339,6 +2343,10 @@
   {
    "hash": "e1fd75574aaf13e9ff22d1eadb05749064cae55e0bcf6513134b731d75abad10",
    "ts": 1790631539.7595131
+  },
+  {
+   "hash": "f1f5cbb9b55b05eb4d44fb6aa8e7433853e276cb560363b297069be7ecb92aae",
+   "ts": 1790631678.3015394
   }
  ],
  "posted": [
@@ -9968,8 +9976,8 @@
  ],
  "last_evening_date": "2026-09-28",
  "milestone_last": {
-  "btc": 83433,
-  "eth": 2681.07,
+  "btc": 83396,
+  "eth": 2678.92,
   "ton": 1.58
  },
  "milestone_alerted": {},
