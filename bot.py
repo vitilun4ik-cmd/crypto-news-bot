@@ -61,7 +61,12 @@ WHALE_USD_THRESHOLD = 10_000_000
 WHALE_SEEN_MAX_AGE_SECONDS = 6 * 60 * 60
 USDT_CONTRACT = "0xdAC17F958D2ee523a2206206994597C13D831ec7"
 USDT_TRANSFER_TOPIC = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
-ETH_RPC_URL = "https://eth.drpc.org"
+# Free public nodes rate-limit GitHub's shared IPs unpredictably; try in turn.
+ETH_RPC_URLS = [
+    "https://ethereum-rpc.publicnode.com",
+    "https://eth.drpc.org",
+    "https://rpc.flashbots.net",
+]
 ETH_MAX_BLOCKS_PER_RUN = 40
 RISK_OFF_THRESHOLD_PCT = -1.5
 RISK_OFF_RECOVERY_PCT = -0.5
@@ -767,14 +772,23 @@ def get_okx_derivatives(inst_id):
 
 
 def eth_rpc(method, params):
-    resp = requests.post(
-        ETH_RPC_URL, json={"jsonrpc": "2.0", "method": method, "params": params, "id": 1}, timeout=15,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    if "error" in data:
-        raise RuntimeError(data["error"])
-    return data["result"]
+    last_error = None
+    for url in list(ETH_RPC_URLS):
+        try:
+            resp = requests.post(
+                url, json={"jsonrpc": "2.0", "method": method, "params": params, "id": 1}, timeout=15,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            if "error" in data:
+                raise RuntimeError(data["error"])
+            if url != ETH_RPC_URLS[0]:  # stick with the node that answered
+                ETH_RPC_URLS.remove(url)
+                ETH_RPC_URLS.insert(0, url)
+            return data["result"]
+        except Exception as e:
+            last_error = e
+    raise RuntimeError(f"all ETH RPC nodes failed, last: {last_error}")
 
 
 def get_eth_gas_gwei():
@@ -1270,11 +1284,16 @@ def collect_eth_usdt_whales(state, prices):
     seen, lines = _whale_seen(state), []
     eth_usd = prices["eth"]["usd"] if prices else None
     if eth_usd:
+        failures = 0
         for block_num in range(from_block, latest + 1):
             try:
                 block = eth_rpc("eth_getBlockByNumber", [hex(block_num), True])
+                failures = 0
             except Exception as e:
-                print(f"ETH block {block_num} fetch failed: {e}", file=sys.stderr)
+                failures += 1
+                if failures >= 3:
+                    print(f"ETH block scan stopped at {block_num}: {e}", file=sys.stderr)
+                    break
                 continue
             for tx in (block or {}).get("transactions", []):
                 h = tx.get("hash")
