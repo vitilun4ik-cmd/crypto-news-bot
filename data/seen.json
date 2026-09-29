@@ -12,53 +12,9 @@
   "eth": 16457182685,
   "ts": 1790644654.2792215
  },
- "last_eth_block": 26085145,
+ "last_eth_block": 26086265,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "a5cc59f24a703d649f8460fa86d3a434a8883a91a9825ad4008e30d56e2bef44",
-   "ts": 1790456178.2581692
-  },
-  {
-   "hash": "cc1f91ffef827e080e3009772895ef4f2670e568e4c7f9d079ef8b62d4bc94f5",
-   "ts": 1790456178.2591944
-  },
-  {
-   "hash": "70204b6d3ff75bd50b676cc218b82cd8ddef6e8bccaabddc308409376dabae27",
-   "ts": 1790456178.260222
-  },
-  {
-   "hash": "01a9dff447a1492304091a56e361730feaf605f9e5d717487e0465a695fa2cf7",
-   "ts": 1790456178.2613118
-  },
-  {
-   "hash": "8ba4d444456f6ae88a2d6784238619be4393bb49c83fa48d8691ccfca9b1dc06",
-   "ts": 1790456178.2620296
-  },
-  {
-   "hash": "80b94be7c5187a318775a3d17e25622c8fa63279553f938ebdf987a58fa8dfe6",
-   "ts": 1790456178.2630517
-  },
-  {
-   "hash": "99ebea2a6e26df185dfd6df179e48785c91d3e27dd14c6838d833910c0eb44ed",
-   "ts": 1790456178.2641304
-  },
-  {
-   "hash": "46401368d51bf23143a09626f1f1fa879237cfea91460249850593fcecd88415",
-   "ts": 1790456178.2653255
-  },
-  {
-   "hash": "28c4a5b1c5244f5b6a0c1bd21080d1d363138be2404c79b195c00c3b8483a46b",
-   "ts": 1790456178.266723
-  },
-  {
-   "hash": "8f97b3b8884735a66dd0c294175f46d6e75c1ec7e0cb543adceed2eb9ce53ade",
-   "ts": 1790456178.2679906
-  },
-  {
-   "hash": "aeaf915939a47a7bd5060dbfa76555d247ccdc1db0531ecf317c1a015c655281",
-   "ts": 1790456178.2694519
-  },
   {
    "hash": "7aed31e4470c2082f3d90b9d00a23a889310dfe7658736e6f3031a3e8d40f133",
    "ts": 1790465346.2062802
@@ -1810,209 +1766,45 @@
   {
    "hash": "9559175ebca0fdd69d17ccbe2e7099469cceef5c20499c1caeb912a84beff1a8",
    "ts": 1790709284.8837
+  },
+  {
+   "hash": "0773a8280fe547a1612cba5b9a9479468b3dbc08676ccffa68ed332997b5502f",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "589f5d55499ccf4e4926fbd14fcbd2353e1cad672f5048612b9a8e0d37b22d90",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "dd204c28f353832d55c2cd270b9d65660dc9cdeb0a7b69251bab5dcba6db396e",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "f27a3ed671dfc107df285b0509de314ecbf960f3c60f8f7e876bacd002a4d032",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "9e9ff8cc26bc72ef0c1d2e1fb6324aab132232f5db8ddefc263722b11ab245bf",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "88914451e25ea8d083e17d90339d261ac13327aa89563368def6353cb187ad00",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "db0ee2e46951d441b946937e3b9cab31b89212940ccb314827f3427d730c1477",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "7c3f35e92dc76afb2e15f67cedeb66d79b2bb053405ef118237c1fa66d70e03d",
+   "ts": 1790722764.614679
+  },
+  {
+   "hash": "abc612a3718c276f78ea305f374ec61b85b4958889aaed4189f8dcfeff8e0e2c",
+   "ts": 1790722764.614679
   }
  ],
  "posted": [
-  {
-   "en": [
-    "regulatory",
-    "hurdle",
-    "record",
-    "sec",
-    "638",
-    "hit",
-    "million",
-    "clears",
-    "token",
-    "crypto",
-    "buybacks"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2581692
-  },
-  {
-   "en": [
-    "party",
-    "everybody",
-    "nft",
-    "storage",
-    "owes",
-    "now",
-    "rent"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2591944
-  },
-  {
-   "en": [
-    "liquidation",
-    "fed",
-    "proposed",
-    "run",
-    "stablecoin",
-    "trigger",
-    "rule",
-    "hour"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.260222
-  },
-  {
-   "en": [
-    "summer",
-    "association",
-    "mersinger",
-    "ceo",
-    "step",
-    "october",
-    "blockchain"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2613118
-  },
-  {
-   "en": [
-    "exploit",
-    "sues",
-    "kelpdao",
-    "rseth",
-    "bridge",
-    "292m",
-    "layerzero"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2620296
-  },
-  {
-   "en": [
-    "pay",
-    "day",
-    "strategy",
-    "dividends",
-    "wants",
-    "preferred",
-    "stock",
-    "every"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2630517
-  },
-  {
-   "en": [
-    "openai",
-    "brings",
-    "holding",
-    "onchain",
-    "wood",
-    "fund",
-    "cathie",
-    "billion",
-    "spacex"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2641304
-  },
-  {
-   "en": [
-    "fall",
-    "bitwise",
-    "bitcoin",
-    "surveyed",
-    "exposure",
-    "watched",
-    "yet",
-    "institutions",
-    "cut",
-    "investors",
-    "none"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2653255
-  },
-  {
-   "en": [
-    "three",
-    "wall",
-    "fed",
-    "wondering",
-    "kevin",
-    "warsh",
-    "hikes",
-    "words",
-    "far",
-    "street",
-    "rate"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.266723
-  },
-  {
-   "en": [
-    "transfer",
-    "high",
-    "dividend",
-    "mplx",
-    "pipeline",
-    "giant",
-    "yield",
-    "actually",
-    "energy",
-    "safer",
-    "which"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2679906
-  },
-  {
-   "en": [
-    "related",
-    "sci",
-    "failures",
-    "link",
-    "llc",
-    "sec",
-    "regulation",
-    "repeated",
-    "compliance",
-    "censures",
-    "otc"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790456178.2694519
-  },
   {
    "en": [
     "year",
@@ -8110,6 +7902,209 @@
    "score": 3,
    "breaking": false,
    "ts": 1790709299.4474185
+  },
+  {
+   "en": [
+    "bitcoin",
+    "correction",
+    "cryptoquant",
+    "high",
+    "hits",
+    "month",
+    "near",
+    "profit",
+    "traders",
+    "unrealized"
+   ],
+   "ru": [
+    "21",
+    "cryptoquant",
+    "битко",
+    "близк",
+    "быть",
+    "говор",
+    "дости",
+    "корре",
+    "макси",
+    "месяч",
+    "нереа",
+    "поско",
+    "прибы",
+    "трейд"
+   ],
+   "nums": [],
+   "names": [
+    "cryptoquant"
+   ],
+   "title": "CryptoQuant говорит, что коррекция биткоинов может быть близка, поскольку нереализованная прибыль трейдеров достигла 21-месячного максимума",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790722768.764413
+  },
+  {
+   "en": [
+    "cftc",
+    "come",
+    "commissioners",
+    "crypto",
+    "following",
+    "key",
+    "regulation",
+    "resignation",
+    "sec"
+   ],
+   "ru": [
+    "cftc",
+    "sec",
+    "ключа",
+    "комис",
+    "крипт",
+    "отста",
+    "регул",
+    "сокра",
+    "трех",
+    "члено"
+   ],
+   "nums": [],
+   "names": [
+    "cftc"
+   ],
+   "title": "Регулирование криптовалюты в SEC и CFTC сократится до трех членов комиссии после отставки ключа",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790722770.7144728
+  },
+  {
+   "en": [
+    "dinari",
+    "explore",
+    "kakaopay",
+    "korean",
+    "ondo",
+    "partners",
+    "stocks",
+    "tokenized"
+   ],
+   "ru": [
+    "dinari",
+    "kakaopay",
+    "ondo",
+    "акций",
+    "изуче",
+    "корей",
+    "сотру",
+    "токен"
+   ],
+   "nums": [],
+   "names": [
+    "dinari",
+    "kakaopay",
+    "ondo"
+   ],
+   "title": "Kakaopay сотрудничает с Dinari и Ondo для изучения токенизированных корейских акций",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790722772.6801088
+  },
+  {
+   "en": [
+    "august",
+    "bitwise",
+    "etf",
+    "first",
+    "launches",
+    "near",
+    "nearly",
+    "since",
+    "spot",
+    "token",
+    "triples"
+   ],
+   "ru": [
+    "bitwise",
+    "etf",
+    "авгус",
+    "втрое",
+    "вырос",
+    "запус",
+    "место",
+    "перво",
+    "почти",
+    "рядом",
+    "сша",
+    "того",
+    "токен"
+   ],
+   "nums": [],
+   "names": [
+    "bitwise"
+   ],
+   "title": "Bitwise запускает первое место в США рядом с ETF после того, как токены выросли почти втрое с августа",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790722774.6484876
+  },
+  {
+   "en": [
+    "000",
+    "bitcoin",
+    "blamed",
+    "data",
+    "drops",
+    "fear",
+    "inflation"
+   ],
+   "ru": [
+    "000",
+    "82",
+    "битко",
+    "виной",
+    "данны",
+    "инфля",
+    "страх",
+    "сша",
+    "тому",
+    "упал"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [],
+   "title": "Биткоин упал до $82 000 на данных США, виной тому страх инфляции",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790722776.5959167
+  },
+  {
+   "en": [
+    "76b",
+    "blocked",
+    "but",
+    "day",
+    "fed",
+    "guarantees",
+    "payouts",
+    "remains",
+    "stablecoin"
+   ],
+   "ru": [
+    "76",
+    "выпла",
+    "гаран",
+    "двухд",
+    "долла",
+    "забло",
+    "милли",
+    "остаю",
+    "стейб",
+    "фрс"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "ФРС гарантирует двухдневные выплаты стейблкоинов, но 76 миллиардов долларов остаются заблокированными",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790722778.552355
   }
  ],
  "last_evening_date": "2026-09-29",
