@@ -6,116 +6,15 @@
   "eth": 2668.92,
   "ts": 1790644654.2787697
  },
- "whale_seen": [
-  {
-   "hash": "0xccb120b27579246cd74638254048bfede6a36196f2c86135d402cf8459cc9468",
-   "ts": 1790644669.2586925
-  },
-  {
-   "hash": "0xf23aa1f2f2e2120f9e210548334ce464dced1fd3885cf97c83c6b4eda187078c:0x140",
-   "ts": 1790665105.2235205
-  },
-  {
-   "hash": "0x60488dea9db9eb0244c99d33323e7e07ee032476cacd3496cf863a338f6299df:0x1d",
-   "ts": 1790665105.2237818
-  },
-  {
-   "hash": "0xbad90c61c08235f7d07e859d6e9390cb571e2ae35bac0b08e9b7a6cd4044c47d:0xf9",
-   "ts": 1790665105.224961
-  }
- ],
+ "whale_seen": [],
  "volume_baseline": {
   "btc": 40188098232,
   "eth": 16457182685,
   "ts": 1790644654.2792215
  },
- "last_eth_block": 26081480,
+ "last_eth_block": 26083557,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "e07234782994adba09bff895157b15774c38aaaff9782ed8c83c104919795e93",
-   "ts": 1790416473.8651876
-  },
-  {
-   "hash": "041a818bd27c9891efb266d6a655a0ae54c87a4d02ff8aa75dec756202ef9a79",
-   "ts": 1790416473.8660955
-  },
-  {
-   "hash": "0e542301e08f9a91ce1fa270d92d31dd1ead4654b0e597be92c1e3bcacc944e3",
-   "ts": 1790416473.867003
-  },
-  {
-   "hash": "03388e047c0b92944e5a6fc08a6ccf0b6632bbe1499b9725cdd291849efc3dce",
-   "ts": 1790416473.8679338
-  },
-  {
-   "hash": "5f4da596fc499c3d68099a1a092bf5591034f62d5541b483a9dbc4dcf64f6929",
-   "ts": 1790416473.8689203
-  },
-  {
-   "hash": "bc1b24c27d7481e3debf71aafea2a09bbfc8bab0d1272b73e91adb773979ff55",
-   "ts": 1790416473.8697944
-  },
-  {
-   "hash": "165df83cff9975811037b0e1b28d3121bbdcf566bf3b9d87272cef0ac2aeecb7",
-   "ts": 1790416473.8706632
-  },
-  {
-   "hash": "f76f1784bff65472be82d75761113b429bb2877b016a760b90c6e2696a9ed102",
-   "ts": 1790416473.8714936
-  },
-  {
-   "hash": "3e67bb5650687d12eecec03349bd6080a0c6f60020fae327d6f152eb228180bd",
-   "ts": 1790416473.8723724
-  },
-  {
-   "hash": "18281d5548c6f39dae845b336739fbdadf56cb195491b63a4c5b4459f8460296",
-   "ts": 1790416473.8733723
-  },
-  {
-   "hash": "49f88c0f7da017e1ee7e10624a727bf604cbefbda6ffd0eb5ab3c82e6f49bd79",
-   "ts": 1790416473.874283
-  },
-  {
-   "hash": "d6f26df4d6aeacbde0fb5df327c34140a01645f7f724c8143c13947ae72d99eb",
-   "ts": 1790416473.8751352
-  },
-  {
-   "hash": "aa892bb2fd0ed436aac642e3b35fe40083810de9372265756fe1d1bcfd7e9d70",
-   "ts": 1790416473.8759992
-  },
-  {
-   "hash": "ae8a8a65ba8de1903d68918f27d7d0ee85958a702aa09584f6b70d261efe51ec",
-   "ts": 1790416473.8768625
-  },
-  {
-   "hash": "1c0b8d9bc2f14d2235ce25d2b15126304246edef45a70e6ff9d2fc52b3eb6aa5",
-   "ts": 1790416473.8777096
-  },
-  {
-   "hash": "33d39d0d0001325334b62a64d5cae0ebf8976a8b25a29e64141ee5449bb9fb61",
-   "ts": 1790416473.8787093
-  },
-  {
-   "hash": "759742f3bc0d498326557b32037e0df8ced78e6d93678d737f256886209872e9",
-   "ts": 1790416473.879733
-  },
-  {
-   "hash": "f3b980aa9c64752d4c8eb900447ffbb662029af6c5412cf5da44a69f206412ea",
-   "ts": 1790416473.880702
-  },
-  {
-   "hash": "7ad802ff15e17890e9042f2dc0db04e7f15121e03afbe02a9953ea72ccb0bf31",
-   "ts": 1790416473.8815947
-  },
-  {
-   "hash": "681a50621afe3c4bf2473e7dba8e21af406010f2b01e3a2fc2aa86e74b4d674a",
-   "ts": 1790416473.8827739
-  },
-  {
-   "hash": "507c94a841f4ccebdd64b3ceb3b656837945df72c3a1d39022ea76a1c035575c",
-   "ts": 1790416473.8841264
-  },
   {
    "hash": "f8a6e34910d50f5d56dde4614ac67c7819b06dcb3887e6545e108371c2dfe69d",
    "ts": 1790432226.7114618
@@ -1839,376 +1738,193 @@
   {
    "hash": "37e21e9e4f0be7ec267d99f13c1e615840945fc554347b13c830713d5573893c",
    "ts": 1790665112.318321
+  },
+  {
+   "hash": "cdebce4b28fe128c6cd8b5915254d15b275d6c9d3ae790669ee70a831a5eb80d",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "c5595482f406d42c431c878713306c4752097d6667c9af8e4c32d430c9413e8d",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "03ba57c7e733a04503bfbd8c4bcc6a493d0ddcdb9b3e0e782ca1aa77b5cd9744",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "dc6dc33290804b4f42538107e8583ffdbddd7666fc5dfd18c09e2c4c41ab4648",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "bd024697526be5435ba9d1a72494502f109c575e57835124f1da15fb921a618d",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "c20a4dd3f8839832cacd3bad395e1cdf9c0278406b7cc458295f13c29468cb3f",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "21af4d1531a0ca655a424aedadd046a801032dd0cffb22b514af1b7e45c658f0",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "a3ee7c06080299981984fbb2de8000951dce6d604e1fec7f96a1e84801172b78",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "808bca09c0c15b080a954491086444f6ea8777d8713299b641081bb2d4113c35",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "ab700fbb1a71e38f290129a36b7d4e64757b7120d4a21bc8b93ee470553d3ec0",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "cf5ca02d461c8a82f0c78638d2df2f3e00fb41a209398900a487eec7c7fd92b9",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "ed09bfd91f912edf15b9056f436dbf26d5fcb498d3f5a56d44797676c4895813",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "2b7e567223b839d5e9004b256a885a0a9c3978d1cede5acae770dac66fc6bfa4",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "dc7246d7ef865a5a8e51f6a02f6d9e2d31955489e9d39f0cfa3c8a378f241b9e",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "a15320e1ee8508a802438dfb25ede5a902236f10604c91ccbfaf9af8ec6595ba",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "f1407d6a13bb71bbec64a97dd132d2bbc22154caa6f3542dcdd728a57fab30ef",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "9d3127c9e05df951fd66c67dfd5644bb2ea234e95300f061e55175286b450c24",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "f2583ca6c7b97e9d1534e002076bc941764c1ea31e5e6186ae53bb1a05afad97",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "a6f2d42100c8dfa39368ed74e2f7db8806d91868aa69bd990c3793deadbc75cc",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "41a607c41052d923bf7aa0a76790ebee6622e96db4142a6fbdf10b85420abd83",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "057ef43f0286124dffce6d49a1d7aef190020af820a1a53dd516db21839d911a",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "cba73e07c05dec2fd2008f73fdd779fd43feb4777f107e270599a67b0bb516ae",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "8e87d4ce5afe6c6220ab6ebaaaafbb46771ac08eb86317db19e3f22dc230e6e0",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "1d649017a68b02725754e13d4f0d7ad45d816a3faffee9abc53a6327f5f3ceb7",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "eb9f2528a2a741e502f9fbf5732e92a05ed350ba6b11d93da699f6446c5a7dd2",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "13eef0b560f9582cd2ac69631637c2cdc5ae14373562e93e3120e12c0afd79f9",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "522e9f39e913306734174a4a983a80d22d60dcb7d3f26937c8e3df9e9eb573e7",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "e93bc7ea17987e6f13bc291e177d350befc4c999319b7eaa8cbe7af1c91bbc99",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "e5cc928d8c94eafa264cbf9190fbbb1e158be3224f700c5bf993e6adfe7b94fd",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "1af92497419fd98027669e8f4f07b92eb02d24b13a21420fbb1bfdc9bea45268",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "a17ace1703db4bf5a15366711e4cd8b54fe940d065c16ae934e9a093dc09db3b",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "1a21b67574b28a040fd6f76e8e62b171dfa980f1db8fcca7243abf05a6a33236",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "488734bf605c8ddf7322b817cf832e1706fb00c6e5c87648d5355ede19e67733",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "8fb4b7e112320333e1a00614a9b370c5718302fe87396b116a0af68d4105cce0",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "851d382451f441b223d3e7f890e445094d4c87aff5d834d19cb1efab11681706",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "ae166442e4e54d3dae32695716198c8231c59391721eb9c79260350b36295c76",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "1577095a8f5c209dd479c909f1b01455e89bd43fc281772f767d5f963eccd15b",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "ceaedbf6f247f0e55f74065e6245c55ccde83602a449ab8ad48a07cda8bb9bb0",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "6f14c5dda0e3dcf4dfd04f14256326831d83a63e9aa886b39f07fd842a6d8ac9",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "be8597ccaa55b7d0d2d39e4171075da5ad3cf04d08be29f68bf7c66417480d0e",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "9461f5488fccc53fba6650d3b721788066580368f3c72c35002a6e3fdeb3ddc8",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "1093fc460a6a4b1306698b71f80d973b40739afc0ae3cbc7f0f96ea50eadd590",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "71216f3ef2a797732bd77b5a543714c4b2f84c6e3ebba5d4aa5fd1bf908a8768",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "9b805098cfacebdeab09be95c2a1cab0b03a112c37741cbaa6298ad133b985a0",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "426c1dea8f1cc05c0318e859f3613fae5f9744ada20233948947cfa7438c8b14",
+   "ts": 1790690139.0705574
+  },
+  {
+   "hash": "5427a96708d78113794bfc5be6920200704f246cd9f03935b3e2aff0a91e7092",
+   "ts": 1790690139.0705574
   }
  ],
  "posted": [
-  {
-   "en": [
-    "shielded",
-    "get",
-    "soon",
-    "privacy",
-    "bitcoin",
-    "without",
-    "rules",
-    "changing",
-    "zcash",
-    "style"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8651876
-  },
-  {
-   "en": [
-    "hester",
-    "post",
-    "leave",
-    "peirce",
-    "oct",
-    "sec",
-    "commissioner"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8660955
-  },
-  {
-   "en": [
-    "alleges",
-    "950m",
-    "crypto",
-    "linked",
-    "scheme",
-    "cash",
-    "sues",
-    "cftc",
-    "forex"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.867003
-  },
-  {
-   "en": [
-    "when",
-    "doesn",
-    "pay",
-    "bitcoin",
-    "can",
-    "even",
-    "posts"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8679338
-  },
-  {
-   "en": [
-    "exit",
-    "fund",
-    "partners",
-    "but",
-    "put",
-    "ark",
-    "ethereum",
-    "venture",
-    "locked",
-    "doors",
-    "securitize",
-    "leaves"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8689203
-  },
-  {
-   "en": [
-    "loans",
-    "future",
-    "clock",
-    "decide",
-    "september",
-    "defi",
-    "faces"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8697944
-  },
-  {
-   "en": [
-    "etf",
-    "weeks",
-    "catch",
-    "pays",
-    "every",
-    "grayscale",
-    "zcash",
-    "files"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8706632
-  },
-  {
-   "en": [
-    "ethereum",
-    "rules",
-    "sec",
-    "staked",
-    "clarifies"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8714936
-  },
-  {
-   "en": [
-    "meeting",
-    "about",
-    "trump",
-    "need",
-    "everything",
-    "know",
-    "talks",
-    "you"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8723724
-  },
-  {
-   "en": [
-    "again",
-    "deal",
-    "peace",
-    "reportedly",
-    "trump",
-    "under",
-    "bitcoin",
-    "pressure",
-    "rejects",
-    "price",
-    "iran"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8733723
-  },
-  {
-   "en": [
-    "finally",
-    "network",
-    "should",
-    "know",
-    "latest",
-    "major",
-    "pioneers",
-    "upgrade",
-    "complete"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.874283
-  },
-  {
-   "en": [
-    "asset",
-    "compute",
-    "turn",
-    "financial",
-    "wants"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8751352
-  },
-  {
-   "en": [
-    "toolkit",
-    "openzeppelin",
-    "brings",
-    "tron",
-    "contract",
-    "smart",
-    "audited"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8759992
-  },
-  {
-   "en": [
-    "hype",
-    "hyperliquid",
-    "spot",
-    "trading",
-    "binance",
-    "lists"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8768625
-  },
-  {
-   "en": [
-    "crypto",
-    "borrowing",
-    "kraken",
-    "power",
-    "buying",
-    "launches"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8777096
-  },
-  {
-   "en": [
-    "using",
-    "louisiana",
-    "000",
-    "casino",
-    "arrested",
-    "fake",
-    "collect",
-    "numbers",
-    "woman",
-    "social",
-    "jackpots",
-    "security"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8787093
-  },
-  {
-   "en": [
-    "583",
-    "seize",
-    "000",
-    "fraudster",
-    "iowa",
-    "scam",
-    "email",
-    "alleged",
-    "feds",
-    "drains",
-    "business",
-    "372",
-    "800",
-    "firm"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.879733
-  },
-  {
-   "en": [
-    "504",
-    "sits",
-    "exposed",
-    "quantum",
-    "bitcoin",
-    "warning",
-    "billion"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.880702
-  },
-  {
-   "en": [
-    "overcome",
-    "trap",
-    "china",
-    "can",
-    "believes",
-    "thucydides"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8815947
-  },
-  {
-   "en": [
-    "etf",
-    "think",
-    "brilliant",
-    "schd",
-    "here",
-    "dividend",
-    "better",
-    "even"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8827739
-  },
-  {
-   "en": [
-    "fund",
-    "francisco",
-    "private",
-    "dollar",
-    "multimillion",
-    "area",
-    "scheme",
-    "like",
-    "executives",
-    "bay",
-    "sec",
-    "san",
-    "charges",
-    "ponzi"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790416473.8841264
-  },
   {
    "en": [
     "kraken",
@@ -9191,6 +8907,222 @@
    "score": 2,
    "breaking": false,
    "ts": 1790665122.6509423
+  },
+  {
+   "en": [
+    "000",
+    "100",
+    "beats",
+    "bitcoin",
+    "gold",
+    "play",
+    "surge"
+   ],
+   "ru": [
+    "000",
+    "100",
+    "200",
+    "84",
+    "kumining",
+    "usdt",
+    "битко",
+    "верну",
+    "год",
+    "гособ",
+    "день",
+    "доход",
+    "отмеч",
+    "польз",
+    "рожде",
+    "розыг",
+    "росте",
+    "сша"
+   ],
+   "nums": [
+    "000",
+    "100",
+    "200",
+    "500"
+   ],
+   "names": [
+    "kumining"
+   ],
+   "title": "Год и 200 000 пользователей: KuMining отмечает день рождения розыгрышем на 100 000 USDT",
+   "score": 5,
+   "breaking": false,
+   "ts": 1790690142.2193193
+  },
+  {
+   "en": [],
+   "ru": [
+    "25",
+    "blocktower",
+    "coinbase",
+    "взлом",
+    "млн",
+    "основ",
+    "потер",
+    "скрыв"
+   ],
+   "nums": [],
+   "names": [
+    "blocktower",
+    "coinbase"
+   ],
+   "title": "Coinbase «потеряла» $25 млн и скрывает взломы — основатель BlockTower",
+   "score": 4,
+   "breaking": true,
+   "ts": 1790690144.2334414
+  },
+  {
+   "en": [],
+   "ru": [
+    "банк",
+    "декла",
+    "крипт",
+    "обяже",
+    "росси"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Банк России обяжет декларировать криптовалюту",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790690146.2465954
+  },
+  {
+   "en": [],
+   "ru": [
+    "иност",
+    "крипт",
+    "минфи",
+    "работ",
+    "росси",
+    "хочет"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Иностранная криптоиндустрия хочет работать в России — Минфин",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790690148.2794588
+  },
+  {
+   "en": [],
+   "ru": [
+    "110",
+    "270",
+    "coinbase",
+    "usdt",
+    "клиен",
+    "крипт",
+    "мошен",
+    "притв",
+    "украл"
+   ],
+   "nums": [
+    "110",
+    "270"
+   ],
+   "names": [
+    "coinbase"
+   ],
+   "title": "Мошенники притворились криптобиржей Coinbase и украли у клиента 110 270 USDT",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790690150.293968
+  },
+  {
+   "en": [],
+   "ru": [
+    "usdt",
+    "банко",
+    "демок",
+    "ирана",
+    "связа",
+    "сенат",
+    "систе",
+    "сша",
+    "тенев"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Демократы в Сенате США связали USDT с теневой банковской системой Ирана",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790690152.3539402
+  },
+  {
+   "en": [
+    "bitcoin",
+    "decade",
+    "gains",
+    "long",
+    "major",
+    "september",
+    "shatter",
+    "streak",
+    "surge",
+    "track"
+   ],
+   "ru": [
+    "битко",
+    "десят",
+    "крупн",
+    "набир",
+    "наход",
+    "оборо",
+    "полос",
+    "поско",
+    "пути",
+    "разру",
+    "рост",
+    "роста",
+    "сентя",
+    "тому",
+    "чтобы"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Биткоин находится на пути к тому, чтобы разрушить крупную десятилетнюю полосу роста, поскольку сентябрьский рост набирает обороты",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790690154.3698773
+  },
+  {
+   "en": [
+    "analysts",
+    "bitcoin",
+    "bulls",
+    "hitting",
+    "panic",
+    "see",
+    "shouldn",
+    "treasury",
+    "year",
+    "yield"
+   ],
+   "ru": [
+    "10",
+    "6",
+    "анали",
+    "битко",
+    "быкам",
+    "дости",
+    "доход",
+    "казна",
+    "летни",
+    "облиг",
+    "паник",
+    "прогн",
+    "следу"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Аналитики прогнозируют, что доходность 10-летних казначейских облигаций достигнет 6%. Биткоин-быкам не следует паниковать",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790690156.379959
   }
  ],
  "last_evening_date": "2026-09-28",
