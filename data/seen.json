@@ -8,12 +8,20 @@
  },
  "whale_seen": [
   {
-   "hash": "0xcbbadaad2d6b7bc2b9c180a5b2f86eb07670e9a5fbf55199ec556430c2db837f",
-   "ts": 1790631666.4972785
-  },
-  {
    "hash": "0xccb120b27579246cd74638254048bfede6a36196f2c86135d402cf8459cc9468",
    "ts": 1790644669.2586925
+  },
+  {
+   "hash": "0xf23aa1f2f2e2120f9e210548334ce464dced1fd3885cf97c83c6b4eda187078c:0x140",
+   "ts": 1790665105.2235205
+  },
+  {
+   "hash": "0x60488dea9db9eb0244c99d33323e7e07ee032476cacd3496cf863a338f6299df:0x1d",
+   "ts": 1790665105.2237818
+  },
+  {
+   "hash": "0xbad90c61c08235f7d07e859d6e9390cb571e2ae35bac0b08e9b7a6cd4044c47d:0xf9",
+   "ts": 1790665105.224961
   }
  ],
  "volume_baseline": {
@@ -21,81 +29,9 @@
   "eth": 16457182685,
   "ts": 1790644654.2792215
  },
- "last_eth_block": 26079782,
+ "last_eth_block": 26081480,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "7d54c5300a2b181324d56f888644de9eb3c243466f71948de22da5ec31c2562a",
-   "ts": 1790398988.2952647
-  },
-  {
-   "hash": "9c55afe5dd1342f6c373469d7cb17dadbcc0731bb42bd9627a1b879c3a2cf4e9",
-   "ts": 1790398988.29609
-  },
-  {
-   "hash": "656dd6a24aa5d3555b043fbaf1364ac3de9f5617a90d9edf3d24ba9f90c4affd",
-   "ts": 1790398988.2969277
-  },
-  {
-   "hash": "875fc9634cc1a19e43dc76a86b35c549d83d40dd67e9c31ff66533ffa0841e94",
-   "ts": 1790398988.29777
-  },
-  {
-   "hash": "02b6a8a9b78c09f00be76f076c9682179a55ed2a54daeeb47bed8a509d1ec972",
-   "ts": 1790398988.2985573
-  },
-  {
-   "hash": "8d9e20ea3f04478428c10814bd9d468efc99748b5180487ef4b29199c49a94ba",
-   "ts": 1790398988.2993314
-  },
-  {
-   "hash": "83a876f3a22c15d00f06d0d76e7f0fc0c969cf02dd0c2f5e6508b0fef5ebda80",
-   "ts": 1790398988.3000593
-  },
-  {
-   "hash": "0df629e1c08f180e0f3b9a85d843fc1df2d8b362c37fc4262f8c575d0751aa89",
-   "ts": 1790398988.3008084
-  },
-  {
-   "hash": "2a78ce6a731a854206c92aae7813b4499bc29a50d1183964da2e0ed705ba7c90",
-   "ts": 1790398988.3013132
-  },
-  {
-   "hash": "f13844c73b04714243d10bda408dc059123ba359a53ded6e3a00809ca921fec6",
-   "ts": 1790398988.3020585
-  },
-  {
-   "hash": "db25a8f2fd8d890bb20718422cbb85a55b4f5dd95d15f3d380787fe54fd16c73",
-   "ts": 1790398988.3028276
-  },
-  {
-   "hash": "b3f2898de143edde618a330d36a1f24e7a716cdc9711f4dee59108c419c9c41e",
-   "ts": 1790398988.303651
-  },
-  {
-   "hash": "cb8e098c68d347a7b09ff5bcf0f3a5d1918c9c9faa537e6f6dcce8cdbd348577",
-   "ts": 1790398988.3045602
-  },
-  {
-   "hash": "452bf0a36fe22c64e45415d7bda6873956e50adb29ec299fdd53f35419d9af14",
-   "ts": 1790398988.3053973
-  },
-  {
-   "hash": "f0fc677ef272ec6d9afc7b70a6821de6f8585a776569c32f900d2ead7a5f44ac",
-   "ts": 1790398988.3062856
-  },
-  {
-   "hash": "873d48857afa2737e48936f358950daf1a7bba989571cca6e29045dd7f0894d0",
-   "ts": 1790398988.3074057
-  },
-  {
-   "hash": "75e70138682c6619b204234a5419dd5c3f3514734ea8b651b101904d315bdb2c",
-   "ts": 1790398988.3082845
-  },
-  {
-   "hash": "e897ed86d0f1c25d8392981657311d11952be8c381567877234d5c58611baa99",
-   "ts": 1790398988.3090866
-  },
   {
    "hash": "e07234782994adba09bff895157b15774c38aaaff9782ed8c83c104919795e93",
    "ts": 1790416473.8651876
@@ -1859,336 +1795,53 @@
   {
    "hash": "10e6955e93c6fb24e4bbeba14971790ccab2ca243351565bf48545cdc3b82e40",
    "ts": 1790644685.05377
+  },
+  {
+   "hash": "814ee57b88bb5879f52c5db5cc4aa2eb1d3c7d2e5be1fca65fb1113cdb042ce4",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "3b9cdeffac45fd72fe8aff5f957f04cff4a1d6ff7773c72cf9a3bb4930e60db4",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "2db8204ef8cf39306ab7ffd56465e23667cfa15981251047d822307babf33693",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "4d0b31bbd9c5a030de9767f222c6216da2bb99985de9dae1c3103ffd86a50849",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "fa6ccdd29fa87efca3ccad77934c58a312c4b6def5345d3c93cb6edce1cfc84d",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "d5438003ede86d16b29b8964b9211f2a7105f60b95868133762a7a54f6ae1a06",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "12902bc6179ee4d720d11a27a8496a2df771a22dd8bc0a59e1bbdffe3fa7ec7d",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "403df578b97bbf9b157b9c13c28bbccf6509e5eed95d53ac8df273156b5c8af3",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "e3f0a8fd9191e843bfae40bb938f3a8235cfbd71e7c15ee64f7fdb4f4b39d551",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "a3c6fd637a30c75225aba8c8f3b7b6bf07b23e3dd5fe61c4b98ba9e1084c2212",
+   "ts": 1790665112.318321
+  },
+  {
+   "hash": "37e21e9e4f0be7ec267d99f13c1e615840945fc554347b13c830713d5573893c",
+   "ts": 1790665112.318321
   }
  ],
  "posted": [
-  {
-   "en": [
-    "test",
-    "second",
-    "network",
-    "public",
-    "settlement",
-    "upgrade",
-    "150",
-    "solana",
-    "reaches",
-    "millisecond"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.2952647
-  },
-  {
-   "en": [
-    "ledger",
-    "slips",
-    "resets",
-    "validator",
-    "upgrade",
-    "oct",
-    "support",
-    "batch",
-    "xrp"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.29609
-  },
-  {
-   "en": [
-    "without",
-    "bitcoin",
-    "rules",
-    "changing",
-    "zcash",
-    "get",
-    "privacy",
-    "shielded",
-    "soon",
-    "style"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.2969277
-  },
-  {
-   "en": [
-    "shields",
-    "bank",
-    "bitget",
-    "funds",
-    "freeze",
-    "while",
-    "institutions",
-    "swiss",
-    "retail"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.29777
-  },
-  {
-   "en": [
-    "cloud",
-    "risk",
-    "ledger",
-    "ibm",
-    "swift",
-    "links",
-    "but",
-    "persists",
-    "banks"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.2985573
-  },
-  {
-   "en": [
-    "pauses",
-    "bitget",
-    "withdrawals",
-    "hot",
-    "confirms",
-    "351",
-    "breach",
-    "wallet"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.2993314
-  },
-  {
-   "en": [
-    "launches",
-    "paxos",
-    "gold",
-    "token",
-    "return",
-    "can",
-    "earn",
-    "labs"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3000593
-  },
-  {
-   "en": [
-    "raises",
-    "market",
-    "37m",
-    "infrastructure",
-    "hifi",
-    "tokenized",
-    "stablecoin",
-    "build"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3008084
-  },
-  {
-   "en": [
-    "hires",
-    "institutional",
-    "cmo",
-    "push",
-    "solana",
-    "former",
-    "binance",
-    "foundation"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3013132
-  },
-  {
-   "en": [
-    "network",
-    "house",
-    "clearing",
-    "tokenized",
-    "deposit",
-    "quant",
-    "picks"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3020585
-  },
-  {
-   "en": [
-    "wins",
-    "anthropic",
-    "battle",
-    "court",
-    "pentagon",
-    "against",
-    "major"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3028276
-  },
-  {
-   "en": [
-    "rules",
-    "act",
-    "stablecoin",
-    "two",
-    "genius",
-    "tighten",
-    "fed",
-    "moves",
-    "proposals"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.303651
-  },
-  {
-   "en": [
-    "stunning",
-    "opt",
-    "not",
-    "usd",
-    "blackrock",
-    "while",
-    "agents",
-    "prediction",
-    "xrp",
-    "ripple",
-    "makes"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3045602
-  },
-  {
-   "en": [
-    "market",
-    "volatility",
-    "even",
-    "shib",
-    "hours",
-    "inu",
-    "351",
-    "higher",
-    "goes",
-    "shiba"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3053973
-  },
-  {
-   "en": [
-    "market",
-    "ada",
-    "zcash",
-    "link",
-    "sol",
-    "cardano",
-    "solana",
-    "price",
-    "zec",
-    "chainlink",
-    "analysis",
-    "retains",
-    "september",
-    "bullishness"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3062856
-  },
-  {
-   "en": [
-    "cap",
-    "etf",
-    "large",
-    "english",
-    "fundamental",
-    "explained",
-    "fidelity",
-    "plain",
-    "growth"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3074057
-  },
-  {
-   "en": [
-    "pushes",
-    "global",
-    "value",
-    "coin",
-    "deeper",
-    "below",
-    "fair",
-    "markets",
-    "coinbase",
-    "still",
-    "onchain"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3082845
-  },
-  {
-   "en": [
-    "here",
-    "etf",
-    "portfolio",
-    "add",
-    "only",
-    "year",
-    "exactly",
-    "buy"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790398988.3090866
-  },
   {
    "en": [
     "shielded",
@@ -9406,6 +9059,138 @@
    "score": 5,
    "breaking": true,
    "ts": 1790644687.320353
+  },
+  {
+   "en": [
+    "approval",
+    "cftc",
+    "clearinghouse",
+    "coinbase",
+    "completing",
+    "dco",
+    "derivatives",
+    "full",
+    "gets",
+    "receives",
+    "stack"
+   ],
+   "ru": [
+    "cftc",
+    "coinbase",
+    "dco",
+    "дерив",
+    "завер",
+    "набор",
+    "одобр",
+    "полны",
+    "получ"
+   ],
+   "nums": [],
+   "names": [
+    "cftc",
+    "coinbase",
+    "dco"
+   ],
+   "title": "Coinbase получает одобрение DCO от CFTC, завершая полный набор деривативов",
+   "score": 4,
+   "breaking": false,
+   "ts": 1790665114.588528
+  },
+  {
+   "en": [
+    "000",
+    "again",
+    "bitcoin",
+    "climbs",
+    "drops",
+    "holds",
+    "oil",
+    "zec"
+   ],
+   "ru": [
+    "000",
+    "12",
+    "83",
+    "zec",
+    "акции",
+    "битко",
+    "держи",
+    "нефть",
+    "падаю",
+    "поско",
+    "расте",
+    "снова"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [
+    "zec"
+   ],
+   "title": "Биткоин держит $83 000, поскольку акции ZEC падают на 12%, а нефть снова растет",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790665116.6177285
+  },
+  {
+   "en": [],
+   "ru": [
+    "mica",
+    "крипт",
+    "надзо",
+    "смест",
+    "фокус"
+   ],
+   "nums": [],
+   "names": [
+    "mica"
+   ],
+   "title": "В ЕС сместили фокус MiCA на надзор за криптокомпаниями",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790665118.647684
+  },
+  {
+   "en": [],
+   "ru": [
+    "500",
+    "blockchain",
+    "com",
+    "ipo",
+    "млн",
+    "нацел",
+    "сми"
+   ],
+   "nums": [
+    "500"
+   ],
+   "names": [
+    "blockchain",
+    "com",
+    "ipo"
+   ],
+   "title": "СМИ: Blockchain.com нацелилась на IPO на $500 млн",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790665120.6441283
+  },
+  {
+   "en": [],
+   "ru": [
+    "битко",
+    "выбор",
+    "ждать",
+    "какой",
+    "проме",
+    "реакц",
+    "сша"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Промежуточные выборы в США: какой реакции ждать от биткоина",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790665122.6509423
   }
  ],
  "last_evening_date": "2026-09-28",
@@ -9415,5 +9200,6 @@
   "ton": 1.56
  },
  "milestone_alerted": {},
- "last_weekly_week": "2026-W40"
+ "last_weekly_week": "2026-W40",
+ "last_morning_date": "2026-09-29"
 }
