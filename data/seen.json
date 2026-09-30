@@ -2,63 +2,24 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 83424,
-  "eth": 2672.1,
-  "ts": 1790733383.1072206
+  "btc": 83113,
+  "eth": 2666.18,
+  "ts": 1790756206.136846
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "6ad4ecd5bafb949f2cbded62d169e76f3d1b10c526fbd2331530b6472ea158e6",
+   "ts": 1790756206.5576527
+  }
+ ],
  "volume_baseline": {
-  "btc": 28437124109,
-  "eth": 15397645096,
-  "ts": 1790733383.107296
+  "btc": 27947202254,
+  "eth": 14080544069,
+  "ts": 1790756206.136921
  },
- "last_eth_block": 26087147,
+ "last_eth_block": 26089041,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "676f5056db128eeb6f93ba46940e2eabc45d13322f472e70f5d772b88df4e1c1",
-   "ts": 1790493006.78272
-  },
-  {
-   "hash": "0d50227951cbc074489f7be6c946eaef9eb82608413ac9baa977916281cba7cf",
-   "ts": 1790493006.7837033
-  },
-  {
-   "hash": "828a1c5e6e7edeeb3650c9748f8a25bf011ec3c7a7a913ce475d50bb54b283b7",
-   "ts": 1790493006.7847419
-  },
-  {
-   "hash": "dad7b83c60fcff58b4eec6324c6b2ad86f1c7c4cb2d3bcff38713bd4d9685e0c",
-   "ts": 1790493006.7857125
-  },
-  {
-   "hash": "28414b7f85cc16ad70023c05c3edff01a80dd1e669b67961dadeb1019a83ba40",
-   "ts": 1790493006.786681
-  },
-  {
-   "hash": "3c2653adaec6a1a071702f69d84130dc41cf2f802659b68750dddd9d43ff0593",
-   "ts": 1790493006.7877
-  },
-  {
-   "hash": "c812ce5ca790acaa3acb48755d3fc7ded255f12a51aa1a1c30ca8ae044f6b330",
-   "ts": 1790493006.7886922
-  },
-  {
-   "hash": "2df8e90fabf613fe77eaad00f6812c767682deb90c40bc9f50094b1f40ce0ddb",
-   "ts": 1790493006.7897513
-  },
-  {
-   "hash": "24b3b2323aeb116f75a2bf9d94f650385cb49e0d3fad1583d6157c613226bd98",
-   "ts": 1790493006.7907538
-  },
-  {
-   "hash": "22eafce2e49b9f01f8d78cf2ace7fb393769ca9865b99a0d2677f861fa4fbc06",
-   "ts": 1790493006.7920504
-  },
-  {
-   "hash": "62efb35022344e9b3dc6e02d07532123aec6634e8036c079dd57cd1b0f96c9e5",
-   "ts": 1790493006.79297
-  },
   {
    "hash": "ceb5ea8a03760170ffc943345e762da4b2cb52e6c9abad73f58029f2cf500f57",
    "ts": 1790514330.8434293
@@ -1750,194 +1711,89 @@
   {
    "hash": "0612ca631763d50715b5a72df145ab00ad36b5e78c63ae9bde8b2c1ba331828d",
    "ts": 1790733393.6047454
+  },
+  {
+   "hash": "e17f6eeb3cf6fddb00391b1993ac70519cf841b65d3f69cbde715dcddee722b4",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "58f9763310f8ce3166b63f9d7c5a9429cb8f9321a0b6298ddf6cfd0dbc1de4fb",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "02520a3914f08b7ade899add2fb64f584dc0681c80c7465779245bba0f730968",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "b62f094e6b94a4a4fab70593778b49717d6ef612490e22b54b5ad9a680a296ba",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "cf870a5e14b1a51ca0535c129472b1236e5646f906725223ebdc7f9219704f78",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "12ca0afcb6e8374feae4aef55218aa7177ade5c6a311d667e543dd17ace408db",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "878e1d74bd4936abc311aa598b0a5c15fc85f1fbbdd42d799b8f4b185e46b8d5",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "fbdf530665b3a7522bb48392cd2d243c0c3a25b22f4acb409b90d7c610677b7b",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "20ce26b169b0e8517dc264bd3ccfa97ec766279971d170d5f652a43f27a8343f",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "1af531f92753826ce065c4bd9e1bc88d5a023f9430a5c82d67980f1b3b0c1e10",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "4211303c88bdd1f31e0963f6e6efdb807a02a2a02c111a8e4a0b909e4052ec19",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "6e1bf3a89461b7f8af0bd867a72205bbc0b87f4d649b70bde2bf8da804e31bc7",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "4db0b47ada6dbe4e8dab7a7256746297310f3feade97122ac8aeb2b4998d97c4",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "05140e66362b10406b75fa0e78ad79dcbebdadc07dbe2e93e82facd43109c01c",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "8b2aaf4f8bcc124a919d8dd54c5a6cad4b39acb5863c123c1beb972a2c76e825",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "30feace760a5a65d37ec00165225e719a4b21464173faf125af105fc27170897",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "5364048f42f04e6e7518d148579e73c0fcf18cb165ba66f6fd523a1db8324b52",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "8eeda9a9c80a236d9fae3d0b93bd0d9b9496f63ef0b82a608817572a7fa2eed5",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "42c09cebbf45e8bb3d9ebdc7a1a085126c51b06b54e855e01ce7a45a1ae2fc3b",
+   "ts": 1790756217.0015316
+  },
+  {
+   "hash": "2691f146cd2f802f429008330cfe5fbbca93aef78ba3aef4af7563b0be4aa22b",
+   "ts": 1790756217.0015316
   }
  ],
  "posted": [
-  {
-   "en": [
-    "ripple",
-    "turning",
-    "finally",
-    "favor",
-    "tide",
-    "xrp",
-    "gold"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.78272
-  },
-  {
-   "en": [
-    "ethereum",
-    "major",
-    "bulls",
-    "closing",
-    "resistance",
-    "final",
-    "breakout",
-    "barrier"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7837033
-  },
-  {
-   "en": [
-    "2026",
-    "positive",
-    "flows",
-    "deficit",
-    "etfs",
-    "bitcoin",
-    "annual",
-    "erase",
-    "turn"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7847419
-  },
-  {
-   "en": [
-    "stablecoin",
-    "humanitarian",
-    "circle",
-    "trials",
-    "aid",
-    "foundation",
-    "payment",
-    "backs"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7857125
-  },
-  {
-   "en": [
-    "tether",
-    "seizure",
-    "below",
-    "eqibank",
-    "exposure",
-    "asset",
-    "034"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.786681
-  },
-  {
-   "en": [
-    "lido",
-    "governance",
-    "dual",
-    "moves",
-    "214",
-    "onto",
-    "ethereum",
-    "vote",
-    "mainnet",
-    "passes"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7877
-  },
-  {
-   "en": [
-    "expands",
-    "usde",
-    "backing",
-    "strategy",
-    "ethena",
-    "tokenized",
-    "equities"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7886922
-  },
-  {
-   "en": [
-    "spotlight",
-    "returns",
-    "dogecoin",
-    "table",
-    "cent",
-    "ten",
-    "elon",
-    "musk",
-    "crypto",
-    "dream"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7897513
-  },
-  {
-   "en": [
-    "best",
-    "october",
-    "years",
-    "bulls",
-    "not",
-    "xrp",
-    "save"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7907538
-  },
-  {
-   "en": [
-    "securities",
-    "add",
-    "2026",
-    "asset",
-    "binance",
-    "bstocks",
-    "collateral",
-    "tokenized"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.7920504
-  },
-  {
-   "en": [
-    "margin",
-    "add",
-    "2026",
-    "pairs",
-    "binance"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790493006.79297
-  },
   {
    "en": [
     "work",
@@ -7797,15 +7653,229 @@
    "score": 2,
    "breaking": false,
    "ts": 1790722778.552355
+  },
+  {
+   "en": [
+    "crypto",
+    "defi",
+    "detail",
+    "draft",
+    "illinois",
+    "rules",
+    "stablecoin",
+    "tax",
+    "treatment"
+   ],
+   "ru": [
+    "иллин",
+    "крипт",
+    "налог",
+    "прави",
+    "предс",
+    "проек"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Иллинойс представил проект правил для налога на криптооперации",
+   "score": 4,
+   "breaking": false,
+   "ts": 1790756220.7857485
+  },
+  {
+   "en": [],
+   "ru": [
+    "000",
+    "80",
+    "анали",
+    "битко",
+    "корре",
+    "преду",
+    "риска"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [],
+   "title": "Аналитики предупредили о рисках коррекции биткоина к $80 000",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790756222.6494775
+  },
+  {
+   "en": [],
+   "ru": [
+    "000",
+    "1",
+    "600",
+    "битко",
+    "бранд",
+    "даже",
+    "ждет",
+    "млн",
+    "питер",
+    "роста"
+   ],
+   "nums": [
+    "000",
+    "600"
+   ],
+   "names": [],
+   "title": "Питер Брандт ждет роста биткоина до $600 000 и даже $1 млн",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790756224.4953158
+  },
+  {
+   "en": [
+    "bitcoin",
+    "bulls",
+    "defend",
+    "level",
+    "one",
+    "price"
+   ],
+   "ru": [
+    "битко",
+    "быкам",
+    "защищ",
+    "нужно",
+    "один",
+    "урове",
+    "ценов"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Биткоин-быкам нужно защищать один ценовой уровень",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790756226.3526692
+  },
+  {
+   "en": [
+    "bitcoin",
+    "bull",
+    "cooling",
+    "even",
+    "gauge",
+    "nears",
+    "perfect",
+    "rally",
+    "score",
+    "shows",
+    "signs"
+   ],
+   "ru": [
+    "битко",
+    "бычье",
+    "даже",
+    "демон",
+    "идеал",
+    "индик",
+    "несмо",
+    "охлаж",
+    "показ",
+    "прибл",
+    "призн",
+    "ралли",
+    "рейти"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Ралли биткоинов демонстрирует признаки охлаждения, даже несмотря на то, что индикатор «бычьего рейтинга» приближается к идеальному показателю.",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790756228.260559
+  },
+  {
+   "en": [],
+   "ru": [
+    "wintermute",
+    "анали",
+    "дальн",
+    "измен",
+    "крипт",
+    "нефти",
+    "связа",
+    "ценой"
+   ],
+   "nums": [
+    "100"
+   ],
+   "names": [
+    "wintermute"
+   ],
+   "title": "Аналитики Wintermute связали дальнейшие изменения на крипторынке с ценой нефти",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790756230.1244354
+  },
+  {
+   "en": [],
+   "ru": [
+    "2027",
+    "bal",
+    "balancer",
+    "владе",
+    "выпла",
+    "начну",
+    "одобр",
+    "свора"
+   ],
+   "nums": [
+    "928"
+   ],
+   "names": [
+    "bal",
+    "balancer"
+   ],
+   "title": "Владельцы BAL одобрили сворачивание Balancer: выплаты начнутся в 2027 году",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790756231.9739184
+  },
+  {
+   "en": [
+    "10x",
+    "agent",
+    "announces",
+    "around",
+    "clock",
+    "crypto",
+    "customers",
+    "perps",
+    "plus",
+    "robinhood",
+    "trades"
+   ],
+   "ru": [
+    "10x",
+    "robinhood",
+    "агент",
+    "анонс",
+    "клиен",
+    "котор",
+    "крипт",
+    "кругл",
+    "персо",
+    "торгу"
+   ],
+   "nums": [],
+   "names": [
+    "robinhood"
+   ],
+   "title": "Robinhood анонсирует ИИ-агента для клиентов, который торгует круглосуточно, а также 10x крипто-персонал",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790756233.8662496
   }
  ],
  "last_evening_date": "2026-09-29",
  "milestone_last": {
-  "btc": 83424,
-  "eth": 2672.1,
+  "btc": 83113,
+  "eth": 2666.18,
   "ton": 1.48
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W40",
- "last_morning_date": "2026-09-29"
+ "last_morning_date": "2026-09-30"
 }
