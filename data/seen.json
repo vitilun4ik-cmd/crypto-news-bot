@@ -2,75 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82992,
-  "eth": 2668.92,
-  "ts": 1790644654.2787697
+  "btc": 83424,
+  "eth": 2672.1,
+  "ts": 1790733383.1072206
  },
  "whale_seen": [],
  "volume_baseline": {
-  "btc": 40188098232,
-  "eth": 16457182685,
-  "ts": 1790644654.2792215
+  "btc": 28437124109,
+  "eth": 15397645096,
+  "ts": 1790733383.107296
  },
- "last_eth_block": 26086265,
+ "last_eth_block": 26087147,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "7aed31e4470c2082f3d90b9d00a23a889310dfe7658736e6f3031a3e8d40f133",
-   "ts": 1790465346.2062802
-  },
-  {
-   "hash": "716ff9c56b01610ce7248577b1ac5276b97885efb35bffb2ae192b6a09dd7411",
-   "ts": 1790465346.2070832
-  },
-  {
-   "hash": "58cde9e4f9aac05c1f67d78ad483d05ab89cb43a5e358657671e31428b9a796c",
-   "ts": 1790465346.2079387
-  },
-  {
-   "hash": "b55e62f1904bf7015ee6a0f5192638fe37c83e437803c70089ba2f6c4e10a777",
-   "ts": 1790465346.2084606
-  },
-  {
-   "hash": "ae178abed59dcd130ebb2bb7884a767dafdbacb107bf09c0ad67c4df3ac6dbee",
-   "ts": 1790465346.2093766
-  },
-  {
-   "hash": "fcef29dfd5b0e1bd03b2bcc061f0244bca8fdd187dac211f983983a10ed2ed9f",
-   "ts": 1790465346.2101622
-  },
-  {
-   "hash": "4d10b2934fc5a061cbfa5c53aef894715401b23b6760ce786789b756fb216352",
-   "ts": 1790465346.2112813
-  },
-  {
-   "hash": "1ae49e5518f949fc8b9f61c728f0defffb29da05a1880e5c74a0113bcd868e80",
-   "ts": 1790465346.2124267
-  },
-  {
-   "hash": "0723d869f49d87fe18a09c57086843423a32ae981e197e4cd57e999b156c27f5",
-   "ts": 1790473420.3652327
-  },
-  {
-   "hash": "22581a71c86277f983abd36cfad79570cf0e3cebd6b6727c591d98f9ccc5bad7",
-   "ts": 1790473420.3659937
-  },
-  {
-   "hash": "b748c4488aa3469433116e45f3434f4e7e89350d99cb6829f8cf05ccefac8cda",
-   "ts": 1790473420.3667881
-  },
-  {
-   "hash": "1bb625ea1a066802c20cc675988bbbf64ee4fddc0f93713e59c5443478d561c9",
-   "ts": 1790473420.368
-  },
-  {
-   "hash": "3ede978a420c63f064963e1b0f0342752af0ee62103a1b8d71f2fd08b9a5b0fd",
-   "ts": 1790473420.3687682
-  },
-  {
-   "hash": "494bdd0146aeceb14967d9576eacbd041524620bfb83aea00d5e8290a1f0285e",
-   "ts": 1790473420.3699307
-  },
   {
    "hash": "676f5056db128eeb6f93ba46940e2eabc45d13322f472e70f5d772b88df4e1c1",
    "ts": 1790493006.78272
@@ -1802,265 +1746,13 @@
   {
    "hash": "abc612a3718c276f78ea305f374ec61b85b4958889aaed4189f8dcfeff8e0e2c",
    "ts": 1790722764.614679
+  },
+  {
+   "hash": "0612ca631763d50715b5a72df145ab00ad36b5e78c63ae9bde8b2c1ba331828d",
+   "ts": 1790733393.6047454
   }
  ],
  "posted": [
-  {
-   "en": [
-    "year",
-    "mantle",
-    "tokenized",
-    "count",
-    "asset",
-    "473",
-    "jumped"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2062802
-  },
-  {
-   "en": [
-    "received",
-    "wallets",
-    "charges",
-    "crypto",
-    "man",
-    "53m",
-    "than",
-    "more",
-    "scam"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2070832
-  },
-  {
-   "en": [
-    "digital",
-    "bitcoin",
-    "wants",
-    "industry",
-    "100",
-    "saylor",
-    "inside",
-    "trillion",
-    "michael",
-    "asset",
-    "banks"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2079387
-  },
-  {
-   "en": [
-    "bitcoin",
-    "privacy",
-    "researchers",
-    "zcash",
-    "propose",
-    "style",
-    "soft",
-    "without",
-    "fork"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2084606
-  },
-  {
-   "en": [
-    "rising",
-    "one",
-    "infinity",
-    "projects",
-    "turning",
-    "quietly",
-    "cardano",
-    "something",
-    "much",
-    "bigger",
-    "gaming"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2093766
-  },
-  {
-   "en": [
-    "bitcoin",
-    "legitimized",
-    "zcash",
-    "shielded",
-    "threat",
-    "whitepaper",
-    "just"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2101622
-  },
-  {
-   "en": [
-    "digital",
-    "bitcoin",
-    "wants",
-    "industry",
-    "100",
-    "saylor",
-    "inside",
-    "trillion",
-    "michael",
-    "asset",
-    "banks"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2112813
-  },
-  {
-   "en": [
-    "two",
-    "based",
-    "companies",
-    "ponzi",
-    "million",
-    "founder",
-    "jersey",
-    "sec",
-    "scheme",
-    "his",
-    "charges",
-    "alleged"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790465346.2124267
-  },
-  {
-   "en": [
-    "withdrawal",
-    "raises",
-    "387",
-    "hack",
-    "bitget",
-    "sets",
-    "restart",
-    "estimate",
-    "plan"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790473420.3652327
-  },
-  {
-   "en": [
-    "circle",
-    "onramp",
-    "brings",
-    "socure",
-    "arc",
-    "identity",
-    "checks"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790473420.3659937
-  },
-  {
-   "en": [
-    "magic",
-    "exposed",
-    "eden",
-    "nfts",
-    "legacy",
-    "exploit",
-    "approvals"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790473420.3667881
-  },
-  {
-   "en": [
-    "trade",
-    "135",
-    "netflix",
-    "scenario",
-    "2027",
-    "here",
-    "most",
-    "september",
-    "stock",
-    "likely"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790473420.368
-  },
-  {
-   "en": [
-    "known",
-    "buy",
-    "little",
-    "217",
-    "year",
-    "cryptocurrency",
-    "but"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790473420.3687682
-  },
-  {
-   "en": [
-    "jewish",
-    "trio",
-    "targeting",
-    "toms",
-    "million",
-    "alleged",
-    "fraud",
-    "orthodox",
-    "sec",
-    "connection",
-    "communities",
-    "river",
-    "charges"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790473420.3699307
-  },
   {
    "en": [
     "ripple",
@@ -8109,9 +7801,9 @@
  ],
  "last_evening_date": "2026-09-29",
  "milestone_last": {
-  "btc": 82992,
-  "eth": 2668.92,
-  "ton": 1.56
+  "btc": 83424,
+  "eth": 2672.1,
+  "ton": 1.48
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W40",
