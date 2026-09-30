@@ -2,184 +2,32 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 83113,
-  "eth": 2666.18,
-  "ts": 1790756206.136846
+  "btc": 83836,
+  "eth": 2679.65,
+  "ts": 1790780249.7290368
  },
  "whale_seen": [
   {
-   "hash": "6ad4ecd5bafb949f2cbded62d169e76f3d1b10c526fbd2331530b6472ea158e6",
-   "ts": 1790756206.5576527
+   "hash": "f42bfadfb539ee0ba42d840f197caf50c6d8df5c83017b7beacaa9c4aec7d410",
+   "ts": 1790780250.379864
+  },
+  {
+   "hash": "0xe0d733e725da14530a5224e035e0480d1ccebb44c7b1b59a490ca09d717f1aaa",
+   "ts": 1790780257.4451838
+  },
+  {
+   "hash": "0x2b261b3a5ae62292e08394b33242b679377ccdd7c4b497fd4f323fd899078b60:0x146",
+   "ts": 1790780259.6108894
   }
  ],
  "volume_baseline": {
-  "btc": 27947202254,
-  "eth": 14080544069,
-  "ts": 1790756206.136921
+  "btc": 35250945086,
+  "eth": 14991755558,
+  "ts": 1790780249.7291799
  },
- "last_eth_block": 26089041,
+ "last_eth_block": 26091038,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "ceb5ea8a03760170ffc943345e762da4b2cb52e6c9abad73f58029f2cf500f57",
-   "ts": 1790514330.8434293
-  },
-  {
-   "hash": "b672c427bbc3c3553f1f31c50e33467149b0d3420ec19092e1c4b3f31cf09594",
-   "ts": 1790514330.8444676
-  },
-  {
-   "hash": "fed549c4e637ae2ea2bf46a68f43b428bb0753459bd6a7c49928d2ddc7a53272",
-   "ts": 1790514330.8453655
-  },
-  {
-   "hash": "2968b837e123eda9d6fb6bd03f1eb6c245accb441b0b0f92981722b48efdcaa1",
-   "ts": 1790514330.8463514
-  },
-  {
-   "hash": "e171e1d69c34efe8cdf255a09e81e76166de74214217cecf0b80e76a1b4fd88d",
-   "ts": 1790514330.8473783
-  },
-  {
-   "hash": "3bd735635748c4882d29f560381fd7d22f3c550e90b6ec2daf69cce1899f89d8",
-   "ts": 1790514330.8483186
-  },
-  {
-   "hash": "75bc2a33bc7263c8be67c955d9760508501a04a26cbe385b519f3a483d6bdb92",
-   "ts": 1790514330.849239
-  },
-  {
-   "hash": "5fdc1a990ba5c06f1c5aeb3150eb64c8f5367f99c2db6f4a732b0abcb037fb29",
-   "ts": 1790514330.85015
-  },
-  {
-   "hash": "92377cfe49072e23f6aa620bf34b3a3ad89dc7525dd33e7ba1a4965bc6530b3e",
-   "ts": 1790514330.8511283
-  },
-  {
-   "hash": "df08f3412aaeb4784d65988f983d98e57b759aeb6ddb670bc936128b8b0b8957",
-   "ts": 1790514330.8520422
-  },
-  {
-   "hash": "b5be21b86a658c43f7d9eef020dc154dd7a88083375e0d0f9578efd3fd03c2dc",
-   "ts": 1790514330.8530533
-  },
-  {
-   "hash": "fc856dff17e0d7c2badee4ec90095516f8103989071dc05a6faa68724e98015e",
-   "ts": 1790514330.853973
-  },
-  {
-   "hash": "62ee31fd607669e4c26ed9cc1efdc3f76ed89289645abf522cbdde236d8ba305",
-   "ts": 1790514330.8550088
-  },
-  {
-   "hash": "357dbb7493dca29e28cfe0ca16cefd8456071e9600cef2d2fdb5e9829daebb8e",
-   "ts": 1790514330.8560486
-  },
-  {
-   "hash": "8fa237964263938f6167c0b37c1178d8c8f8e5a5c97d23b98fc864aca065bc70",
-   "ts": 1790514330.8570352
-  },
-  {
-   "hash": "63ed842775325033f667dcc24f925ca3998bc28b726b725454285b77728bff1e",
-   "ts": 1790514330.857962
-  },
-  {
-   "hash": "dea05469e42fcf927c02af9f39a454eeffeea5d169d475cfb693fb1a0120414d",
-   "ts": 1790514330.8589334
-  },
-  {
-   "hash": "1adef0c26f7bfa6cd72deecf2de5e4fa76000b13cd439f2311e1cd12149b394a",
-   "ts": 1790514330.859831
-  },
-  {
-   "hash": "09f90035ef2e3836e1f45bc43a45287d8b602696b5a113112948a92ffc697e31",
-   "ts": 1790514330.860696
-  },
-  {
-   "hash": "c0dbcb30f768275dba49e0cca517136c299824958cf87338d394a9abf435b6c4",
-   "ts": 1790514330.861535
-  },
-  {
-   "hash": "a209771df6bc747d32d5f270a0c322d4b847a53beec2b866b51606b3287d0e3a",
-   "ts": 1790514330.8625302
-  },
-  {
-   "hash": "36d7ef9d03af8cd3b0701508cb58d18dd8a5bda73654bc040935ee78985d1270",
-   "ts": 1790514330.863501
-  },
-  {
-   "hash": "80517db8510ac73d4c651a29b2b6900b3f1e40b609b144d3ce0a003704ab28e3",
-   "ts": 1790514330.8644726
-  },
-  {
-   "hash": "9247cd641d0039aaee609681d014d3be09d755fe5e84967a82cc1e589118440e",
-   "ts": 1790514330.8653076
-  },
-  {
-   "hash": "9279e753547efe675285e894019fd5f531f8640a9545677b65ed25278170d21b",
-   "ts": 1790514330.8660834
-  },
-  {
-   "hash": "1b4e43d5f93a165d54b1179195ecb62baaf4c264de46b3cf324abc57af201f51",
-   "ts": 1790514330.867024
-  },
-  {
-   "hash": "615e45e3a3447791cbf8eb1f552e09dcc2ea961f27065b0d230e07aa8c5c1928",
-   "ts": 1790514330.8678327
-  },
-  {
-   "hash": "35c10613fdaa86bc694c8b6f4ce5ec5987462a1e8a90fef5d062e47b0ae94070",
-   "ts": 1790514330.8687482
-  },
-  {
-   "hash": "951ca4af5e27664bcb6346f9f67f42549b3b89bee1520932d5341ed0cfb04084",
-   "ts": 1790514330.8697245
-  },
-  {
-   "hash": "63fd2123335a3fca630c32f480c645f5790a1bd50905f38f50cbba8446b9eca2",
-   "ts": 1790514330.8705795
-  },
-  {
-   "hash": "22dbac1f47f20903b6a7d193adf9c6eef060573f81384544a5fe26de7d8d8d9f",
-   "ts": 1790514330.8714068
-  },
-  {
-   "hash": "59f51724c8cf21c750d168731e3c604acb20b759e33ee36abfb884ab079f617a",
-   "ts": 1790514330.8723662
-  },
-  {
-   "hash": "0dac0362bf46d671aef142829b48c1d1970e6e4ed6eb417f08b05f45e62e3997",
-   "ts": 1790514330.8736596
-  },
-  {
-   "hash": "e8a3e1a76630dcd6eeb7eeb1ac97679b5135d200e5588a937331638680c7151b",
-   "ts": 1790514330.8745346
-  },
-  {
-   "hash": "0405d81232afd91b9b774a9fba56cd72ae6e6ed803dc0669bb93fbddde3b7f59",
-   "ts": 1790514330.87542
-  },
-  {
-   "hash": "058cc17dcbddcacd6cc7437b425d47351977639bad6cb5ed0dc6c0d3d309a3d9",
-   "ts": 1790514330.8765228
-  },
-  {
-   "hash": "b46e513705a088440eb1c9d06f3e7d2d3ca595ba54fbdb6f7be79e1286d655fe",
-   "ts": 1790514330.8776
-  },
-  {
-   "hash": "1257f7e383b7471899c4464a777ffd574db16121562248c38617b4a10b0bbee5",
-   "ts": 1790514330.878936
-  },
-  {
-   "hash": "f743e8f7ea20b3a783ab7f1d3afe3fc0430651b7df28c5e655440eb731c23e89",
-   "ts": 1790514330.879882
-  },
-  {
-   "hash": "68d8b229e822e6d13b40bb6949bd712941bf1bc0ab4c7c9da5f5144c0e5e24ed",
-   "ts": 1790514330.8810678
-  },
   {
    "hash": "611de86f55716426d449918d2ffd45aeae302fe485f292a89ef37f3b4b3f17ee",
    "ts": 1790531226.4929552
@@ -1791,732 +1639,193 @@
   {
    "hash": "2691f146cd2f802f429008330cfe5fbbca93aef78ba3aef4af7563b0be4aa22b",
    "ts": 1790756217.0015316
+  },
+  {
+   "hash": "c639c81cc1cb66dec84f5a3e568efa47a4606d8eef0cb2d7b630b6ddc6699eb2",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "f9d952f555b2ef3cdaddf6b1c4c368f004c0f5f7c04c723aac854a1ced9ccce6",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "d6023542a9c17a1e36da072852b5465c7bb948e24a5df524649e6b518ed47d5d",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "af227cd83a60f6c2db73a149c8ce3a12f416e602133bdf836389b4e09b90c8ce",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "a80b45cd68ffdaea3d917f7a8d0ab551060dcf39596bc41f4543c0f4f617ecc6",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "80a48ee954767e9f9b8ec8eb18f62f3f8d11fd8472e88a5378f25e0658158fad",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "d53179ce0da0d3b8f332c14dde6249897469ed5f690a6dde7def9cdc87bc19ba",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "c4ccbebaf265d1f56f4c019f970d7eb4e9a075fec2ca4e9a6dd74ef6616683cb",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "2efdd40120f3a83b96c8e46b5a4457154fb6ffbbc959a2d552adf9912b79e237",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "06f297b775437ff0a0e9ad4b40501769be4487a348b436439455f043c5c34778",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "28cb80305ac52b9cf4bea1dad9170b4fbff5f834d0aef897953592b4b9aae2bf",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "6a680ce5bbe5c261ddfb86227a3efab0841c166f79f374d185896e6ec6c71c8f",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "6a645104714a9eeceed4a0365eec1c5595de5b08d0a00e056999f2f7cc0f6735",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "841dd0290496c27607da4bada943996297926a54c53f76b3a3f24adbe4f33e36",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "57ea9bb745510ebb8748f8ed59f2f180d777511feda3fab2ca918b602e90a755",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "36a5eacc671fac37a0b3058cd40a5d15d91513cecb2a09ed8aab978d64bc4330",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "3cecc182effe2b4743cbb6f878d0de368e9a390a2e0a0d56445290a67909a178",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "6519f8f9c5fd190fecf20371755495d2b64378500a71db129002d8ae9bc7c832",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "bf04934e6fe9a4cc9ebecc5737cf6bfe74e5f3f77e7169350e7d565cc3c5a217",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "30e227bfa0f9680518f1c8e8957be97cf43758480db31635e60a0fb6e5653217",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "b5ac75efbc64c776d3c1066526b7ef670f04bde673a232dd13308fc7c82ccd4d",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "134594a5c236173e7a4d55f81bec616311b2dca9f2707f3fd3726f26b1c8718e",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "0ee06fc57b2f37230985fd6362347354e00af5dfcea1642ef44c30e3aa400197",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "5f2e067564bff03a5ed6e9d46a5831556042288afb77c1669dfe9766ae630585",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "6e0c1dfc4592e0283454412828d905a1ccf53c439bb029f286cab77123e38578",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "93b5cbeca4d8047a75091eff4d7fa1a15c1b804832f73d78c86fad9dafa6e789",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "de7c0ba80da57d775ee3d9d5b5c2f93903f362b7b6f739271bbfdc3b21838591",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "4552189ff8302e7fa084236c47513596de94f67b4e0e869b5c0a7e9c5442712c",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "bf78391267c7f8318936e31ea7ac4c542e0936b3a7b3fa0186599f0e8e6aece2",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "38adbe846343cf68aceb2ea7d11e39ecac08bf888ff177c7ca9ea99919bd4738",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "4c620ca81a3549773c038fbf8965178280c17898b60489bf2aec15786b22f1fd",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "c1304bd1d5884a8c89f269a436d74723728ad857eb87dbc4c92f5ac3c68744c3",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "7767d60efb83a774c26d460dd43fe7e64b457637bf97ec959ef846618e23f1ef",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "385ae515aac2a808f28c12d6957244ad92eee6b02a53ad1fc3c101ba381f6e50",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "24c99420d3e11190df1eea2e18675714c28b33f10cf9bf5667a5d347de82b9cb",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "7740f5b3d522f01171a3eaafaf983fd1f94355d0cbe275bb4ff589786f3b55d0",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "2b98a55ad25c25e2b91558f73e42e35e43b25efa54484d1e0e460d7ba53f597a",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "f1748fbd20b464a751476f8ca337c19e62bb079c71a8e7ef2176e725584baad3",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "caab1f2b087c1ea7bce03e956f561c022bc670f8bf9b39cf42c851c0ac8bf674",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "e5f781c7b32c73d09a8e8b7812e5e565593da060715aacbc1ceed0cc97aa4fab",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "6950be4df131b82f40777367597decef17ae906acb30db54a54b06acb7af769a",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "98a1f6ded3b8e0e5070ede4946d41db54f4abee74ed1bc1584415ad1ca6e4e33",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "635787fa2a169a3f8a2b108ca4fcb074ed1c812823e31224fa0d813ccc1d59e2",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "12b3d676ce22145ffb5a1da24944ed3275bd59ad78f54f7d7e81122c37235dfd",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "05d0f40f1525aba867a80a45b0d9cd8150e342052d33027a658b824e091b46b9",
+   "ts": 1790780269.1986437
+  },
+  {
+   "hash": "4df99d7412fb6a3ba80072de7d38288365ee77c2d820324c24a542652eb4c4e8",
+   "ts": 1790780269.1986437
   }
  ],
  "posted": [
-  {
-   "en": [
-    "work",
-    "clarity",
-    "act",
-    "months",
-    "all",
-    "fell",
-    "apart"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8434293
-  },
-  {
-   "en": [
-    "data",
-    "asks",
-    "inquiry",
-    "health",
-    "chiefs",
-    "hack",
-    "australia",
-    "openai",
-    "senate",
-    "report",
-    "anthropic"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8444676
-  },
-  {
-   "en": [
-    "200m",
-    "collateral",
-    "facility",
-    "riot",
-    "releases",
-    "repays",
-    "platforms",
-    "credit"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8453655
-  },
-  {
-   "en": [
-    "rights",
-    "prosperity",
-    "saylor",
-    "help",
-    "economy",
-    "bill",
-    "digital",
-    "build",
-    "future",
-    "outlines"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8463514
-  },
-  {
-   "en": [
-    "works",
-    "don",
-    "make",
-    "network",
-    "security",
-    "staff",
-    "token",
-    "crypto",
-    "buybacks",
-    "sec"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8473783
-  },
-  {
-   "en": [
-    "but",
-    "not",
-    "collateral",
-    "make",
-    "way",
-    "ethereum",
-    "feel",
-    "instant"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8483186
-  },
-  {
-   "en": [
-    "promised",
-    "markets",
-    "hired",
-    "prediction",
-    "information",
-    "better",
-    "hollywood"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.849239
-  },
-  {
-   "en": [
-    "trading",
-    "months",
-    "stop",
-    "your",
-    "tokenized",
-    "three",
-    "stock"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.85015
-  },
-  {
-   "en": [
-    "refuses",
-    "assets",
-    "block",
-    "thorchain",
-    "tied",
-    "bitget",
-    "hackers"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8511283
-  },
-  {
-   "en": [
-    "fidelity",
-    "signal",
-    "000",
-    "100",
-    "flashed",
-    "bitcoin",
-    "just"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8520422
-  },
-  {
-   "en": [
-    "price",
-    "exit",
-    "hit",
-    "dogecoin",
-    "etfs",
-    "plans",
-    "record",
-    "bitwise",
-    "week",
-    "react"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8530533
-  },
-  {
-   "en": [
-    "million",
-    "spacex",
-    "cashes",
-    "starship",
-    "launch",
-    "president",
-    "monday",
-    "before"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.853973
-  },
-  {
-   "en": [
-    "doge",
-    "whales",
-    "dogecoin",
-    "etfs",
-    "inflows",
-    "record",
-    "brewing",
-    "post",
-    "rally",
-    "load"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8550088
-  },
-  {
-   "en": [
-    "btc",
-    "price",
-    "qnt",
-    "weekend",
-    "watch",
-    "leads",
-    "again",
-    "aims",
-    "85k",
-    "rally",
-    "altcoin"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8560486
-  },
-  {
-   "en": [
-    "since",
-    "top",
-    "beaten",
-    "peak",
-    "winners",
-    "only",
-    "bitcoin",
-    "picking",
-    "altcoins",
-    "brutal"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8570352
-  },
-  {
-   "en": [
-    "banking",
-    "rockets",
-    "fuels",
-    "weekly",
-    "qnt",
-    "catalyst",
-    "180",
-    "quant",
-    "today",
-    "rally",
-    "major"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.857962
-  },
-  {
-   "en": [
-    "stay",
-    "calm",
-    "since",
-    "march",
-    "hits",
-    "bitcoin",
-    "traders",
-    "while",
-    "highest",
-    "bond",
-    "volatility"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8589334
-  },
-  {
-   "en": [
-    "near",
-    "84k",
-    "bitcoin",
-    "altcoins",
-    "quant",
-    "stalls",
-    "jumps",
-    "rally",
-    "while"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.859831
-  },
-  {
-   "en": [
-    "bix",
-    "spending",
-    "card",
-    "states",
-    "crypto",
-    "wants",
-    "expand"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.860696
-  },
-  {
-   "en": [
-    "options",
-    "near",
-    "btc",
-    "holds",
-    "84k",
-    "clears",
-    "bitcoin",
-    "expiry"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.861535
-  },
-  {
-   "en": [
-    "year",
-    "000",
-    "near",
-    "single",
-    "retail",
-    "investors",
-    "lows",
-    "cut",
-    "buying",
-    "two",
-    "just",
-    "days",
-    "stock"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8625302
-  },
-  {
-   "en": [
-    "claims",
-    "000",
-    "alabama",
-    "settlement",
-    "state",
-    "child",
-    "100",
-    "addiction",
-    "tiktok",
-    "pays",
-    "first"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.863501
-  },
-  {
-   "en": [
-    "scheme",
-    "000",
-    "backing",
-    "ponzi",
-    "apple",
-    "smart",
-    "fake",
-    "masterminds",
-    "ring",
-    "woman",
-    "nearly",
-    "california"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8644726
-  },
-  {
-   "en": [
-    "finally",
-    "btc",
-    "broken",
-    "bitcoin",
-    "correlation",
-    "dollar"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8653076
-  },
-  {
-   "en": [
-    "second",
-    "bitcoin",
-    "best",
-    "track",
-    "ever"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8660834
-  },
-  {
-   "en": [
-    "shytoshi",
-    "shiba",
-    "inu",
-    "break",
-    "silence",
-    "kusama",
-    "marks",
-    "137",
-    "coming",
-    "soon",
-    "days"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.867024
-  },
-  {
-   "en": [
-    "september",
-    "likely",
-    "hit",
-    "kalshi",
-    "xrp",
-    "most"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8678327
-  },
-  {
-   "en": [
-    "reports",
-    "million",
-    "volume",
-    "hours",
-    "848",
-    "selling",
-    "pump",
-    "enormous",
-    "fun",
-    "totaling"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8687482
-  },
-  {
-   "en": [
-    "535",
-    "ledger",
-    "xrp",
-    "added",
-    "analyzing",
-    "two",
-    "metric",
-    "days",
-    "price",
-    "key",
-    "implications"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8697245
-  },
-  {
-   "en": [
-    "calacanis",
-    "coins",
-    "scam",
-    "slams",
-    "meme",
-    "giant",
-    "jason"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8705795
-  },
-  {
-   "en": [
-    "shot",
-    "brandt",
-    "xrp",
-    "fresh",
-    "takes",
-    "cult"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8714068
-  },
-  {
-   "en": [
-    "debt",
-    "risk",
-    "increased",
-    "yields",
-    "face",
-    "spike",
-    "hungry",
-    "companies",
-    "bond"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8723662
-  },
-  {
-   "en": [
-    "years",
-    "3rd",
-    "stocks",
-    "witnessing",
-    "market",
-    "time",
-    "clear",
-    "only",
-    "156",
-    "about",
-    "next",
-    "history",
-    "stock",
-    "crystal",
-    "something"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8736596
-  },
-  {
-   "en": [
-    "smartest",
-    "growth",
-    "etf",
-    "000",
-    "right",
-    "now",
-    "buy",
-    "history"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8745346
-  },
-  {
-   "en": [
-    "years",
-    "worth",
-    "these",
-    "bitcoin",
-    "one",
-    "cryptocurrencies",
-    "more",
-    "than"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.87542
-  },
-  {
-   "en": [
-    "market",
-    "coins",
-    "heating",
-    "early",
-    "bull",
-    "meme",
-    "again",
-    "sign",
-    "crypto",
-    "back"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8765228
-  },
-  {
-   "en": [
-    "159",
-    "lee",
-    "tom",
-    "according",
-    "soars",
-    "buy",
-    "bitmine",
-    "cryptocurrency",
-    "popular",
-    "before"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8776
-  },
-  {
-   "en": [
-    "showing",
-    "street",
-    "look",
-    "wall",
-    "cracks",
-    "closer",
-    "rally"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.878936
-  },
-  {
-   "en": [
-    "year",
-    "send",
-    "surging",
-    "upcoming",
-    "jobs",
-    "yields",
-    "report",
-    "treasury"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.879882
-  },
-  {
-   "en": [
-    "trading",
-    "binance",
-    "delist",
-    "pair",
-    "fiat",
-    "usdt",
-    "withdrawals",
-    "spot",
-    "trade",
-    "uah",
-    "deposits",
-    "via",
-    "close"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790514330.8810678
-  },
   {
    "en": [
     "ethereum",
@@ -7867,13 +7176,242 @@
    "score": 2,
    "breaking": false,
    "ts": 1790756233.8662496
+  },
+  {
+   "en": [
+    "bitget",
+    "face",
+    "funds",
+    "prosecution",
+    "stolen",
+    "thorchain"
+   ],
+   "ru": [
+    "bitget",
+    "thorchain",
+    "пресл",
+    "средс",
+    "столк",
+    "судеб",
+    "украд"
+   ],
+   "nums": [
+    "387"
+   ],
+   "names": [
+    "bitget",
+    "thorchain"
+   ],
+   "title": "Может ли THORChain столкнуться с судебным преследованием за украденные средства Bitget?",
+   "score": 5,
+   "breaking": true,
+   "ts": 1790780270.5830612
+  },
+  {
+   "en": [],
+   "ru": [
+    "bitget",
+    "взлом",
+    "восст",
+    "защит",
+    "извес",
+    "после",
+    "фонд"
+   ],
+   "nums": [
+    "300",
+    "388"
+   ],
+   "names": [
+    "bitget"
+   ],
+   "title": "Bitget восстановила защитный фонд: что известно о последствиях взлома",
+   "score": 4,
+   "breaking": true,
+   "ts": 1790780272.4764411
+  },
+  {
+   "en": [
+    "2027",
+    "accepting",
+    "ahead",
+    "applications",
+    "authorization",
+    "crypto",
+    "fca",
+    "opens",
+    "regime",
+    "starts",
+    "window"
+   ],
+   "ru": [
+    "2027",
+    "fca",
+    "автор",
+    "велик",
+    "крипт",
+    "окно",
+    "откры",
+    "предд",
+    "режим"
+   ],
+   "nums": [],
+   "names": [
+    "fca"
+   ],
+   "title": "FCA открывает окно авторизации криптовалюты в преддверии режима Великобритании в 2027 году",
+   "score": 4,
+   "breaking": false,
+   "ts": 1790780274.3938353
+  },
+  {
+   "en": [],
+   "ru": [
+    "битко",
+    "вступ",
+    "золот",
+    "лихор",
+    "майкл",
+    "перио",
+    "сейло"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Майкл Сейлор: Биткоин вступил в период «золотой лихорадки»",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790780276.293958
+  },
+  {
+   "en": [],
+   "ru": [
+    "200",
+    "coinw",
+    "usdt",
+    "акцию",
+    "бонус",
+    "запус",
+    "новых",
+    "польз"
+   ],
+   "nums": [
+    "200"
+   ],
+   "names": [
+    "coinw"
+   ],
+   "title": "CoinW запустила акцию для новых пользователей с бонусами до 200 USDT",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790780278.1976686
+  },
+  {
+   "en": [
+    "bitcoin",
+    "dollar",
+    "stronger",
+    "than",
+    "think",
+    "threat",
+    "traders",
+    "weaker"
+   ],
+   "ru": [
+    "битко",
+    "более",
+    "долла",
+    "думаю",
+    "меньш",
+    "предс",
+    "сильн",
+    "собой",
+    "трейд",
+    "угроз",
+    "чем"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Более сильный доллар представляет собой меньшую угрозу для биткоинов, чем думают трейдеры",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790780280.1037614
+  },
+  {
+   "en": [
+    "000",
+    "bitcoin",
+    "drops",
+    "lighter",
+    "near",
+    "perps",
+    "plan",
+    "robinhood",
+    "stalls",
+    "while"
+   ],
+   "ru": [
+    "000",
+    "17",
+    "83",
+    "robinhood",
+    "битко",
+    "время",
+    "зажиг",
+    "остан",
+    "отмет",
+    "плану",
+    "прест",
+    "упала"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [
+    "robinhood"
+   ],
+   "title": "Биткоин остановился на отметке $83 000, в то время как зажигалка упала на 17% по плану преступников Robinhood",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790780282.0027926
+  },
+  {
+   "en": [
+    "bitcoin",
+    "buy",
+    "can",
+    "dollar",
+    "european",
+    "investors",
+    "now",
+    "risk",
+    "taking",
+    "without"
+   ],
+   "ru": [
+    "битко",
+    "долла",
+    "европ",
+    "инвес",
+    "покуп",
+    "прини",
+    "риск",
+    "себя",
+    "сша",
+    "тепер"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Как европейские инвесторы теперь могут покупать биткоины, не принимая на себя риск доллара США",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790780283.9887912
   }
  ],
  "last_evening_date": "2026-09-29",
  "milestone_last": {
-  "btc": 83113,
-  "eth": 2666.18,
-  "ton": 1.48
+  "btc": 83836,
+  "eth": 2679.65,
+  "ton": 1.5
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W40",
