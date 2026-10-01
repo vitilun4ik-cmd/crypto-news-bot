@@ -2,75 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 83401,
-  "eth": 2683.68,
-  "ts": 1790821709.5557835
+  "btc": 83651,
+  "eth": 2687.75,
+  "ts": 1790846387.9820142
  },
  "whale_seen": [],
  "volume_baseline": {
-  "btc": 35641557255,
-  "eth": 13861614936,
-  "ts": 1790821709.5558805
+  "btc": 38414039965,
+  "eth": 15609011090,
+  "ts": 1790846387.9820926
  },
- "last_eth_block": 26094478,
+ "last_eth_block": 26096528,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "d16385e9561bd37e6d77dc0c62c07328925b047882e496ed21927c8fb3ba4902",
-   "ts": 1790571059.9115071
-  },
-  {
-   "hash": "940b16b0f8e9cd537e75b0af9ac5bdb35e80adb239df3f0be6ca64f6ea6e6a34",
-   "ts": 1790571059.9123769
-  },
-  {
-   "hash": "2ba7029824e81fe2f3781175810c983d1cbe682ea3d6ccb3cb5504f26634d736",
-   "ts": 1790571059.9132042
-  },
-  {
-   "hash": "2cb2cc559605708416eab9209f56f16904262b56a3ca5882ba243c0f59ead8bd",
-   "ts": 1790571059.9141262
-  },
-  {
-   "hash": "8a447a7642af21281deaccd225293ebd8f6875173150a9b9bd0050bc93a4ccaa",
-   "ts": 1790571059.9151027
-  },
-  {
-   "hash": "7950fcf8ed109c95d07e85605a3aeff6343379ddb294ccc35693dbd7cef012ab",
-   "ts": 1790571059.9160078
-  },
-  {
-   "hash": "de9f693dc54ef25788e7b844fc887c9182c5972e3d4440af79570fd366f9f9b7",
-   "ts": 1790571059.916851
-  },
-  {
-   "hash": "f81518ff15042af41ca62e520f6c8eaeb8178ad389b63b7ffe32f1affd260a31",
-   "ts": 1790571059.91773
-  },
-  {
-   "hash": "07c92d8c030c7471686ae353ded4882bc1baf3faaa498b0144479daff6d912c7",
-   "ts": 1790571059.918599
-  },
-  {
-   "hash": "6d373c6c37d2014f85726805aecc64a81f42c9dbccb9437050e0ebe5be5314aa",
-   "ts": 1790571059.9194422
-  },
-  {
-   "hash": "cca287a41248bf86e5da9d19cbf41884472dd1cba153c03546224ff3580c9edf",
-   "ts": 1790571059.9202838
-  },
-  {
-   "hash": "98718834373e2fbc2f25b06fb49508b554ed3da462d1e83cb82e9a929afd3054",
-   "ts": 1790571059.9211922
-  },
-  {
-   "hash": "46d1bdbe190aada742c1424f03360797b82d1803de2afd328eaea5da3b9e13a0",
-   "ts": 1790571059.9221041
-  },
-  {
-   "hash": "4803d86e2a9f6d968fa9f983a9da959928a16305c36f7faac6fca15cd4319084",
-   "ts": 1790571059.9231193
-  },
   {
    "hash": "de552c70f88e959dc21309cb6c7d711ccb913d67d6e75b8d0cdb0339f15f9e52",
    "ts": 1790595307.0359218
@@ -1734,260 +1678,117 @@
   {
    "hash": "45f14da29c402208b65e897e7a27274608229f07b06b2b240b5606ba7dede3dd",
    "ts": 1790821725.75875
+  },
+  {
+   "hash": "af42dc72d15e3bc2c92ce31a8e5aceea9e9cb5ee820d280f9c12198d18d4a924",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "5e6f6d304f9e2a2162dc9aa1457363be011828af0f0dad76ee6c9e71a933387b",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "1d9d32dbaac3ab49b646314a4a9755ee47868ff5ebbc28b321923bb315ad09b6",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "1ce79096c762ecd55379af2d7d8c614c98766fe1bc3148aecfe5cd1dcefb504b",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "0a5311db3f1e9390628839f8cb64f00bf8c84e0c91b5d98c542cb85c6f1a4cf8",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "2ccc4373c3284c6ae481ab0cb25269c2417bc00389651e1172581be11b69c803",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "ca5430b3da282bb168e49240ce71baf54e403866e44a028561dcb62d022a8cb3",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "a09184d12c9525180145709320119767abf33376903e28ea96b386d91bc42300",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "fe0687640eafa09f67419d47cd2b71827d24b549a5c2980121677958e22c6ba9",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "c8a8aab622407fb49210e33e2e52b75608e1cd2c648265dbd011cf57bb304512",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "43812b2b3e5aff0fc3d4ef6c77838240ae98a91f6a8b5087a867e38003db82d5",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "37f8bf76d66012d4484a47244c7bdf1cbe59cd63dd1403a62e16ff54261477bb",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "70b19dce56073c046efeac1b1fc7a7ffdbc1950f3459bff8cf8a983bc897597c",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "1b04e45a443b7acdb8d110f144ede44d47daf518bc55f81183ee2d4cfae53eb3",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "68e06ea0b58cad03093a274dccf6cfe63a70ca65d4904e373e5ffef29b44018e",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "61ca59ea388293635e8fb7a70d2e9c79ef6e99396566121e872d01d4a6d0444e",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "ebcede46540fc691f90581ab1dac92c51fa02714bb4e358b053af7d5702bd93b",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "9762e2097a7c7c6bf6363789301e84c2c72a5bcd9219dcc4e7123bf4d677a647",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "349882e48cf4d184a4fb3d793c85d7aa0e7cddc8519435d1d3b2293d05391b0e",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "1885c0c08af6b191af694d6d3be5acc8a2ce35357c175af60d16ae1f80fab91d",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "92613ad05102ae43991e57226b1918816e63e4bdd948ae88516c37112769a919",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "ff8793dfe9470e9cd8b87cc53a183c0a14143a95d60a125b43151fd2462224b4",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "04ec9bd9e6b133871a843803707f44c8e7df76ae26c02c3bca4f186180102baa",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "89610c16bf475b00d8ddc47d1131330f9d7bf6b1c939e0097804ea2c5dbfbb41",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "20cf13cd8ca170840b8cd2e996b3f9429ddc049645e693ee83e8f5531bef808d",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "b3ea527ddc701104173fcfe5c1a63434002c1bf0b15af83e00760ef7a872ca60",
+   "ts": 1790846397.575904
+  },
+  {
+   "hash": "f262e90d15e0facbba32bdf99abc3d764ce4dc3f55e2b71e135496f534863dac",
+   "ts": 1790846397.575904
   }
  ],
  "posted": [
-  {
-   "en": [
-    "won",
-    "iran",
-    "nasdaq",
-    "futures",
-    "more",
-    "bitcoin",
-    "strikes",
-    "trump",
-    "decline",
-    "rule"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9115071
-  },
-  {
-   "en": [
-    "officials",
-    "newsom",
-    "ban",
-    "signs",
-    "issuing",
-    "memecoins",
-    "california",
-    "public"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9123769
-  },
-  {
-   "en": [
-    "zano",
-    "month",
-    "address",
-    "rolls",
-    "back",
-    "gateway",
-    "blockchain",
-    "exploit"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9132042
-  },
-  {
-   "en": [
-    "hodler",
-    "digest",
-    "fire",
-    "beyond",
-    "under",
-    "evolves",
-    "bitget",
-    "blockchain",
-    "thorchain",
-    "eth"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9141262
-  },
-  {
-   "en": [
-    "september",
-    "settlement",
-    "hits",
-    "surprise",
-    "trigger",
-    "move",
-    "billion",
-    "202",
-    "bitcoin",
-    "treasury"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9151027
-  },
-  {
-   "en": [
-    "not",
-    "hype",
-    "looks",
-    "ipo",
-    "like",
-    "wearables",
-    "verdict",
-    "oura",
-    "oversubscribed"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9160078
-  },
-  {
-   "en": [
-    "industrial",
-    "slow",
-    "behind",
-    "china",
-    "left",
-    "profits",
-    "showing",
-    "boom"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.916851
-  },
-  {
-   "en": [
-    "2008",
-    "inflation",
-    "did",
-    "diesel",
-    "warning",
-    "sign",
-    "prices",
-    "doing",
-    "gas"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.91773
-  },
-  {
-   "en": [
-    "them",
-    "names",
-    "cramer",
-    "stocks",
-    "sell",
-    "jim",
-    "won",
-    "sacred",
-    "his"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.918599
-  },
-  {
-   "en": [
-    "stocks",
-    "grade",
-    "bonds",
-    "here",
-    "blackrock",
-    "cio",
-    "high",
-    "dumps"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9194422
-  },
-  {
-   "en": [
-    "peter",
-    "xrp",
-    "cult",
-    "brandt",
-    "narrative",
-    "destroys"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9202838
-  },
-  {
-   "en": [
-    "strategist",
-    "oil",
-    "trigger",
-    "street",
-    "rally",
-    "stock",
-    "wall",
-    "market",
-    "falling"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9211922
-  },
-  {
-   "en": [
-    "crucial",
-    "evernorth",
-    "xrp",
-    "vote",
-    "nasdaq",
-    "coming",
-    "week",
-    "nears",
-    "huge"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9221041
-  },
-  {
-   "en": [
-    "september",
-    "analysis",
-    "relevant",
-    "price",
-    "xrp",
-    "near",
-    "outstanders",
-    "btc",
-    "bitcoin",
-    "gram",
-    "protocol",
-    "stay"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790571059.9231193
-  },
   {
    "en": [
     "cooling",
@@ -6700,15 +6501,230 @@
    "score": 2,
    "breaking": false,
    "ts": 1790821729.81371
+  },
+  {
+   "en": [],
+   "ru": [
+    "10",
+    "2184",
+    "btc",
+    "битко",
+    "более",
+    "верну",
+    "киты",
+    "лет",
+    "перем",
+    "сентя",
+    "тишин",
+    "чем"
+   ],
+   "nums": [
+    "178",
+    "2184"
+   ],
+   "names": [],
+   "title": "Биткоин-киты вернулись после более чем 10 лет тишины: в сентябре переместили более 2184 BTC",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790846399.302278
+  },
+  {
+   "en": [],
+   "ru": [
+    "5",
+    "6",
+    "9",
+    "ethereum",
+    "битко",
+    "закры",
+    "почти",
+    "росто",
+    "сентя"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Биткоин закрыл сентябрь ростом на 6,5%, Ethereum — почти на 9%",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790846401.1535394
+  },
+  {
+   "en": [
+    "500",
+    "bitcoin",
+    "bond",
+    "fades",
+    "fall",
+    "inflation",
+    "pop",
+    "refuse",
+    "soft",
+    "yields"
+   ],
+   "ru": [
+    "500",
+    "85",
+    "битко",
+    "долла",
+    "доход",
+    "инфля",
+    "исчез",
+    "мягка",
+    "облиг",
+    "отказ",
+    "падат",
+    "поско"
+   ],
+   "nums": [
+    "500"
+   ],
+   "names": [],
+   "title": "Мягкая инфляция Биткоина до 85 500 долларов исчезает, поскольку доходность облигаций отказывается падать",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790846403.0190198
+  },
+  {
+   "en": [
+    "bitcoin",
+    "btc",
+    "draw",
+    "etfs",
+    "nearly",
+    "price",
+    "rises"
+   ],
+   "ru": [
+    "3",
+    "43",
+    "6",
+    "btc",
+    "etf",
+    "битко",
+    "вырос",
+    "зараб",
+    "кварт",
+    "млрд",
+    "поско",
+    "почти",
+    "треть",
+    "цена"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Биткоин-ETF заработали $6,3 млрд в третьем квартале, поскольку цена BTC выросла почти на 43%",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790846404.8434417
+  },
+  {
+   "en": [
+    "bitcoin",
+    "committee",
+    "invisible",
+    "metaplanet",
+    "msci",
+    "questions",
+    "rule",
+    "strategy",
+    "tank",
+    "think"
+   ],
+   "ru": [
+    "msci",
+    "анали",
+    "битко",
+    "комит",
+    "метап",
+    "невид",
+    "повод",
+    "подве",
+    "правл",
+    "сомне",
+    "страт",
+    "центр"
+   ],
+   "nums": [],
+   "names": [
+    "msci"
+   ],
+   "title": "Аналитический центр Биткоин подвергает сомнению «невидимый комитет» MSCI по поводу Стратегии и правления Метапланеты",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790846406.7342482
+  },
+  {
+   "en": [],
+   "ru": [
+    "768",
+    "крипт",
+    "млн",
+    "превы",
+    "сентя",
+    "ущерб"
+   ],
+   "nums": [
+    "320",
+    "388",
+    "768"
+   ],
+   "names": [],
+   "title": "Ущерб от криптовзломов в сентябре превысил $768 млн",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790846408.564093
+  },
+  {
+   "en": [],
+   "ru": [
+    "8",
+    "act",
+    "clarity",
+    "крипт",
+    "лобби",
+    "млн",
+    "потра",
+    "сми"
+   ],
+   "nums": [],
+   "names": [
+    "act",
+    "clarity"
+   ],
+   "title": "СМИ: криптоиндустрия потратила $8 млн на лоббирование CLARITY Act",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790846410.413732
+  },
+  {
+   "en": [],
+   "ru": [
+    "metamask",
+    "валид",
+    "вывел",
+    "инфра",
+    "пробл",
+    "стейк",
+    "фоне",
+    "часть"
+   ],
+   "nums": [],
+   "names": [
+    "metamask"
+   ],
+   "title": "MetaMask вывела часть валидаторов на фоне проблем со стейкинг-инфраструктурой",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790846412.2655272
   }
  ],
  "last_evening_date": "2026-09-30",
  "milestone_last": {
-  "btc": 83401,
-  "eth": 2683.68,
+  "btc": 83651,
+  "eth": 2687.75,
   "ton": 1.5
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W40",
- "last_morning_date": "2026-09-30"
+ "last_morning_date": "2026-10-01"
 }
