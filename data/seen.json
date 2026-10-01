@@ -2,51 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 83578,
-  "eth": 2687.09,
-  "ts": 1790811474.0285892
+  "btc": 83401,
+  "eth": 2683.68,
+  "ts": 1790821709.5557835
  },
  "whale_seen": [],
  "volume_baseline": {
-  "btc": 35329066115,
-  "eth": 13814417177,
-  "ts": 1790811474.0288117
+  "btc": 35641557255,
+  "eth": 13861614936,
+  "ts": 1790821709.5558805
  },
- "last_eth_block": 26093626,
+ "last_eth_block": 26094478,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "0667a2c8d893ca04a69f8128685d0fd8958b1eb9654867412720bf3b58e543cc",
-   "ts": 1790552985.5836265
-  },
-  {
-   "hash": "39353e2355c56727b511b7c70acd0d153972fb4a4fc9536b7f3e90b8527107bf",
-   "ts": 1790552985.584586
-  },
-  {
-   "hash": "f4339d2298ab6c270b6d7bf56f97b09e2c9ab683b3afe3b641688a5d32e990c9",
-   "ts": 1790552985.5854595
-  },
-  {
-   "hash": "292867514d00b4bf4606e20702048d58aa65bfd37701ae952cac43e2d9f8ea14",
-   "ts": 1790552985.5863452
-  },
-  {
-   "hash": "69aa6081a521fbd4d566e72d202969176bfe62e55fbd0d467a5681f0cc04bca8",
-   "ts": 1790552985.5872958
-  },
-  {
-   "hash": "38f3f576beabdc3f12a17a55abcd09eac2c92a7f7ab3d1ada0affeb9ca9217cb",
-   "ts": 1790552985.5882115
-  },
-  {
-   "hash": "660e6ad987a443641d7405bca88eb23d585512ec52558915ce27c33b5d99869b",
-   "ts": 1790552985.5894723
-  },
-  {
-   "hash": "72e538a17c79d6bcefaa3ad8ca899fd1eb09cf92f54e188c1fda6c525d5deeb9",
-   "ts": 1790552985.590908
-  },
   {
    "hash": "d16385e9561bd37e6d77dc0c62c07328925b047882e496ed21927c8fb3ba4902",
    "ts": 1790571059.9115071
@@ -1758,151 +1726,17 @@
   {
    "hash": "5570fd0f2f2d4c37cd5f53ba1bd9ea55a080ca7f366cf1eca22da76a410220ac",
    "ts": 1790811498.289498
+  },
+  {
+   "hash": "403cedf016fb7293a6358342ba959d422c44b706103e76c74ebece0c841b1837",
+   "ts": 1790821725.75875
+  },
+  {
+   "hash": "45f14da29c402208b65e897e7a27274608229f07b06b2b240b5606ba7dede3dd",
+   "ts": 1790821725.75875
   }
  ],
  "posted": [
-  {
-   "en": [
-    "core",
-    "patches",
-    "let",
-    "revoked",
-    "channel",
-    "escape",
-    "state",
-    "penalty",
-    "lightning",
-    "flaw"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.5836265
-  },
-  {
-   "en": [
-    "loans",
-    "lenders",
-    "usdc",
-    "gap",
-    "stock",
-    "live",
-    "token",
-    "expose",
-    "weekend",
-    "aave",
-    "price"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.584586
-  },
-  {
-   "en": [
-    "question",
-    "just",
-    "seizure",
-    "million",
-    "tether",
-    "sparked",
-    "asset",
-    "massive"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.5854595
-  },
-  {
-   "en": [
-    "move",
-    "week",
-    "crypto",
-    "catalysts",
-    "stocks",
-    "market",
-    "top"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.5863452
-  },
-  {
-   "en": [
-    "advice",
-    "spacex",
-    "before",
-    "mother",
-    "his",
-    "refused",
-    "musk",
-    "tesla",
-    "more",
-    "elon"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.5872958
-  },
-  {
-   "en": [
-    "interest",
-    "jumps",
-    "safeguards",
-    "stablecoin",
-    "bank",
-    "survey",
-    "style",
-    "finds",
-    "visa"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.5882115
-  },
-  {
-   "en": [
-    "preferred",
-    "shares",
-    "dividends",
-    "strategy",
-    "mstr",
-    "daily",
-    "proposes",
-    "four"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.5894723
-  },
-  {
-   "en": [
-    "powr",
-    "binance",
-    "loan",
-    "2026",
-    "bttc",
-    "delist",
-    "margin"
-   ],
-   "ru": [],
-   "title": "",
-   "score": 0,
-   "breaking": false,
-   "ts": 1790552985.590908
-  },
   {
    "en": [
     "won",
@@ -6805,12 +6639,73 @@
    "score": 2,
    "breaking": false,
    "ts": 1790811507.7703524
+  },
+  {
+   "en": [
+    "ethereum",
+    "exits",
+    "incident",
+    "metamask",
+    "security",
+    "undisclosed",
+    "validators"
+   ],
+   "ru": [
+    "ethereum",
+    "metamask",
+    "безоп",
+    "валид",
+    "инцид",
+    "нерас",
+    "покид"
+   ],
+   "nums": [],
+   "names": [
+    "metamask"
+   ],
+   "title": "MetaMask покидает валидаторов Ethereum из-за нераскрытого инцидента безопасности",
+   "score": 3,
+   "breaking": false,
+   "ts": 1790821727.523751
+  },
+  {
+   "en": [
+    "bitcoin",
+    "catches",
+    "exact",
+    "fix",
+    "hidden",
+    "hiding",
+    "key",
+    "leaks",
+    "upgrade"
+   ],
+   "ru": [
+    "битко",
+    "испра",
+    "ключе",
+    "новое",
+    "обнар",
+    "обнов",
+    "скрыв",
+    "скрыт",
+    "точно",
+    "утечк"
+   ],
+   "nums": [
+    "461"
+   ],
+   "names": [],
+   "title": "Новое обновление Биткоина обнаруживает скрытые утечки ключей, скрывающие точное исправление",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790821729.81371
   }
  ],
  "last_evening_date": "2026-09-30",
  "milestone_last": {
-  "btc": 83578,
-  "eth": 2687.09,
+  "btc": 83401,
+  "eth": 2683.68,
   "ton": 1.5
  },
  "milestone_alerted": {},
