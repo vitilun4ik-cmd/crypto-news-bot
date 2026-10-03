@@ -2,19 +2,11 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 84492,
-  "eth": 2664.36,
-  "ts": 1790978755.1344342
+  "btc": 84616,
+  "eth": 2674.64,
+  "ts": 1790989527.3825843
  },
  "whale_seen": [
-  {
-   "hash": "0xd3e24f17dc7b44994e8ce3e5b665cc350798882b39ed84010170f13663e514d3:0x1e4",
-   "ts": 1790964239.9796655
-  },
-  {
-   "hash": "0xb76f0addfe523bb09e265de3332dcabdcb7f30170f07be3fdd0dc713cce0ff2c:0x239",
-   "ts": 1790964239.9804614
-  },
   {
    "hash": "0x37c84826668176f914aa3d39d87f16ef3673bd9cfcdafcdb6d362c1e5d8aa94f",
    "ts": 1790978757.5095985
@@ -22,52 +14,24 @@
   {
    "hash": "0xe0543b712307115dd8616ece4cfd8eed2549675a58dedfe6cf6d68e89797aad6:0x182",
    "ts": 1790978759.7707028
+  },
+  {
+   "hash": "0x9530e03deb70aa65bc0eb3a8e30cd1cbffa57997e967dc5a61adec6857f2ac39:0x138",
+   "ts": 1790989540.4055662
+  },
+  {
+   "hash": "0x9530e03deb70aa65bc0eb3a8e30cd1cbffa57997e967dc5a61adec6857f2ac39:0x149",
+   "ts": 1790989540.4055877
   }
  ],
  "volume_baseline": {
-  "btc": 45414926917,
-  "eth": 18827519137,
-  "ts": 1790978755.1346803
+  "btc": 45047603714,
+  "eth": 19033122921,
+  "ts": 1790989527.3826647
  },
- "last_eth_block": 26107512,
+ "last_eth_block": 26108407,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "0773a8280fe547a1612cba5b9a9479468b3dbc08676ccffa68ed332997b5502f",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "589f5d55499ccf4e4926fbd14fcbd2353e1cad672f5048612b9a8e0d37b22d90",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "dd204c28f353832d55c2cd270b9d65660dc9cdeb0a7b69251bab5dcba6db396e",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "f27a3ed671dfc107df285b0509de314ecbf960f3c60f8f7e876bacd002a4d032",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "9e9ff8cc26bc72ef0c1d2e1fb6324aab132232f5db8ddefc263722b11ab245bf",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "88914451e25ea8d083e17d90339d261ac13327aa89563368def6353cb187ad00",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "db0ee2e46951d441b946937e3b9cab31b89212940ccb314827f3427d730c1477",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "7c3f35e92dc76afb2e15f67cedeb66d79b2bb053405ef118237c1fa66d70e03d",
-   "ts": 1790722764.614679
-  },
-  {
-   "hash": "abc612a3718c276f78ea305f374ec61b85b4958889aaed4189f8dcfeff8e0e2c",
-   "ts": 1790722764.614679
-  },
   {
    "hash": "0612ca631763d50715b5a72df145ab00ad36b5e78c63ae9bde8b2c1ba331828d",
    "ts": 1790733393.6047454
@@ -1391,212 +1355,17 @@
   {
    "hash": "1ce5f0a917ed6826827addacdfac716aa73a23b527c0427f6eedfd8debe0be6e",
    "ts": 1790978770.1923459
+  },
+  {
+   "hash": "011670eddac1ebd9d6efe923bfeb4f48496d0a1176a5a84a873c6fe51a6d1e16",
+   "ts": 1790989546.565769
+  },
+  {
+   "hash": "9d2a0da489ee912371eb03aceea399b3c73dbf2434944cc8e6bffce46855f594",
+   "ts": 1790989546.565769
   }
  ],
  "posted": [
-  {
-   "en": [
-    "bitcoin",
-    "correction",
-    "cryptoquant",
-    "high",
-    "hits",
-    "month",
-    "near",
-    "profit",
-    "traders",
-    "unrealized"
-   ],
-   "ru": [
-    "21",
-    "cryptoquant",
-    "битко",
-    "близк",
-    "быть",
-    "говор",
-    "дости",
-    "корре",
-    "макси",
-    "месяч",
-    "нереа",
-    "поско",
-    "прибы",
-    "трейд"
-   ],
-   "nums": [],
-   "names": [
-    "cryptoquant"
-   ],
-   "title": "CryptoQuant говорит, что коррекция биткоинов может быть близка, поскольку нереализованная прибыль трейдеров достигла 21-месячного максимума",
-   "score": 3,
-   "breaking": false,
-   "ts": 1790722768.764413
-  },
-  {
-   "en": [
-    "cftc",
-    "come",
-    "commissioners",
-    "crypto",
-    "following",
-    "key",
-    "regulation",
-    "resignation",
-    "sec"
-   ],
-   "ru": [
-    "cftc",
-    "sec",
-    "ключа",
-    "комис",
-    "крипт",
-    "отста",
-    "регул",
-    "сокра",
-    "трех",
-    "члено"
-   ],
-   "nums": [],
-   "names": [
-    "cftc"
-   ],
-   "title": "Регулирование криптовалюты в SEC и CFTC сократится до трех членов комиссии после отставки ключа",
-   "score": 3,
-   "breaking": false,
-   "ts": 1790722770.7144728
-  },
-  {
-   "en": [
-    "dinari",
-    "explore",
-    "kakaopay",
-    "korean",
-    "ondo",
-    "partners",
-    "stocks",
-    "tokenized"
-   ],
-   "ru": [
-    "dinari",
-    "kakaopay",
-    "ondo",
-    "акций",
-    "изуче",
-    "корей",
-    "сотру",
-    "токен"
-   ],
-   "nums": [],
-   "names": [
-    "dinari",
-    "kakaopay",
-    "ondo"
-   ],
-   "title": "Kakaopay сотрудничает с Dinari и Ondo для изучения токенизированных корейских акций",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790722772.6801088
-  },
-  {
-   "en": [
-    "august",
-    "bitwise",
-    "etf",
-    "first",
-    "launches",
-    "near",
-    "nearly",
-    "since",
-    "spot",
-    "token",
-    "triples"
-   ],
-   "ru": [
-    "bitwise",
-    "etf",
-    "авгус",
-    "втрое",
-    "вырос",
-    "запус",
-    "место",
-    "перво",
-    "почти",
-    "рядом",
-    "сша",
-    "того",
-    "токен"
-   ],
-   "nums": [],
-   "names": [
-    "bitwise"
-   ],
-   "title": "Bitwise запускает первое место в США рядом с ETF после того, как токены выросли почти втрое с августа",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790722774.6484876
-  },
-  {
-   "en": [
-    "000",
-    "bitcoin",
-    "blamed",
-    "data",
-    "drops",
-    "fear",
-    "inflation"
-   ],
-   "ru": [
-    "000",
-    "82",
-    "битко",
-    "виной",
-    "данны",
-    "инфля",
-    "страх",
-    "сша",
-    "тому",
-    "упал"
-   ],
-   "nums": [
-    "000"
-   ],
-   "names": [],
-   "title": "Биткоин упал до $82 000 на данных США, виной тому страх инфляции",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790722776.5959167
-  },
-  {
-   "en": [
-    "76b",
-    "blocked",
-    "but",
-    "day",
-    "fed",
-    "guarantees",
-    "payouts",
-    "remains",
-    "stablecoin"
-   ],
-   "ru": [
-    "76",
-    "выпла",
-    "гаран",
-    "двухд",
-    "долла",
-    "забло",
-    "милли",
-    "остаю",
-    "стейб",
-    "фрс"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "ФРС гарантирует двухдневные выплаты стейблкоинов, но 76 миллиардов долларов остаются заблокированными",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790722778.552355
-  },
   {
    "en": [
     "crypto",
@@ -4284,13 +4053,31 @@
    "score": 2,
    "breaking": false,
    "ts": 1790978788.3288422
+  },
+  {
+   "en": [],
+   "ru": [
+    "ввест",
+    "илона",
+    "маска",
+    "менде",
+    "проти",
+    "санкц",
+    "серге"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Сергей Менделеев: «Это как ввести санкции против Илона Маска»",
+   "score": 2,
+   "breaking": false,
+   "ts": 1790989547.0814676
   }
  ],
  "last_evening_date": "2026-10-02",
  "milestone_last": {
-  "btc": 84492,
-  "eth": 2664.36,
-  "ton": 1.49
+  "btc": 84616,
+  "eth": 2674.64,
+  "ton": 1.5
  },
  "milestone_alerted": {
   "eth:2700": 1790964227.8889205
