@@ -2,19 +2,11 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 84616,
-  "eth": 2674.64,
-  "ts": 1790989527.3825843
+  "btc": 84640,
+  "eth": 2676.39,
+  "ts": 1791008565.0951357
  },
  "whale_seen": [
-  {
-   "hash": "0x37c84826668176f914aa3d39d87f16ef3673bd9cfcdafcdb6d362c1e5d8aa94f",
-   "ts": 1790978757.5095985
-  },
-  {
-   "hash": "0xe0543b712307115dd8616ece4cfd8eed2549675a58dedfe6cf6d68e89797aad6:0x182",
-   "ts": 1790978759.7707028
-  },
   {
    "hash": "0x9530e03deb70aa65bc0eb3a8e30cd1cbffa57997e967dc5a61adec6857f2ac39:0x138",
    "ts": 1790989540.4055662
@@ -22,20 +14,20 @@
   {
    "hash": "0x9530e03deb70aa65bc0eb3a8e30cd1cbffa57997e967dc5a61adec6857f2ac39:0x149",
    "ts": 1790989540.4055877
+  },
+  {
+   "hash": "063c20edc6b672b40a63f24ab972c3894ec9fcbeae29a84e947f56d4adc0ca52",
+   "ts": 1791008565.6263492
   }
  ],
  "volume_baseline": {
-  "btc": 45047603714,
-  "eth": 19033122921,
-  "ts": 1790989527.3826647
+  "btc": 37991180004,
+  "eth": 16031750477,
+  "ts": 1791008565.0953517
  },
- "last_eth_block": 26108407,
+ "last_eth_block": 26109988,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "0612ca631763d50715b5a72df145ab00ad36b5e78c63ae9bde8b2c1ba331828d",
-   "ts": 1790733393.6047454
-  },
   {
    "hash": "e17f6eeb3cf6fddb00391b1993ac70519cf841b65d3f69cbde715dcddee722b4",
    "ts": 1790756217.0015316
@@ -1363,6 +1355,14 @@
   {
    "hash": "9d2a0da489ee912371eb03aceea399b3c73dbf2434944cc8e6bffce46855f594",
    "ts": 1790989546.565769
+  },
+  {
+   "hash": "60a301a6a41f0e9ef93a6f3d142ed188345dc5658c684b5db044f7575362dcfa",
+   "ts": 1791008574.3221543
+  },
+  {
+   "hash": "42bbbcd2d887f534c9cdce0fedf8851834ebd42367919a66530bdd57a0539939",
+   "ts": 1791008574.3221543
   }
  ],
  "posted": [
@@ -4071,17 +4071,52 @@
    "score": 2,
    "breaking": false,
    "ts": 1790989547.0814676
+  },
+  {
+   "en": [
+    "advisers",
+    "big",
+    "but",
+    "crypto",
+    "firms",
+    "rules",
+    "sec",
+    "small",
+    "threaten",
+    "win"
+   ],
+   "ru": [
+    "sec",
+    "выигр",
+    "консу",
+    "крипт",
+    "крупн",
+    "мелки",
+    "новые",
+    "прави",
+    "угрож",
+    "фирмы"
+   ],
+   "nums": [
+    "433",
+    "833"
+   ],
+   "names": [],
+   "title": "Новые правила SEC по криптовалюте угрожают мелким консультантам, но выигрывают крупные фирмы",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791008576.474207
   }
  ],
  "last_evening_date": "2026-10-02",
  "milestone_last": {
-  "btc": 84616,
-  "eth": 2674.64,
-  "ton": 1.5
+  "btc": 84640,
+  "eth": 2676.39,
+  "ton": 1.49
  },
  "milestone_alerted": {
   "eth:2700": 1790964227.8889205
  },
  "last_weekly_week": "2026-W40",
- "last_morning_date": "2026-10-02"
+ "last_morning_date": "2026-10-03"
 }
