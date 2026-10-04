@@ -2,63 +2,24 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 84748,
-  "eth": 2686.18,
-  "ts": 1791065349.6665492
+  "btc": 84808,
+  "eth": 2691.62,
+  "ts": 1791074455.851211
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "a161a658053f52549eabc16391bd1ed5fc3716c6967712bf48aa30844f690616",
+   "ts": 1791074456.162379
+  }
+ ],
  "volume_baseline": {
-  "btc": 14659716439,
-  "eth": 5375197409,
-  "ts": 1791065349.666615
+  "btc": 14665737177,
+  "eth": 5107739213,
+  "ts": 1791074455.851439
  },
- "last_eth_block": 26114706,
+ "last_eth_block": 26115464,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "6299298fbc6a0f73d688378e2ed8ead5bc117d74b273ac0a32ee3fda9afbc44a",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "57715e9812125359398895baa60e9050b23c325573680a494e6893393e02d880",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "fc63da683f24c5290f2b0834cb5d2643ecbe81ce8aee1fd254349042a1e64d5e",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "ac81bf56675890b0015e8a883534a61e3469fa804f7a225c58fbef249157cb11",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "a0be0dbb97346d006e62d090e0f78544b98b51d02018ae2b906c55dcefcaece2",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "ddb313f870838169dc10ba743c7cc6931cd0f6befb6538a5311a93ade12fdebc",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "22478f2c66d4c30d84dc7a375f115f4db0edd77721ee6aeae0b6b500a41cf3ef",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "18a0e18a767b30e3333b1e52ea05cbde59391cbebf34398ff82f78ef53c50a13",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "0df667f584951ab070591d315b42d16cfb8fc3aac0460b2bce55444b4266ab97",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "4489cb7774036c40609f6e6da62438ddcc9cbc6469ed44370126cc216084c1e4",
-   "ts": 1790811498.289498
-  },
-  {
-   "hash": "5570fd0f2f2d4c37cd5f53ba1bd9ea55a080ca7f366cf1eca22da76a410220ac",
-   "ts": 1790811498.289498
-  },
   {
    "hash": "403cedf016fb7293a6358342ba959d422c44b706103e76c74ebece0c841b1837",
    "ts": 1790821725.75875
@@ -1065,182 +1026,6 @@
   }
  ],
  "posted": [
-  {
-   "en": [
-    "2028",
-    "40b",
-    "bitcoin",
-    "chartered",
-    "crush",
-    "ena",
-    "ethena",
-    "ethereum",
-    "hitting",
-    "reaching",
-    "returns",
-    "sees",
-    "standard",
-    "usde"
-   ],
-   "ru": [
-    "2",
-    "40",
-    "chartered",
-    "ena",
-    "ethena",
-    "standard",
-    "usde",
-    "дости",
-    "млрд",
-    "прогн"
-   ],
-   "nums": [],
-   "names": [
-    "chartered",
-    "ena",
-    "ethena",
-    "standard",
-    "usde"
-   ],
-   "title": "Standard Chartered прогнозирует, что USDE Ethena достигнет $40 млрд, ENA — $2",
-   "score": 5,
-   "breaking": false,
-   "ts": 1790811500.4286566
-  },
-  {
-   "en": [
-    "act",
-    "backed",
-    "clarity",
-    "coinbase",
-    "collapse",
-    "crypto",
-    "endorsements",
-    "group",
-    "midterm",
-    "reveals"
-   ],
-   "ru": [
-    "coinbase",
-    "закон",
-    "краха",
-    "крипт",
-    "одобр",
-    "подде",
-    "проме",
-    "раскр",
-    "яснос"
-   ],
-   "nums": [],
-   "names": [
-    "coinbase"
-   ],
-   "title": "Криптогруппа, поддерживаемая Coinbase, раскрывает промежуточные одобрения после краха Закона о ясности",
-   "score": 4,
-   "breaking": true,
-   "ts": 1790811502.259593
-  },
-  {
-   "en": [],
-   "ru": [
-    "аптоб",
-    "битко",
-    "вверх",
-    "год",
-    "ждет",
-    "нас",
-    "новый",
-    "пика",
-    "спуст",
-    "цены"
-   ],
-   "nums": [
-    "000",
-    "126"
-   ],
-   "names": [],
-   "title": "Новый аптобер и вверхтябрь? Что нас ждет спустя год после пика цены биткоина",
-   "score": 3,
-   "breaking": false,
-   "ts": 1790811504.09743
-  },
-  {
-   "en": [
-    "act",
-    "bitwise",
-    "cio",
-    "clarity",
-    "crypto",
-    "failure",
-    "faster",
-    "gave",
-    "regulatory",
-    "wins"
-   ],
-   "ru": [
-    "bitwise",
-    "более",
-    "быстр",
-    "говор",
-    "дирек",
-    "закон",
-    "инфор",
-    "крипт",
-    "обесп",
-    "побед",
-    "прова",
-    "регул",
-    "сфере",
-    "техно",
-    "яснос"
-   ],
-   "nums": [],
-   "names": [
-    "bitwise"
-   ],
-   "title": "Провал Закона о ясности обеспечил криптовалюте «более быстрые» победы в сфере регулирования, говорит директор по информационным технологиям Bitwise",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790811505.9324157
-  },
-  {
-   "en": [
-    "against",
-    "case",
-    "cftc",
-    "defendants",
-    "fraud",
-    "fundsz",
-    "judgment",
-    "million",
-    "secures"
-   ],
-   "ru": [
-    "30",
-    "cftc",
-    "fundsz",
-    "более",
-    "делу",
-    "добил",
-    "долла",
-    "милли",
-    "мошен",
-    "обвин",
-    "проти",
-    "решен",
-    "судеб",
-    "сумму"
-   ],
-   "nums": [],
-   "names": [
-    "cftc",
-    "fundsz"
-   ],
-   "title": "CFTC добилась судебного решения против обвиняемых по делу о мошенничестве Fundsz на сумму более 30 миллионов долларов",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790811507.7703524
-  },
   {
    "en": [
     "ethereum",
@@ -3458,9 +3243,9 @@
  ],
  "last_evening_date": "2026-10-03",
  "milestone_last": {
-  "btc": 84748,
-  "eth": 2686.18,
-  "ton": 1.51
+  "btc": 84808,
+  "eth": 2691.62,
+  "ton": 1.52
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W40",
