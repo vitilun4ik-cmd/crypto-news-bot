@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 84808,
-  "eth": 2691.62,
-  "ts": 1791074455.851211
+  "btc": 84980,
+  "eth": 2695.52,
+  "ts": 1791095197.168994
  },
  "whale_seen": [
   {
@@ -13,21 +13,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 14665737177,
-  "eth": 5107739213,
-  "ts": 1791074455.851439
+  "btc": 14723348766,
+  "eth": 4674240686,
+  "ts": 1791095197.1692376
  },
- "last_eth_block": 26115464,
+ "last_eth_block": 26117188,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "403cedf016fb7293a6358342ba959d422c44b706103e76c74ebece0c841b1837",
-   "ts": 1790821725.75875
-  },
-  {
-   "hash": "45f14da29c402208b65e897e7a27274608229f07b06b2b240b5606ba7dede3dd",
-   "ts": 1790821725.75875
-  },
   {
    "hash": "af42dc72d15e3bc2c92ce31a8e5aceea9e9cb5ee820d280f9c12198d18d4a924",
    "ts": 1790846397.575904
@@ -1023,70 +1015,13 @@
   {
    "hash": "ca943c0446250c4adbf15040bba773c47bf6bc5912d1aae10e27fc2de37947ae",
    "ts": 1791065368.213002
+  },
+  {
+   "hash": "0171d5c457e5b2fc2812d7e2dddbaa165ca80a73c8740f4bb28bc78396ef9bb3",
+   "ts": 1791095216.4429843
   }
  ],
  "posted": [
-  {
-   "en": [
-    "ethereum",
-    "exits",
-    "incident",
-    "metamask",
-    "security",
-    "undisclosed",
-    "validators"
-   ],
-   "ru": [
-    "ethereum",
-    "metamask",
-    "безоп",
-    "валид",
-    "инцид",
-    "нерас",
-    "покид"
-   ],
-   "nums": [],
-   "names": [
-    "metamask"
-   ],
-   "title": "MetaMask покидает валидаторов Ethereum из-за нераскрытого инцидента безопасности",
-   "score": 3,
-   "breaking": false,
-   "ts": 1790821727.523751
-  },
-  {
-   "en": [
-    "bitcoin",
-    "catches",
-    "exact",
-    "fix",
-    "hidden",
-    "hiding",
-    "key",
-    "leaks",
-    "upgrade"
-   ],
-   "ru": [
-    "битко",
-    "испра",
-    "ключе",
-    "новое",
-    "обнар",
-    "обнов",
-    "скрыв",
-    "скрыт",
-    "точно",
-    "утечк"
-   ],
-   "nums": [
-    "461"
-   ],
-   "names": [],
-   "title": "Новое обновление Биткоина обнаруживает скрытые утечки ключей, скрывающие точное исправление",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790821729.81371
-  },
   {
    "en": [],
    "ru": [
@@ -3239,15 +3174,41 @@
    "score": 2,
    "breaking": false,
    "ts": 1791043480.7928116
+  },
+  {
+   "en": [],
+   "ru": [
+    "82",
+    "9",
+    "etf",
+    "zec",
+    "битко",
+    "зафик",
+    "млн",
+    "недел",
+    "отток",
+    "первы",
+    "привл"
+   ],
+   "nums": [
+    "117"
+   ],
+   "names": [
+    "zec"
+   ],
+   "title": "Биткоин-ETF привлекли $82,9 млн за неделю, ZEC-ETF зафиксировали первый отток",
+   "score": 3,
+   "breaking": false,
+   "ts": 1791095216.9546611
   }
  ],
  "last_evening_date": "2026-10-03",
  "milestone_last": {
-  "btc": 84808,
-  "eth": 2691.62,
-  "ton": 1.52
+  "btc": 84980,
+  "eth": 2695.52,
+  "ton": 1.54
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W40",
- "last_morning_date": "2026-10-03"
+ "last_morning_date": "2026-10-04"
 }
