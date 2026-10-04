@@ -2,17 +2,22 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 85369,
-  "eth": 2702.76,
-  "ts": 1791133419.668252
+  "btc": 85403,
+  "eth": 2700.75,
+  "ts": 1791144173.5987477
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "908a43476b94e282833d6d1259eefb650d073607f08c0daa7db4dad257b777b6",
+   "ts": 1791144174.0911803
+  }
+ ],
  "volume_baseline": {
-  "btc": 14755758640,
-  "eth": 4812507926,
-  "ts": 1791133419.9949522
+  "btc": 14491701541,
+  "eth": 4655608556,
+  "ts": 1791144173.598817
  },
- "last_eth_block": 26120363,
+ "last_eth_block": 26121256,
  "risk_off_active": false,
  "seen": [
   {
@@ -750,6 +755,26 @@
   {
    "hash": "56552f5f403d1825e3f29a241ec40cbd8836172ff27dd0cdb5acaadb241ff225",
    "ts": 1791133430.7152944
+  },
+  {
+   "hash": "bbf075faedfbd2aef32c2d6735ef90cb34be1740789d004521ef35063e3d187a",
+   "ts": 1791144194.559388
+  },
+  {
+   "hash": "8ee3ffc5a42e04e1133dfca2bcc856db163f2650e3302fce0ce00011d5e75e55",
+   "ts": 1791144194.559388
+  },
+  {
+   "hash": "2a4e1df3efab21ae786a59827c20f8bcb2a7ed04fc7cb7922db11242605b7cd4",
+   "ts": 1791144194.559388
+  },
+  {
+   "hash": "6574b498e02ec0e63210ebf48400f5e488784bdeac391e95b4d6e9cc8b485064",
+   "ts": 1791144194.559388
+  },
+  {
+   "hash": "e9fdf80cee13e017b74ff07ad0aa60c9906bac221d95e9bcbcb205b6cc59b27b",
+   "ts": 1791144194.559388
   }
  ],
  "posted": [
@@ -2895,12 +2920,73 @@
    "score": 2,
    "breaking": false,
    "ts": 1791133445.8481307
+  },
+  {
+   "en": [
+    "crypto",
+    "election",
+    "month",
+    "next",
+    "state",
+    "there"
+   ],
+   "ru": [
+    "выбор",
+    "крипт",
+    "месяц",
+    "пройд",
+    "следу",
+    "состо"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "В следующем месяце пройдут выборы: состояние криптовалюты",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791144196.5358257
+  },
+  {
+   "en": [
+    "bitcoin",
+    "closes",
+    "core",
+    "fix",
+    "funds",
+    "gap",
+    "keys",
+    "redirect",
+    "stealing",
+    "without"
+   ],
+   "ru": [
+    "bitcoin",
+    "core",
+    "без",
+    "закры",
+    "испра",
+    "ключе",
+    "котор",
+    "кражи",
+    "мог",
+    "новое",
+    "перен",
+    "пробе",
+    "средс"
+   ],
+   "nums": [],
+   "names": [
+    "core"
+   ],
+   "title": "Новое исправление Bitcoin Core закрывает пробел, который мог бы перенаправить средства без кражи ключей",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791144198.5024004
   }
  ],
- "last_evening_date": "2026-10-03",
+ "last_evening_date": "2026-10-04",
  "milestone_last": {
-  "btc": 85369,
-  "eth": 2702.76,
+  "btc": 85403,
+  "eth": 2700.75,
   "ton": 1.53
  },
  "milestone_alerted": {
