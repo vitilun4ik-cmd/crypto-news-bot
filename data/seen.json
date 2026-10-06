@@ -2,27 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 85937,
-  "eth": 2715.97,
-  "ts": 1791240727.0856876
+  "btc": 85617,
+  "eth": 2705.44,
+  "ts": 1791253954.4555228
  },
  "whale_seen": [],
  "volume_baseline": {
-  "btc": 32227524843,
-  "eth": 12688574722,
-  "ts": 1791240727.0857823
+  "btc": 30034799661,
+  "eth": 11965223915,
+  "ts": 1791253954.455796
  },
- "last_eth_block": 26129276,
+ "last_eth_block": 26130368,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "011670eddac1ebd9d6efe923bfeb4f48496d0a1176a5a84a873c6fe51a6d1e16",
-   "ts": 1790989546.565769
-  },
-  {
-   "hash": "9d2a0da489ee912371eb03aceea399b3c73dbf2434944cc8e6bffce46855f594",
-   "ts": 1790989546.565769
-  },
   {
    "hash": "60a301a6a41f0e9ef93a6f3d142ed188345dc5658c684b5db044f7575362dcfa",
    "ts": 1791008574.3221543
@@ -750,27 +742,21 @@
   {
    "hash": "179a8c23e1471cba4c009b0ff53d9c5d9ebc6f86b30b3489439a360ef1d8a570",
    "ts": 1791240740.4260073
+  },
+  {
+   "hash": "9f827be1820102c9a876773a4f2ddab55c9baabe10f5c0e98f148ae7535bb09c",
+   "ts": 1791253964.2704723
+  },
+  {
+   "hash": "13f169b0991b14b4aca03551cd4b0968b83f0badb5cbd885f78f9ca4cfa30efc",
+   "ts": 1791253964.2704723
+  },
+  {
+   "hash": "d45949ca0e980b18e5bb471f2516006de3bc2674f2735eb99f65b2f89ac42a73",
+   "ts": 1791253964.2704723
   }
  ],
  "posted": [
-  {
-   "en": [],
-   "ru": [
-    "ввест",
-    "илона",
-    "маска",
-    "менде",
-    "проти",
-    "санкц",
-    "серге"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Сергей Менделеев: «Это как ввести санкции против Илона Маска»",
-   "score": 2,
-   "breaking": false,
-   "ts": 1790989547.0814676
-  },
   {
    "en": [
     "advisers",
@@ -2426,13 +2412,43 @@
    "score": 2,
    "breaking": false,
    "ts": 1791240757.5584323
+  },
+  {
+   "en": [
+    "chinese",
+    "crime",
+    "laundered",
+    "lazarus",
+    "network",
+    "zachxbt"
+   ],
+   "ru": [
+    "lazarus",
+    "zachxbt",
+    "более",
+    "долла",
+    "китай",
+    "милли",
+    "отмыл",
+    "прест",
+    "сеть"
+   ],
+   "nums": [],
+   "names": [
+    "lazarus",
+    "zachxbt"
+   ],
+   "title": "Китайская преступная сеть отмыла более миллиарда долларов для Lazarus: ZachXBT",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791253966.2185667
   }
  ],
  "last_evening_date": "2026-10-05",
  "milestone_last": {
-  "btc": 85937,
-  "eth": 2715.97,
-  "ton": 1.53
+  "btc": 85617,
+  "eth": 2705.44,
+  "ton": 1.52
  },
  "milestone_alerted": {
   "eth:2700": 1791217481.1023364
