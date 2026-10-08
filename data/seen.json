@@ -2,36 +2,24 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 83338,
-  "eth": 2575.31,
-  "ts": 1791416582.1528199
+  "btc": 83126,
+  "eth": 2579.42,
+  "ts": 1791428368.4231026
  },
  "whale_seen": [
   {
-   "hash": "0xa06e185eec08c70231740932e2ff6379ac5dd11b4ae0ce33e867123ec9e517ce:0x21f",
-   "ts": 1791401380.9401739
-  },
-  {
-   "hash": "0x595e22727b1de54665f18755463301ed7417a7626f20ede4ae2a5ea8317afbf5:0xa7",
-   "ts": 1791401380.9403362
+   "hash": "0x1b382097c6e73cd8c3575b6ad3b0f7f9713affde4ad511cf545658faf4c9952d:0x257",
+   "ts": 1791428387.9008112
   }
  ],
  "volume_baseline": {
-  "btc": 39525708292,
-  "eth": 19319173696,
-  "ts": 1791416582.1529052
+  "btc": 35890570825,
+  "eth": 16451015544,
+  "ts": 1791428368.42318
  },
- "last_eth_block": 26143870,
+ "last_eth_block": 26144847,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "267678e37b81b87f8115889d148870bd0c2e2ac5ef529702837945f1b5c3eb45",
-   "ts": 1791164831.8865235
-  },
-  {
-   "hash": "a5f11dff52b71b032995ecf549a028e756ff0ae585ddd1a0ce25cf50abeca054",
-   "ts": 1791164831.8865235
-  },
   {
    "hash": "ae2df9b424f90c3ce29ad538e7fe66ffd2d7f231f297cdd1b4667eca9d8bad8e",
    "ts": 1791186183.0286622
@@ -1519,68 +1507,25 @@
   {
    "hash": "caeedbe71a4561911aecc728db89c8e260ce1cdcb950a5fc13c322569e88d716",
    "ts": 1791416590.8872612
+  },
+  {
+   "hash": "c0149e9abc5c7ea0d947ae9d96ff13f553954fe821ded3d3e5c4f70cf77cfe47",
+   "ts": 1791428395.8017426
+  },
+  {
+   "hash": "8539da031aaf03a4be3a4f1c9b090884798164630d49291979de2e3d99aa9c88",
+   "ts": 1791428395.8017426
+  },
+  {
+   "hash": "88427e6d3c292a649d4c259acf427d43b93c7fb7ef0c5659f14900386db6b604",
+   "ts": 1791428395.8017426
+  },
+  {
+   "hash": "16bcb749a148fb4cd3f77191d6b09fd41a583294a780e5803da91627fdef26a2",
+   "ts": 1791428395.8017426
   }
  ],
  "posted": [
-  {
-   "en": [
-    "crypto",
-    "gets",
-    "lobbyist",
-    "policy",
-    "push",
-    "washington",
-    "zcash"
-   ],
-   "ru": [
-    "zcash",
-    "вашин",
-    "заста",
-    "крипт",
-    "лобби",
-    "продв"
-   ],
-   "nums": [],
-   "names": [
-    "zcash"
-   ],
-   "title": "Zcash заставляет вашингтонского лоббиста продвигать криптополитику",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791164834.163986
-  },
-  {
-   "en": [
-    "666",
-    "bitcoin",
-    "imf",
-    "million",
-    "reserve",
-    "review",
-    "salvador",
-    "survives"
-   ],
-   "ru": [
-    "666",
-    "битко",
-    "выдер",
-    "долла",
-    "мвф",
-    "милли",
-    "прове",
-    "разме",
-    "резер",
-    "сальв"
-   ],
-   "nums": [
-    "666"
-   ],
-   "names": [],
-   "title": "Биткоин-резерв Сальвадора в размере 666 миллионов долларов выдержал проверку МВФ",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791164836.1251583
-  },
   {
    "en": [],
    "ru": [
@@ -3850,13 +3795,149 @@
    "score": 2,
    "breaking": false,
    "ts": 1791416601.4813952
+  },
+  {
+   "en": [
+    "buyer",
+    "cointelegraph",
+    "crypto",
+    "news",
+    "plunges",
+    "seeks",
+    "site",
+    "traffic",
+    "web"
+   ],
+   "ru": [
+    "cointelegraph",
+    "веб",
+    "ищет",
+    "крипт",
+    "новос",
+    "паден",
+    "покуп",
+    "сайт",
+    "трафи"
+   ],
+   "nums": [],
+   "names": [
+    "cointelegraph"
+   ],
+   "title": "Криптовалютный новостной сайт Cointelegraph ищет покупателя после падения веб-трафика",
+   "score": 5,
+   "breaking": true,
+   "ts": 1791428397.9655313
+  },
+  {
+   "en": [
+    "galaxy",
+    "launch",
+    "samsung",
+    "solana",
+    "transfers",
+    "usdc",
+    "users"
+   ],
+   "ru": [
+    "galaxy",
+    "samsung",
+    "solana",
+    "usdc",
+    "запус",
+    "перев",
+    "польз",
+    "сша"
+   ],
+   "nums": [],
+   "names": [
+    "galaxy",
+    "samsung",
+    "solana"
+   ],
+   "title": "Samsung запустит переводы USDC на Solana для пользователей Galaxy из США",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791428399.9330597
+  },
+  {
+   "en": [
+    "advances",
+    "backs",
+    "bunker",
+    "buterin",
+    "crypto",
+    "math",
+    "mode",
+    "rapid",
+    "vitalik"
+   ],
+   "ru": [
+    "бунке",
+    "бутер",
+    "быстр",
+    "витал",
+    "крипт",
+    "матем",
+    "подде",
+    "разви",
+    "режим",
+    "фоне"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Виталик Бутерин поддерживает криптовалютный «бункерный режим» на фоне быстрого развития ИИ в математике",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791428401.885073
+  },
+  {
+   "en": [
+    "470",
+    "bitcoin",
+    "coinbase",
+    "crypto",
+    "government",
+    "million",
+    "moves",
+    "questions",
+    "raising",
+    "sale",
+    "seized",
+    "wallets"
+   ],
+   "ru": [
+    "470",
+    "coinbase",
+    "битко",
+    "вопро",
+    "долла",
+    "конфи",
+    "кошел",
+    "крипт",
+    "милли",
+    "перев",
+    "подни",
+    "прави",
+    "прода",
+    "сша"
+   ],
+   "nums": [
+    "470"
+   ],
+   "names": [
+    "coinbase"
+   ],
+   "title": "Правительство США переводит 470 миллионов долларов конфискованной криптовалюты в кошельки Coinbase, что поднимает вопросы о продаже биткоинов",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791428403.8365233
   }
  ],
  "last_evening_date": "2026-10-07",
  "milestone_last": {
-  "btc": 83338,
-  "eth": 2575.31,
-  "ton": 1.44
+  "btc": 83126,
+  "eth": 2579.42,
+  "ton": 1.43
  },
  "milestone_alerted": {
   "eth:2600": 1791380203.4555838
