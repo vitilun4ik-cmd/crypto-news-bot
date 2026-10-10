@@ -2,56 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82999,
-  "eth": 2506.02,
-  "ts": 1791664964.3069448
+  "btc": 82933,
+  "eth": 2505.27,
+  "ts": 1791676385.0309396
  },
- "whale_seen": [
-  {
-   "hash": "0x064c65deeef2fd2106f14b2987852664880474e1f4f66c9e8abe29ffc79f3195:0x644",
-   "ts": 1791654268.861085
-  },
-  {
-   "hash": "0x064c65deeef2fd2106f14b2987852664880474e1f4f66c9e8abe29ffc79f3195:0x674",
-   "ts": 1791654268.861106
-  }
- ],
+ "whale_seen": [],
  "volume_baseline": {
-  "btc": 15406617232,
-  "eth": 5453551513,
-  "ts": 1791664964.3071554
+  "btc": 14883779256,
+  "eth": 5785053366,
+  "ts": 1791676385.0312004
  },
- "last_eth_block": 26164496,
+ "last_eth_block": 26165446,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "f40ca0f7d59e3bbd5e8a872d54398acec897625b34f36769e224d48ca1352ee3",
-   "ts": 1791416590.8872612
-  },
-  {
-   "hash": "552b604254f9017df22fe01f54fb3662e3cb596d8fe45f997fec00aaa2b3d85b",
-   "ts": 1791416590.8872612
-  },
-  {
-   "hash": "988f6300adfac876c2f2751d6f8e5b7307e026db3c81283eaed362c987087e35",
-   "ts": 1791416590.8872612
-  },
-  {
-   "hash": "802c0bb25db1d0ab86906a80cf1741f5039255dbf48f9e34a7c610467f87476b",
-   "ts": 1791416590.8872612
-  },
-  {
-   "hash": "353801ff20a3d8136fd44191de51f86c0818d2d157b40f0ff2a3315d08024cbf",
-   "ts": 1791416590.8872612
-  },
-  {
-   "hash": "9e35e6ebc508392b8b36366696e6680a17aaa4b350e8bd29449078d517641521",
-   "ts": 1791416590.8872612
-  },
-  {
-   "hash": "caeedbe71a4561911aecc728db89c8e260ce1cdcb950a5fc13c322569e88d716",
-   "ts": 1791416590.8872612
-  },
   {
    "hash": "c0149e9abc5c7ea0d947ae9d96ff13f553954fe821ded3d3e5c4f70cf77cfe47",
    "ts": 1791428395.8017426
@@ -1251,181 +1214,17 @@
   {
    "hash": "c6900728ca93fa74963f11e93d0d0706f4e47b526460517ab2ed6fb72ae320e9",
    "ts": 1791664981.0154338
+  },
+  {
+   "hash": "ca14b8b107ddd1febf15e703f82dfddf5d837307f673e7129621e76c74d1df2d",
+   "ts": 1791676399.4750135
+  },
+  {
+   "hash": "e5a3e88c7b8b989a7f7ce4987a56ef3ab32aca1e13a9b2f59693288ff3923785",
+   "ts": 1791676399.4750135
   }
  ],
  "posted": [
-  {
-   "en": [
-    "defense",
-    "finance",
-    "loopscale",
-    "merges",
-    "orca",
-    "push",
-    "robotics",
-    "solana"
-   ],
-   "ru": [
-    "loopscale",
-    "orca",
-    "solana",
-    "интел",
-    "искус",
-    "компа",
-    "оборо",
-    "объед",
-    "робот",
-    "финан",
-    "целях"
-   ],
-   "nums": [],
-   "names": [
-    "loopscale",
-    "orca",
-    "solana"
-   ],
-   "title": "Orca компании Solana объединяется с Loopscale в целях финансирования искусственного интеллекта, робототехники и обороны",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791416594.1707888
-  },
-  {
-   "en": [
-    "brings",
-    "circle",
-    "customers",
-    "eurc",
-    "payments",
-    "sap",
-    "tereina",
-    "through",
-    "usdc"
-   ],
-   "ru": [
-    "circle",
-    "sap",
-    "tereina",
-    "долла",
-    "евро",
-    "клиен",
-    "плате",
-    "предо",
-    "сша"
-   ],
-   "nums": [],
-   "names": [
-    "circle",
-    "sap",
-    "tereina"
-   ],
-   "title": "Circle предоставляет клиентам SAP платежи в долларах США и евро через Tereina",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791416596.0052278
-  },
-  {
-   "en": [
-    "before",
-    "break",
-    "does",
-    "encryption",
-    "ethereum",
-    "may",
-    "quantum",
-    "researcher"
-   ],
-   "ru": [
-    "ethereum",
-    "quantum",
-    "взлом",
-    "говор",
-    "иссле",
-    "раньш",
-    "сдела",
-    "чем",
-    "шифро"
-   ],
-   "nums": [],
-   "names": [
-    "quantum"
-   ],
-   "title": "Исследователь Ethereum говорит, что ИИ может взломать шифрование раньше, чем это сделает Quantum",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791416597.835123
-  },
-  {
-   "en": [
-    "cftc",
-    "clarity",
-    "crypto",
-    "fall",
-    "french",
-    "hill",
-    "rep",
-    "rules",
-    "sec",
-    "short"
-   ],
-   "ru": [
-    "cftc",
-    "sec",
-    "говор",
-    "крипт",
-    "недос",
-    "палат",
-    "прави",
-    "предс",
-    "френч",
-    "хилл",
-    "член",
-    "яснос"
-   ],
-   "nums": [],
-   "names": [
-    "cftc"
-   ],
-   "title": "Крипто-правила SEC и CFTC «недостаточны» ясности, говорит член палаты представителей Френч Хилл",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791416599.6693273
-  },
-  {
-   "en": [
-    "alarm",
-    "bitcoin",
-    "breakthroughs",
-    "bunker",
-    "drake",
-    "justin",
-    "math",
-    "mode",
-    "openai",
-    "raise",
-    "researcher"
-   ],
-   "ru": [
-    "openai",
-    "битко",
-    "бунке",
-    "вызыв",
-    "джаст",
-    "дрейк",
-    "иссле",
-    "матем",
-    "проры",
-    "режим",
-    "трево"
-   ],
-   "nums": [],
-   "names": [
-    "openai"
-   ],
-   "title": "Математические прорывы OpenAI вызывают тревогу о «бункерном режиме» исследователя биткоинов Джастина Дрейка",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791416601.4813952
-  },
   {
    "en": [
     "buyer",
@@ -3574,12 +3373,50 @@
    "score": 2,
    "breaking": false,
    "ts": 1791654290.319
+  },
+  {
+   "en": [],
+   "ru": [
+    "80",
+    "ledger",
+    "битко",
+    "инвес",
+    "кошел",
+    "покуп",
+    "потер"
+   ],
+   "nums": [],
+   "names": [
+    "ledger"
+   ],
+   "title": "Инвестор потерял 80 биткоинов после покупки кошелька Ledger",
+   "score": 3,
+   "breaking": false,
+   "ts": 1791676399.8743312
+  },
+  {
+   "en": [],
+   "ru": [
+    "адапт",
+    "индик",
+    "кауфм",
+    "крипт",
+    "реакт",
+    "сколь",
+    "средн"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Реактивный индикатор: адаптивная скользящая средняя Кауфмана в криптотрейдинге",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791676401.7796597
   }
  ],
  "last_evening_date": "2026-10-10",
  "milestone_last": {
-  "btc": 82999,
-  "eth": 2506.02,
+  "btc": 82933,
+  "eth": 2505.27,
   "ton": 1.47
  },
  "milestone_alerted": {
