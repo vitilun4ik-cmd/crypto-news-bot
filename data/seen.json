@@ -2,48 +2,24 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82430,
-  "eth": 2480.54,
-  "ts": 1791579423.440049
+  "btc": 82506,
+  "eth": 2487.69,
+  "ts": 1791592797.523454
  },
  "whale_seen": [
-  {
-   "hash": "0x14dbc4829048cde01c6843f2131b8606ef5eae00b111e8c800fe341c9092d1da:0x219",
-   "ts": 1791562597.480673
-  },
   {
    "hash": "912fa4487fc43ac1c82591b520aea1a6bfb5e23dd78e640db89d0180f99dcffc",
    "ts": 1791579423.827413
   }
  ],
  "volume_baseline": {
-  "btc": 26432205270,
-  "eth": 10150555900,
-  "ts": 1791579423.4402723
+  "btc": 26254277338,
+  "eth": 9319845725,
+  "ts": 1791592797.5237877
  },
- "last_eth_block": 26157387,
+ "last_eth_block": 26158499,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "293d2afdd42c0a7b9cf46cf1924fb8f14e935ad46b140da180f850dd0006abde",
-   "ts": 1791333153.9282968
-  },
-  {
-   "hash": "aeda79f562f780da8b942cabd4cf8bc5e3424aefc032c6621733f2a374e3b7c2",
-   "ts": 1791333153.9282968
-  },
-  {
-   "hash": "8a75265b702a6f524212bb39ba6a24cb08f73826d9c90f109a0c0920c88d85ea",
-   "ts": 1791333153.9282968
-  },
-  {
-   "hash": "4d982e7cbb01ecf8a0ca99cdff6881aa45e977e3a3e262f42fc5746f1203ec7b",
-   "ts": 1791333153.9282968
-  },
-  {
-   "hash": "0710ddb78c0a17a4e808c85903aeac3a4a6bdc4a5a8b7e70cadc4fa772fc779e",
-   "ts": 1791333153.9282968
-  },
   {
    "hash": "5b0bb49c6ee55721357ed8bed0683a861c2d09f6f56feb83ab45763b68d0c012",
    "ts": 1791354092.9354947
@@ -1595,70 +1571,21 @@
   {
    "hash": "e1a59c56afb08fd8109bbbff4a57ccce317f9eb7d05b4e0dddfca0f3eddc09de",
    "ts": 1791579445.8523839
+  },
+  {
+   "hash": "2fc0a029daefc75200cfc2ba56c7c9ed290397bd28c1102a8e5c39975669461b",
+   "ts": 1791592807.0617583
+  },
+  {
+   "hash": "92624e10343853e33eeba0db40ab652cea613b881bcae9609382337fc3c8267f",
+   "ts": 1791592807.0617583
+  },
+  {
+   "hash": "bcfbce7a546ec0240dcd8cbdedc219c3a80daa322decfebc7879cba800c28c2c",
+   "ts": 1791592807.0617583
   }
  ],
  "posted": [
-  {
-   "en": [
-    "back",
-    "capital",
-    "crypto",
-    "pal",
-    "raoul",
-    "rotate",
-    "starting"
-   ],
-   "ru": [
-    "возвр",
-    "интел",
-    "искус",
-    "капит",
-    "крипт",
-    "начин",
-    "пал",
-    "рауль"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Капитал начинает возвращаться к криптовалюте от искусственного интеллекта: Рауль Пал",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791333156.2677124
-  },
-  {
-   "en": [
-    "billion",
-    "bitcoin",
-    "delivers",
-    "rally",
-    "strategy",
-    "tax",
-    "windfall"
-   ],
-   "ru": [
-    "1",
-    "4",
-    "strategy",
-    "битко",
-    "долла",
-    "компа",
-    "милли",
-    "налог",
-    "непре",
-    "посту",
-    "прине",
-    "разме",
-    "ралли"
-   ],
-   "nums": [],
-   "names": [
-    "strategy"
-   ],
-   "title": "Ралли биткоинов принесло компании Strategy непредвиденные налоговые поступления в размере 4,1 миллиарда долларов",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791333158.2400768
-  },
   {
    "en": [
     "100",
@@ -4016,13 +3943,89 @@
    "score": 2,
    "breaking": false,
    "ts": 1791579463.671779
+  },
+  {
+   "en": [
+    "freeze",
+    "freezes",
+    "hack",
+    "ledger",
+    "million",
+    "moves",
+    "nears",
+    "scare",
+    "stalls",
+    "stolen",
+    "tether",
+    "thorchain",
+    "tron",
+    "usdt",
+    "vaults"
+   ],
+   "ru": [
+    "90",
+    "ledger",
+    "tether",
+    "usdt",
+    "взлом",
+    "долла",
+    "замор",
+    "милли",
+    "опасе",
+    "повод",
+    "поско",
+    "прибл",
+    "пытае",
+    "украд"
+   ],
+   "nums": [],
+   "names": [
+    "ledger",
+    "tether",
+    "thorchain",
+    "tron"
+   ],
+   "title": "Опасения по поводу взлома Ledger приближаются к 90 миллионам долларов, поскольку Tether пытается заморозить украденные USDT",
+   "score": 5,
+   "breaking": true,
+   "ts": 1791592809.221733
+  },
+  {
+   "en": [
+    "2026",
+    "burns",
+    "coins",
+    "cover",
+    "eth",
+    "fee",
+    "just",
+    "printed"
+   ],
+   "ru": [
+    "2",
+    "2026",
+    "eth",
+    "комис",
+    "лишь",
+    "монет",
+    "напеч",
+    "новых",
+    "покры",
+    "сжига"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Сжигание комиссий ETH покрывает лишь 2% новых монет, напечатанных в 2026 году.",
+   "score": 2,
+   "breaking": false,
+   "ts": 1791592811.0519826
   }
  ],
  "last_evening_date": "2026-10-09",
  "milestone_last": {
-  "btc": 82430,
-  "eth": 2480.54,
-  "ton": 1.43
+  "btc": 82506,
+  "eth": 2487.69,
+  "ton": 1.46
  },
  "milestone_alerted": {
   "eth:2500": 1791536978.1706927
