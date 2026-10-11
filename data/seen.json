@@ -2,35 +2,36 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82933,
-  "eth": 2505.27,
-  "ts": 1791676385.0309396
+  "btc": 83005,
+  "eth": 2505.67,
+  "ts": 1791695997.601954
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "0xd4dc409058a1addb80922f02a37a2390275abbf6a9d479816931564187dc8851:0x2e0",
+   "ts": 1791696004.3425808
+  },
+  {
+   "hash": "0xd4dc409058a1addb80922f02a37a2390275abbf6a9d479816931564187dc8851:0x2ee",
+   "ts": 1791696004.3425987
+  },
+  {
+   "hash": "0x24e27d1cd544196e705c44b2b0c59fb857c01c2fd34b23d7efa6de789abe8cdd:0x66d",
+   "ts": 1791696004.342676
+  },
+  {
+   "hash": "0x24e27d1cd544196e705c44b2b0c59fb857c01c2fd34b23d7efa6de789abe8cdd:0x67d",
+   "ts": 1791696004.3426793
+  }
+ ],
  "volume_baseline": {
-  "btc": 14883779256,
-  "eth": 5785053366,
-  "ts": 1791676385.0312004
+  "btc": 14291085479,
+  "eth": 6485639894,
+  "ts": 1791695997.6021047
  },
- "last_eth_block": 26165446,
+ "last_eth_block": 26167074,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "c0149e9abc5c7ea0d947ae9d96ff13f553954fe821ded3d3e5c4f70cf77cfe47",
-   "ts": 1791428395.8017426
-  },
-  {
-   "hash": "8539da031aaf03a4be3a4f1c9b090884798164630d49291979de2e3d99aa9c88",
-   "ts": 1791428395.8017426
-  },
-  {
-   "hash": "88427e6d3c292a649d4c259acf427d43b93c7fb7ef0c5659f14900386db6b604",
-   "ts": 1791428395.8017426
-  },
-  {
-   "hash": "16bcb749a148fb4cd3f77191d6b09fd41a583294a780e5803da91627fdef26a2",
-   "ts": 1791428395.8017426
-  },
   {
    "hash": "c808486948e8e5a4376f7bebc6690192aa67d3e7da7fedfb97af60efbfb043b2",
    "ts": 1791454762.345133
@@ -1225,142 +1226,6 @@
   }
  ],
  "posted": [
-  {
-   "en": [
-    "buyer",
-    "cointelegraph",
-    "crypto",
-    "news",
-    "plunges",
-    "seeks",
-    "site",
-    "traffic",
-    "web"
-   ],
-   "ru": [
-    "cointelegraph",
-    "веб",
-    "ищет",
-    "крипт",
-    "новос",
-    "паден",
-    "покуп",
-    "сайт",
-    "трафи"
-   ],
-   "nums": [],
-   "names": [
-    "cointelegraph"
-   ],
-   "title": "Криптовалютный новостной сайт Cointelegraph ищет покупателя после падения веб-трафика",
-   "score": 5,
-   "breaking": true,
-   "ts": 1791428397.9655313
-  },
-  {
-   "en": [
-    "galaxy",
-    "launch",
-    "samsung",
-    "solana",
-    "transfers",
-    "usdc",
-    "users"
-   ],
-   "ru": [
-    "galaxy",
-    "samsung",
-    "solana",
-    "usdc",
-    "запус",
-    "перев",
-    "польз",
-    "сша"
-   ],
-   "nums": [],
-   "names": [
-    "galaxy",
-    "samsung",
-    "solana"
-   ],
-   "title": "Samsung запустит переводы USDC на Solana для пользователей Galaxy из США",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791428399.9330597
-  },
-  {
-   "en": [
-    "advances",
-    "backs",
-    "bunker",
-    "buterin",
-    "crypto",
-    "math",
-    "mode",
-    "rapid",
-    "vitalik"
-   ],
-   "ru": [
-    "бунке",
-    "бутер",
-    "быстр",
-    "витал",
-    "крипт",
-    "матем",
-    "подде",
-    "разви",
-    "режим",
-    "фоне"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Виталик Бутерин поддерживает криптовалютный «бункерный режим» на фоне быстрого развития ИИ в математике",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791428401.885073
-  },
-  {
-   "en": [
-    "470",
-    "bitcoin",
-    "coinbase",
-    "crypto",
-    "government",
-    "million",
-    "moves",
-    "questions",
-    "raising",
-    "sale",
-    "seized",
-    "wallets"
-   ],
-   "ru": [
-    "470",
-    "coinbase",
-    "битко",
-    "вопро",
-    "долла",
-    "конфи",
-    "кошел",
-    "крипт",
-    "милли",
-    "перев",
-    "подни",
-    "прави",
-    "прода",
-    "сша"
-   ],
-   "nums": [
-    "470"
-   ],
-   "names": [
-    "coinbase"
-   ],
-   "title": "Правительство США переводит 470 миллионов долларов конфискованной криптовалюты в кошельки Coinbase, что поднимает вопросы о продаже биткоинов",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791428403.8365233
-  },
   {
    "en": [
     "chartered",
@@ -3415,9 +3280,9 @@
  ],
  "last_evening_date": "2026-10-10",
  "milestone_last": {
-  "btc": 82933,
-  "eth": 2505.27,
-  "ton": 1.47
+  "btc": 83005,
+  "eth": 2505.67,
+  "ton": 1.45
  },
  "milestone_alerted": {
   "eth:2500": 1791654250.9354572
