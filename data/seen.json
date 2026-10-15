@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 81554,
-  "eth": 2416.39,
-  "ts": 1792019334.7429605
+  "btc": 81445,
+  "eth": 2409.74,
+  "ts": 1792027859.327987
  },
  "whale_seen": [
   {
@@ -30,28 +30,32 @@
   {
    "hash": "0xede5182f53563c155a93964f8c27672158721d6b62f9a1621f8a8f18b861e1fa",
    "ts": 1792019338.7923853
+  },
+  {
+   "hash": "0xbe14dc79bb0418484c97a51f692c207a138960105ca677de1487289e41ac02c9:0x1a1",
+   "ts": 1792027874.8107274
+  },
+  {
+   "hash": "0xbe14dc79bb0418484c97a51f692c207a138960105ca677de1487289e41ac02c9:0x1ab",
+   "ts": 1792027874.8107502
+  },
+  {
+   "hash": "0x035e146df6e0e855d34d4d0604a6ee87db1ef5b84e0aba9518d2778c3b0a5cda:0x100",
+   "ts": 1792027874.8114533
+  },
+  {
+   "hash": "0x035e146df6e0e855d34d4d0604a6ee87db1ef5b84e0aba9518d2778c3b0a5cda:0x115",
+   "ts": 1792027874.8114617
   }
  ],
  "volume_baseline": {
-  "btc": 33623458314,
-  "eth": 13533751604,
-  "ts": 1792019334.7431877
+  "btc": 34601442056,
+  "eth": 14370486451,
+  "ts": 1792027859.3280692
  },
- "last_eth_block": 26193932,
+ "last_eth_block": 26194641,
  "risk_off_active": true,
  "seen": [
-  {
-   "hash": "cfbaaead9b2c1f4d6bc2772b12e21fb9ec652bdfe986b171b00ce5f8b711ceee",
-   "ts": 1791762994.5676749
-  },
-  {
-   "hash": "e16444883883c83f9f7289eb337e3139bcad0e2341772d68f0ac008f48a455fb",
-   "ts": 1791762994.5676749
-  },
-  {
-   "hash": "f12bf6b225d4f117e72ec41141a8bb937f6fab7db46df26791df60514aeffbc5",
-   "ts": 1791762994.5676749
-  },
   {
    "hash": "8329ffce755e43b30269807e0eab8bcceb7f06bb980085714f2e526841ff21fe",
    "ts": 1791783135.0063798
@@ -1535,86 +1539,21 @@
   {
    "hash": "45d5e41630e1c38caba942b269aea3c7804824408c9549c290479537f757d3de",
    "ts": 1792019351.1125886
+  },
+  {
+   "hash": "fc74093fbb215bbe97ecce4d07dbbd125f150073f0f0df0b8eabd4dbcfd85628",
+   "ts": 1792027881.475
+  },
+  {
+   "hash": "bb438c3948669ffd97331bed74ce49e3deb860842907bd6a272317d6d2c9022b",
+   "ts": 1792027881.475
+  },
+  {
+   "hash": "54224a84d832aac9c2adb692cbe6a6f247f77b17465626330bc1a5309b1517db",
+   "ts": 1792027881.475
   }
  ],
  "posted": [
-  {
-   "en": [
-    "000x",
-    "eth",
-    "exchange",
-    "hyperliquid",
-    "million",
-    "moving",
-    "nets",
-    "papertrade",
-    "prices",
-    "trader"
-   ],
-   "ru": [
-    "1",
-    "1000",
-    "28",
-    "eth",
-    "hyperliquid",
-    "papertrade",
-    "бирже",
-    "долла",
-    "зараб",
-    "измен",
-    "кратн",
-    "милли",
-    "новой",
-    "трейд",
-    "цены"
-   ],
-   "nums": [
-    "000",
-    "1000",
-    "450"
-   ],
-   "names": [
-    "hyperliquid",
-    "papertrade"
-   ],
-   "title": "Трейдер заработал 1,28 миллиона долларов на новой 1000-кратной бирже Papertrade, изменив цены ETH на Hyperliquid",
-   "score": 3,
-   "breaking": false,
-   "ts": 1791762996.9684222
-  },
-  {
-   "en": [
-    "considers",
-    "ethereum",
-    "layer",
-    "leaving",
-    "quantum",
-    "resistant",
-    "starknet"
-   ],
-   "ru": [
-    "1",
-    "ethereum",
-    "starknet",
-    "возмо",
-    "квант",
-    "перех",
-    "рассм",
-    "уровн",
-    "устой"
-   ],
-   "nums": [
-    "116",
-    "1190"
-   ],
-   "names": [
-    "starknet"
-   ],
-   "title": "Starknet рассматривает возможность перехода от Ethereum к квантово-устойчивому уровню 1",
-   "score": 2,
-   "breaking": false,
-   "ts": 1791762998.9903157
-  },
   {
    "en": [
     "bug",
@@ -4054,13 +3993,45 @@
    "score": 2,
    "breaking": false,
    "ts": 1792019357.211373
+  },
+  {
+   "en": [
+    "application",
+    "etf",
+    "ether",
+    "lido",
+    "seeks",
+    "staked",
+    "vaneck",
+    "withdraw"
+   ],
+   "ru": [
+    "etf",
+    "ether",
+    "lido",
+    "vaneck",
+    "заявк",
+    "отозв",
+    "пытае",
+    "ставк"
+   ],
+   "nums": [],
+   "names": [
+    "ether",
+    "lido",
+    "vaneck"
+   ],
+   "title": "VanEck пытается отозвать заявку на Ether ETF со ставкой Lido",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792027882.9699523
   }
  ],
  "last_evening_date": "2026-10-14",
  "milestone_last": {
-  "btc": 81554,
-  "eth": 2416.39,
-  "ton": 1.36
+  "btc": 81445,
+  "eth": 2409.74,
+  "ton": 1.35
  },
  "milestone_alerted": {
   "eth:2500": 1791993411.678582
