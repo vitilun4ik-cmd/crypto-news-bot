@@ -2,58 +2,22 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 81303,
-  "eth": 2414.05,
-  "ts": 1792175145.4044845
+  "btc": 81674,
+  "eth": 2417.68,
+  "ts": 1792186561.754865
  },
  "whale_seen": [
-  {
-   "hash": "0x36ca16ac10ec13038f53a63c9e971b23dda676069d0277589bff2be4259281d1",
-   "ts": 1792161728.6915183
-  },
-  {
-   "hash": "0xb45de6b4d4b73707fdb678bc46b2fdcef15a80f15579341e79ee2a43daf70966",
-   "ts": 1792161734.7857409
-  },
-  {
-   "hash": "0x0d100284130a080075925c40f08e73b9434b2b775bd241f96853e9de2b751e6b:0x1c7",
-   "ts": 1792161738.1349852
-  },
-  {
-   "hash": "0x0d100284130a080075925c40f08e73b9434b2b775bd241f96853e9de2b751e6b:0x1d2",
-   "ts": 1792161738.135006
-  },
-  {
-   "hash": "0xcfc7f48c9cc78f892007deb71111a2372da91be3f0b8e68db2b7a50a4a136e8b:0x83",
-   "ts": 1792161738.1351342
-  },
-  {
-   "hash": "0x0fca467121d341284ff6f9235e201e214bdf7a45d44751d6e3f36cfbc74803a0:0x276",
-   "ts": 1792161738.1353667
-  },
-  {
-   "hash": "0x36b44b06a863493fdf18cf8a630899d077f584e24dee54c8e7441dc0f836b2d3:0x295",
-   "ts": 1792161738.1356056
-  },
-  {
-   "hash": "0xddc33a1688d9ccb7d0b6e2bcc7536dc7bd2b148f91d08bf61b6145e9e9dd4113:0x183",
-   "ts": 1792161738.1357455
-  },
-  {
-   "hash": "0x094cd06ec7d328fe2a4682e38e21b2c70243a1e68d2319f5acd0d37299c48e09:0x5e",
-   "ts": 1792161738.1359298
-  },
   {
    "hash": "ea0c0942ed6b5a6f989fe95223ce86799b915a4ecdad95c1df2259723f2def4c",
    "ts": 1792175145.740177
   }
  ],
  "volume_baseline": {
-  "btc": 28050514969,
-  "eth": 12537930074,
-  "ts": 1792175145.4047573
+  "btc": 29077783144,
+  "eth": 12662256358,
+  "ts": 1792186561.754935
  },
- "last_eth_block": 26206879,
+ "last_eth_block": 26207828,
  "risk_off_active": true,
  "seen": [
   {
@@ -1471,6 +1435,34 @@
   {
    "hash": "b15be73809c1ba33161b4321a4018a188be7148ec0ce4958ac5bd2b37a0d95fe",
    "ts": 1792175165.4740565
+  },
+  {
+   "hash": "4d2a561cece467598587d50daedf0fecabe2419caff6b9a1021895133954d359",
+   "ts": 1792186575.7685432
+  },
+  {
+   "hash": "f6bdd4ac86bf1434373f79302dcadd015b4ba774bc76c8b6ada0ceff822bd75c",
+   "ts": 1792186575.7685432
+  },
+  {
+   "hash": "ccb7bec5f84cce137a168deade469a60b5202ee3778fee4cea723d1658d809ad",
+   "ts": 1792186575.7685432
+  },
+  {
+   "hash": "7e65700230fd9f2b0466fd3ef6cd413ee3c3cbfc7d3db5538881b0b67e744c2f",
+   "ts": 1792186575.7685432
+  },
+  {
+   "hash": "61823a2fec3505b844b25625213002ceefc6c62670125715303aa25c3a609bd6",
+   "ts": 1792186575.7685432
+  },
+  {
+   "hash": "0b3e166fff00568c00ecde1a02c2f21e7cde73607ac87c0bb1427f974b5bb3c3",
+   "ts": 1792186575.7685432
+  },
+  {
+   "hash": "c33a3697fce3d2891d685646e81e120fe7df319d5e28d638237aa2ae25f252d3",
+   "ts": 1792186575.7685432
   }
  ],
  "posted": [
@@ -4727,12 +4719,67 @@
    "score": 2,
    "breaking": false,
    "ts": 1792175183.3822973
+  },
+  {
+   "en": [],
+   "ru": [
+    "bitget",
+    "белар",
+    "биржа",
+    "добав",
+    "запре",
+    "росси",
+    "списо",
+    "стран"
+   ],
+   "nums": [],
+   "names": [
+    "bitget"
+   ],
+   "title": "Биржа Bitget добавила Россию и Беларусь в список «запрещенных стран»",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792186576.8110626
+  },
+  {
+   "en": [
+    "bitcoin",
+    "buying",
+    "cowen",
+    "earns",
+    "hike",
+    "price",
+    "spree",
+    "strive",
+    "target"
+   ],
+   "ru": [
+    "27",
+    "cowen",
+    "strive",
+    "актив",
+    "битко",
+    "повыш",
+    "покуп",
+    "приве",
+    "целев",
+    "цены"
+   ],
+   "nums": [],
+   "names": [
+    "cowen",
+    "strive"
+   ],
+   "title": "Активная покупка биткоинов Strive привела к повышению целевой цены на 27% от TD Cowen",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792186578.7088776
   }
  ],
  "last_evening_date": "2026-10-16",
  "milestone_last": {
-  "btc": 81303,
-  "eth": 2414.05,
+  "btc": 81674,
+  "eth": 2417.68,
   "ton": 1.35
  },
  "milestone_alerted": {},
