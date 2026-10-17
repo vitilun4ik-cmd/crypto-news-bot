@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 81145,
-  "eth": 2401.57,
-  "ts": 1792256184.6184478
+  "btc": 81401,
+  "eth": 2412.54,
+  "ts": 1792264226.1798809
  },
  "whale_seen": [
   {
@@ -29,11 +29,11 @@
   }
  ],
  "volume_baseline": {
-  "btc": 17902572261,
-  "eth": 7140238062,
-  "ts": 1792256184.6185384
+  "btc": 14488800606,
+  "eth": 5882296947,
+  "ts": 1792264226.1801796
  },
- "last_eth_block": 26213610,
+ "last_eth_block": 26214279,
  "risk_off_active": true,
  "seen": [
   {
@@ -1111,6 +1111,30 @@
   {
    "hash": "8b59a656fa8bdd45f01017605864834fb99161239ca5b81308931c8ed0a292dc",
    "ts": 1792256195.9686425
+  },
+  {
+   "hash": "760894f6505cea1e9c94eb8020c760771f29e48a57f8d0f40a8fc727cf76ae28",
+   "ts": 1792264246.425657
+  },
+  {
+   "hash": "3c5a0a6ffcefbf2cc372d73dd49539093dc0c5d195c0f7175b491403c76af1b8",
+   "ts": 1792264246.425657
+  },
+  {
+   "hash": "58d1ebf28ab56d55bd811084206cd5b36dd818640e6ec8cd91a8279fee1baa06",
+   "ts": 1792264246.425657
+  },
+  {
+   "hash": "23cd1e9f73e9dd1309693adc274ea2ec04aae5f42dbeae5b5aa094abb16f5113",
+   "ts": 1792264246.425657
+  },
+  {
+   "hash": "926245fa889650eb6f0f89c8fda25dd142b54ca9a404cbe551ef1000d70be9d8",
+   "ts": 1792264246.425657
+  },
+  {
+   "hash": "aeb2bb1ddb3559ec9f56e5925dc3abbb478aaf4bfd54a12bc32d71453ae12474",
+   "ts": 1792264246.425657
   }
  ],
  "posted": [
@@ -3833,13 +3857,124 @@
    "score": 2,
    "breaking": false,
    "ts": 1792256200.608381
+  },
+  {
+   "en": [],
+   "ru": [
+    "битко",
+    "запус",
+    "зачем",
+    "крипт",
+    "кто",
+    "около",
+    "орбит",
+    "прогр"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Криптокосмическая программа: кто и зачем запустил биткоин на околоземную орбиту",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792264248.202434
+  },
+  {
+   "en": [],
+   "ru": [
+    "99",
+    "google",
+    "битко",
+    "довел",
+    "значи",
+    "квант",
+    "точно",
+    "чипа"
+   ],
+   "nums": [],
+   "names": [
+    "google"
+   ],
+   "title": "Google довела точность квантового чипа до 99,99%. Что это значит для биткоина",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792264250.2129767
+  },
+  {
+   "en": [
+    "fargo",
+    "goldman",
+    "growth",
+    "morgan",
+    "not",
+    "play",
+    "see",
+    "stanley",
+    "threat",
+    "tokenization",
+    "wells"
+   ],
+   "ru": [
+    "fargo",
+    "goldman",
+    "morgan",
+    "stanley",
+    "wells",
+    "инстр",
+    "рассм",
+    "роста",
+    "токен",
+    "угроз"
+   ],
+   "nums": [],
+   "names": [
+    "fargo",
+    "goldman",
+    "morgan",
+    "stanley",
+    "wells"
+   ],
+   "title": "Goldman, Wells Fargo и Morgan Stanley рассматривают токенизацию как инструмент роста, а не угрозу",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792264252.2428477
+  },
+  {
+   "en": [
+    "200",
+    "ethereum",
+    "gas",
+    "hoodi",
+    "million",
+    "october",
+    "sets",
+    "test"
+   ],
+   "ru": [
+    "200",
+    "26",
+    "ethereum",
+    "газов",
+    "долла",
+    "милли",
+    "назна",
+    "октяб",
+    "тест",
+    "худи"
+   ],
+   "nums": [
+    "200"
+   ],
+   "names": [],
+   "title": "Ethereum назначает 26 октября газовый тест Худи на 200 миллионов долларов",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792264254.334523
   }
  ],
- "last_evening_date": "2026-10-16",
+ "last_evening_date": "2026-10-17",
  "milestone_last": {
-  "btc": 81145,
-  "eth": 2401.57,
-  "ton": 1.35
+  "btc": 81401,
+  "eth": 2412.54,
+  "ton": 1.36
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W42",
