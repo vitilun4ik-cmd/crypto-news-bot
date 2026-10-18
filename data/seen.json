@@ -2,23 +2,11 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 80913,
-  "eth": 2350.05,
-  "ts": 1792352055.985896
+  "btc": 81066,
+  "eth": 2362.53,
+  "ts": 1792359982.8354068
  },
  "whale_seen": [
-  {
-   "hash": "0x88e6ef913d97d700ed625b2ad39dd732e997f29cdeecc53a63cba491a6314d3a:0x118",
-   "ts": 1792332608.8102865
-  },
-  {
-   "hash": "0x88e6ef913d97d700ed625b2ad39dd732e997f29cdeecc53a63cba491a6314d3a:0x124",
-   "ts": 1792332608.8103077
-  },
-  {
-   "hash": "0x7206d2ada4d5ce88a90687e161c532c02e4ae183c5d374722b224555b79aa749:0x446",
-   "ts": 1792332608.8112226
-  },
   {
    "hash": "0x17647e81f1eced42a01ec2f0e4b880d736785bae5640e626f228b37bbe427609:0x1e2",
    "ts": 1792344298.926923
@@ -45,11 +33,11 @@
   }
  ],
  "volume_baseline": {
-  "btc": 18040750791,
-  "eth": 7685534845,
-  "ts": 1792352055.9861171
+  "btc": 18676790544,
+  "eth": 8094804301,
+  "ts": 1792359982.8354697
  },
- "last_eth_block": 26221569,
+ "last_eth_block": 26222229,
  "risk_off_active": true,
  "seen": [
   {
@@ -735,6 +723,10 @@
   {
    "hash": "15ea0eb56744b4a11ecc171450eb35f68b63924d00264b98f5cd3c602394cfd5",
    "ts": 1792352067.2128441
+  },
+  {
+   "hash": "0b0a8e51314d678e14a0032a6cd8c241a628bf9c2e228897db56dbe18a492aa8",
+   "ts": 1792360002.5499892
   }
  ],
  "posted": [
@@ -3055,12 +3047,53 @@
    "score": 2,
    "breaking": false,
    "ts": 1792352068.1833434
+  },
+  {
+   "en": [
+    "com",
+    "contracts",
+    "crypto",
+    "event",
+    "hold",
+    "kalshi",
+    "missouri",
+    "novig",
+    "off",
+    "polymarket",
+    "robinhood",
+    "sports",
+    "sue"
+   ],
+   "ru": [
+    "com",
+    "crypto",
+    "robinhood",
+    "возде",
+    "калши",
+    "контр",
+    "мероп",
+    "миссу",
+    "новиг",
+    "подал",
+    "полим",
+    "спорт",
+    "суд"
+   ],
+   "nums": [],
+   "names": [
+    "com",
+    "robinhood"
+   ],
+   "title": "Crypto.com и Новиг подали в суд на Миссури из-за контрактов на спортивные мероприятия; Калши, Полимаркет, Robinhood воздерживаются",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792360004.9242442
   }
  ],
  "last_evening_date": "2026-10-18",
  "milestone_last": {
-  "btc": 80913,
-  "eth": 2350.05,
+  "btc": 81066,
+  "eth": 2362.53,
   "ton": 1.33
  },
  "milestone_alerted": {
