@@ -2,80 +2,28 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 81501,
-  "eth": 2405.44,
-  "ts": 1792285854.5288699
+  "btc": 81633,
+  "eth": 2408.46,
+  "ts": 1792303072.205765
  },
  "whale_seen": [
   {
-   "hash": "0xeebbd9e5fcf83eabca0fbe7d4f647e1a2ebb8b7645df2cc619bac0bff642d6a5:0x160",
-   "ts": 1792272575.4341075
+   "hash": "0x5f8d4a95fd4a1c5883718d013860ce6828586f0fbc03a622a4b6c145a04677c6:0x280",
+   "ts": 1792303075.5029345
   },
   {
-   "hash": "0xeebbd9e5fcf83eabca0fbe7d4f647e1a2ebb8b7645df2cc619bac0bff642d6a5:0x1b1",
-   "ts": 1792272575.4341364
-  },
-  {
-   "hash": "0x97622c9dd6c20cf82bea38dd3aecf5bedc3046a97a63e420e0bfc3d5316698e0:0x2dc",
-   "ts": 1792272575.4341989
-  },
-  {
-   "hash": "0x97622c9dd6c20cf82bea38dd3aecf5bedc3046a97a63e420e0bfc3d5316698e0:0x2e6",
-   "ts": 1792272575.4342017
-  },
-  {
-   "hash": "0xc8055e537dc3613583f2e0ca21185789498d109cecb066ec57f188b2b4a50a0b:0x3bc",
-   "ts": 1792272575.4342084
-  },
-  {
-   "hash": "0xc8055e537dc3613583f2e0ca21185789498d109cecb066ec57f188b2b4a50a0b:0x3ce",
-   "ts": 1792272575.4342113
-  },
-  {
-   "hash": "0x387951b8a05355b8e2f388a55eca46afd256444f09d52f8711d3d4375ec42f98:0x3ba",
-   "ts": 1792272575.4342756
-  },
-  {
-   "hash": "0x387951b8a05355b8e2f388a55eca46afd256444f09d52f8711d3d4375ec42f98:0x3ca",
-   "ts": 1792272575.4342778
-  },
-  {
-   "hash": "0xd6fa3fd8a955cc09baa03402bc2c7486966fd5fcdc538f6fb5399a409011d055:0x2d7",
-   "ts": 1792272575.4344325
-  },
-  {
-   "hash": "0xd6fa3fd8a955cc09baa03402bc2c7486966fd5fcdc538f6fb5399a409011d055:0x2ed",
-   "ts": 1792272575.4344354
-  },
-  {
-   "hash": "0x6ef429bc9b584a460a7637c23e369f3ae9854adc9ffdff945d3cea4a65cc90b8:0x12f",
-   "ts": 1792272575.4346728
-  },
-  {
-   "hash": "0x6ef429bc9b584a460a7637c23e369f3ae9854adc9ffdff945d3cea4a65cc90b8:0x1a2",
-   "ts": 1792272575.4346776
+   "hash": "0x5f8d4a95fd4a1c5883718d013860ce6828586f0fbc03a622a4b6c145a04677c6:0x28d",
+   "ts": 1792303075.502958
   }
  ],
  "volume_baseline": {
-  "btc": 14193482215,
-  "eth": 6490201519,
-  "ts": 1792285854.5290987
+  "btc": 15112916329,
+  "eth": 6773343472,
+  "ts": 1792303072.2060783
  },
- "last_eth_block": 26216074,
+ "last_eth_block": 26217502,
  "risk_off_active": true,
  "seen": [
-  {
-   "hash": "fc74093fbb215bbe97ecce4d07dbbd125f150073f0f0df0b8eabd4dbcfd85628",
-   "ts": 1792027881.475
-  },
-  {
-   "hash": "bb438c3948669ffd97331bed74ce49e3deb860842907bd6a272317d6d2c9022b",
-   "ts": 1792027881.475
-  },
-  {
-   "hash": "54224a84d832aac9c2adb692cbe6a6f247f77b17465626330bc1a5309b1517db",
-   "ts": 1792027881.475
-  },
   {
    "hash": "66a66cf8924ce625a2ff647d4afb420b90a37fd85946f8ea7f1bca6fa550887d",
    "ts": 1792045160.7483532
@@ -1070,38 +1018,6 @@
   }
  ],
  "posted": [
-  {
-   "en": [
-    "application",
-    "etf",
-    "ether",
-    "lido",
-    "seeks",
-    "staked",
-    "vaneck",
-    "withdraw"
-   ],
-   "ru": [
-    "etf",
-    "ether",
-    "lido",
-    "vaneck",
-    "заявк",
-    "отозв",
-    "пытае",
-    "ставк"
-   ],
-   "nums": [],
-   "names": [
-    "ether",
-    "lido",
-    "vaneck"
-   ],
-   "title": "VanEck пытается отозвать заявку на Ether ETF со ставкой Lido",
-   "score": 3,
-   "breaking": false,
-   "ts": 1792027882.9699523
-  },
   {
    "en": [],
    "ru": [
@@ -3662,9 +3578,9 @@
  ],
  "last_evening_date": "2026-10-17",
  "milestone_last": {
-  "btc": 81501,
-  "eth": 2405.44,
-  "ton": 1.36
+  "btc": 81633,
+  "eth": 2408.46,
+  "ton": 1.35
  },
  "milestone_alerted": {
   "eth:2400": 1792279209.6720243
