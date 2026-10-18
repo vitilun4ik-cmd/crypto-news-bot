@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 81296,
-  "eth": 2395.61,
-  "ts": 1792279209.6720035
+  "btc": 81501,
+  "eth": 2405.44,
+  "ts": 1792285854.5288699
  },
  "whale_seen": [
   {
@@ -57,11 +57,11 @@
   }
  ],
  "volume_baseline": {
-  "btc": 14342685679,
-  "eth": 6309443791,
-  "ts": 1792279210.0373466
+  "btc": 14193482215,
+  "eth": 6490201519,
+  "ts": 1792285854.5290987
  },
- "last_eth_block": 26215521,
+ "last_eth_block": 26216074,
  "risk_off_active": true,
  "seen": [
   {
@@ -1063,6 +1063,10 @@
   {
    "hash": "d064e4212398707079e7cbf243d6dd1ee5c044534f7bf801a8985d2bce4b0f15",
    "ts": 1792272581.8458846
+  },
+  {
+   "hash": "e100bde10c4c20d62819d2c7602d0c33af59a13bd76a05883ab657af484ef229",
+   "ts": 1792285866.2733486
   }
  ],
  "posted": [
@@ -3618,12 +3622,48 @@
    "score": 2,
    "breaking": false,
    "ts": 1792272582.8753357
+  },
+  {
+   "en": [
+    "bigger",
+    "circle",
+    "court",
+    "cut",
+    "defends",
+    "economics",
+    "partners",
+    "rivals",
+    "stablecoin",
+    "usdc"
+   ],
+   "ru": [
+    "circle",
+    "usdc",
+    "больш",
+    "добив",
+    "доли",
+    "защищ",
+    "конку",
+    "партн",
+    "поско",
+    "своих",
+    "стейб",
+    "эконо"
+   ],
+   "nums": [],
+   "names": [
+    "circle"
+   ],
+   "title": "Circle защищает экономику USDC, поскольку конкуренты стейблкоинов добиваются от своих партнеров большей доли",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792285867.2424338
   }
  ],
  "last_evening_date": "2026-10-17",
  "milestone_last": {
-  "btc": 81296,
-  "eth": 2395.61,
+  "btc": 81501,
+  "eth": 2405.44,
   "ton": 1.36
  },
  "milestone_alerted": {
