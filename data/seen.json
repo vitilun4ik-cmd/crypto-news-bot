@@ -2,40 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82835,
-  "eth": 2452.52,
-  "ts": 1792531689.4834018
+  "btc": 82845,
+  "eth": 2444.4,
+  "ts": 1792541017.6811478
  },
- "whale_seen": [
-  {
-   "hash": "0x56d4b56df30f75b99b5af38716741341d111ba76ae61b598934062e7bfd0c3cb:0xc8",
-   "ts": 1792518771.42042
-  },
-  {
-   "hash": "0xece12332916bb79bee3f2735ce0f9f4e20d74ab2bf8cd17d205e020e5685d34a:0x76",
-   "ts": 1792518771.4208276
-  },
-  {
-   "hash": "0xa5b17a8b591fd2400953f432d384299fbd16d50bdc6acfba8734fa4247ad3f2b:0x180",
-   "ts": 1792518771.4212296
-  }
- ],
+ "whale_seen": [],
  "volume_baseline": {
-  "btc": 27621623050,
-  "eth": 11078439303,
-  "ts": 1792531689.483486
+  "btc": 27933869615,
+  "eth": 11783997430,
+  "ts": 1792541017.6813388
  },
- "last_eth_block": 26236484,
+ "last_eth_block": 26237257,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "800e3c4b69d2b73f0329232e4a979cb2f60b5a0e3c8225ec0e8952a0f6185805",
-   "ts": 1792272581.8458846
-  },
-  {
-   "hash": "d064e4212398707079e7cbf243d6dd1ee5c044534f7bf801a8985d2bce4b0f15",
-   "ts": 1792272581.8458846
-  },
   {
    "hash": "e100bde10c4c20d62819d2c7602d0c33af59a13bd76a05883ab657af484ef229",
    "ts": 1792285866.2733486
@@ -1135,51 +1114,21 @@
   {
    "hash": "9dc24d7afdf3248065c34cea26494fc8a152853b0d456b50157dc313b0eeed4a",
    "ts": 1792531707.9346359
+  },
+  {
+   "hash": "d374457832c22267a9812e2d5b6134158e0eb227bd9ea6d030665a9a48060bc0",
+   "ts": 1792541040.2485151
+  },
+  {
+   "hash": "ba7e619f02ea9b3522c718d677576b7032b8e4f9fe45e8316b0f8848a2f54502",
+   "ts": 1792541040.2485151
+  },
+  {
+   "hash": "7940705d58ba87db51ac784c8940080bc25d1ab945f7b32fd90015ff006251d6",
+   "ts": 1792541040.2485151
   }
  ],
  "posted": [
-  {
-   "en": [
-    "among",
-    "broadcom",
-    "companies",
-    "coreweave",
-    "nine",
-    "objecting",
-    "okxice",
-    "shares",
-    "their",
-    "tokenized",
-    "trading",
-    "verizon"
-   ],
-   "ru": [
-    "broadcom",
-    "coreweave",
-    "okxice",
-    "verizon",
-    "акция",
-    "возра",
-    "девят",
-    "компа",
-    "проти",
-    "своим",
-    "среди",
-    "токен",
-    "торго"
-   ],
-   "nums": [],
-   "names": [
-    "broadcom",
-    "coreweave",
-    "okxice",
-    "verizon"
-   ],
-   "title": "CoreWeave, Broadcom, Verizon среди девяти компаний, возражающих против токенизированной торговли своими акциями на OKXICE",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792272582.8753357
-  },
   {
    "en": [
     "bigger",
@@ -3791,8 +3740,8 @@
  ],
  "last_evening_date": "2026-10-20",
  "milestone_last": {
-  "btc": 82835,
-  "eth": 2452.52,
+  "btc": 82845,
+  "eth": 2444.4,
   "ton": 1.35
  },
  "milestone_alerted": {
