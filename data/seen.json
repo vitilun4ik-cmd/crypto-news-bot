@@ -2,23 +2,28 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82845,
-  "eth": 2444.4,
-  "ts": 1792541017.6811478
+  "btc": 82751,
+  "eth": 2442.43,
+  "ts": 1792556984.4159331
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "0x7c8d70cbaf2b4b53b4cdcb4532c2b16c3a85260bda26837d13c7110a874100b0:0xb",
+   "ts": 1792556999.863411
+  },
+  {
+   "hash": "0xb35abf0472ba078f50bc12279dea4f690f490658de51941123753b2cc15290d1:0x12",
+   "ts": 1792556999.8635962
+  }
+ ],
  "volume_baseline": {
-  "btc": 27933869615,
-  "eth": 11783997430,
-  "ts": 1792541017.6813388
+  "btc": 26715092631,
+  "eth": 11296517930,
+  "ts": 1792556984.416101
  },
- "last_eth_block": 26237257,
+ "last_eth_block": 26238586,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "e100bde10c4c20d62819d2c7602d0c33af59a13bd76a05883ab657af484ef229",
-   "ts": 1792285866.2733486
-  },
   {
    "hash": "256f1423ab37852cd915c4a3a930daa1c82ee4c6c3db68ad9114eb602b4f7515",
    "ts": 1792320447.3521492
@@ -1126,45 +1131,29 @@
   {
    "hash": "7940705d58ba87db51ac784c8940080bc25d1ab945f7b32fd90015ff006251d6",
    "ts": 1792541040.2485151
+  },
+  {
+   "hash": "47e23225005b04d05bd8cc39e319454358fbc80b126450e217f46508d0078d9c",
+   "ts": 1792557030.0589883
+  },
+  {
+   "hash": "f3c0098899b82010191b15d131a23750d1500f9353ef024d2c5e2c3b5b4df0ac",
+   "ts": 1792557030.0589883
+  },
+  {
+   "hash": "75a81404e651e059b80eed12a37f46ff4bc2e0059c8a3b37f3222b2ad91d2c2d",
+   "ts": 1792557030.0589883
+  },
+  {
+   "hash": "222dd7f4d5382688fb31bbd306e48894cda9252465317d636cefd50e812f7959",
+   "ts": 1792557030.0589883
+  },
+  {
+   "hash": "2e966d773165259bbe2322a4e7efe81ca32fd3a96c9121414d9a10fe57b5560f",
+   "ts": 1792557030.0589883
   }
  ],
  "posted": [
-  {
-   "en": [
-    "bigger",
-    "circle",
-    "court",
-    "cut",
-    "defends",
-    "economics",
-    "partners",
-    "rivals",
-    "stablecoin",
-    "usdc"
-   ],
-   "ru": [
-    "circle",
-    "usdc",
-    "больш",
-    "добив",
-    "доли",
-    "защищ",
-    "конку",
-    "партн",
-    "поско",
-    "своих",
-    "стейб",
-    "эконо"
-   ],
-   "nums": [],
-   "names": [
-    "circle"
-   ],
-   "title": "Circle защищает экономику USDC, поскольку конкуренты стейблкоинов добиваются от своих партнеров большей доли",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792285867.2424338
-  },
   {
    "en": [],
    "ru": [
@@ -3736,12 +3725,127 @@
    "score": 2,
    "breaking": false,
    "ts": 1792531725.918523
+  },
+  {
+   "en": [
+    "000",
+    "around",
+    "bitcoin",
+    "earnings",
+    "hovers",
+    "jumps",
+    "revive",
+    "tech",
+    "zec"
+   ],
+   "ru": [
+    "000",
+    "11",
+    "83",
+    "zec",
+    "битко",
+    "доход",
+    "интел",
+    "искус",
+    "колеб",
+    "оживл",
+    "подск",
+    "поско",
+    "район",
+    "техно"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [
+    "zec"
+   ],
+   "title": "Биткоин колеблется в районе $83 000, поскольку доходы от искусственного интеллекта оживляют технологии, ZEC подскочил на 11%",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792557031.3988354
+  },
+  {
+   "en": [
+    "collaboration",
+    "dunamu",
+    "expansion",
+    "explore",
+    "giwa",
+    "moonpay",
+    "parent",
+    "payments",
+    "stablecoin",
+    "upbit"
+   ],
+   "ru": [
+    "dunamu",
+    "giwa",
+    "moonpay",
+    "upbit",
+    "возмо",
+    "изуча",
+    "компа",
+    "матер",
+    "облас",
+    "плате",
+    "расши",
+    "сотру",
+    "стейб"
+   ],
+   "nums": [],
+   "names": [
+    "dunamu",
+    "giwa",
+    "moonpay",
+    "upbit"
+   ],
+   "title": "MoonPay и Dunamu, материнская компания Upbit, изучают возможность сотрудничества в области платежей в стейблкоинах и расширения GIWA",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792557033.3205576
+  },
+  {
+   "en": [
+    "2026",
+    "add",
+    "asset",
+    "binance",
+    "bstocks",
+    "collateral",
+    "securities",
+    "tokenized"
+   ],
+   "ru": [
+    "2026",
+    "21",
+    "5",
+    "binance",
+    "bstocks",
+    "актив",
+    "бумаг",
+    "добав",
+    "залог",
+    "качес",
+    "октяб",
+    "токен",
+    "ценны"
+   ],
+   "nums": [],
+   "names": [
+    "binance",
+    "bstocks"
+   ],
+   "title": "Binance добавит 5 токенизированных ценных бумаг bStocks в качестве залогового актива - 21 октября 2026 г.",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792557035.2592192
   }
  ],
  "last_evening_date": "2026-10-20",
  "milestone_last": {
-  "btc": 82845,
-  "eth": 2444.4,
+  "btc": 82751,
+  "eth": 2442.43,
   "ton": 1.35
  },
  "milestone_alerted": {
