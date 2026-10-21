@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 82751,
-  "eth": 2442.43,
-  "ts": 1792556984.4159331
+  "btc": 83444,
+  "eth": 2461.43,
+  "ts": 1792575082.2275527
  },
  "whale_seen": [
   {
@@ -17,11 +17,11 @@
   }
  ],
  "volume_baseline": {
-  "btc": 26715092631,
-  "eth": 11296517930,
-  "ts": 1792556984.416101
+  "btc": 27629264337,
+  "eth": 12027224516,
+  "ts": 1792575082.2278144
  },
- "last_eth_block": 26238586,
+ "last_eth_block": 26240090,
  "risk_off_active": false,
  "seen": [
   {
@@ -1151,6 +1151,98 @@
   {
    "hash": "2e966d773165259bbe2322a4e7efe81ca32fd3a96c9121414d9a10fe57b5560f",
    "ts": 1792557030.0589883
+  },
+  {
+   "hash": "65ceac2487095f95fc92b21b1b2410fabc2f1304f05b781689f84c434fc4c722",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "d026f5d87fd8093b6fa05fd3690802f1bf124da88b8ea35922dffccf00f27219",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "2ed38e32d86bd5920f54fe979e7341f3d0a5dee05b0c984fb7846600042b2dee",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "95c6888bf58b39254bba922028e9803b02040d373d414846b5bbfc288a31e962",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "35c117090c3dacc6541ac8182dccc772d8be09602a85da2e8c2cda89c5b17259",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "75afb58e93603b8bf3a2a8fede00f1ec99846862bfd6877235760391b757b2c6",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "174722f63147eaf627112e660f7ecdef73bc35e1f4131fae47610d9ae2bb60f8",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "bb4db8bbc817088366ed416312e7625052f44515ba69c37ce76f7d45f82a2f84",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "3f1475a6ea15770e6b18c5da097a99d3d9db87b42e2d4748f6edfb5e76bbe318",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "ccdcf87afb1be8d95b9ffad3e9d0fa97aeb90dc6a8c88498b4b98bc7514b694d",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "d11c88da13a0c4854e91543811ea6e47dd1653543cf9fe8ebdf5201c483e0367",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "433327b7400e971a4634ec460eef66c8ddc1096777ecbc39a07b3b5ee507c63d",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "0d3d11459fad0608ebb38f0ff0d631dec80ccecc3bcf360c4e9fcb256563c696",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "bcb06ab67a86c45040fffdc892a1c99881f748c88ba433f1f7cb21d79078088d",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "0415c28b1d90630635ddc03f2a81ae238db1a31e854fdee7c23ab28d7c8f218f",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "be53d001c46b85ff3e9dcbb62570fcb2331ec030953e559892a1a9355231fbb6",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "9df6dcc3a9fddcedf2a58e22b09845376565217065c41c94f4f0fa7bc68d789b",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "e55bee9fb482306c1964275e6ed3f431020f27062913a54fcad7eb0a02cc8a46",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "3d631ac49853f95663486f2fb537c3edbd57a6c3e89b1b16f5aa9ae0420bb619",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "cce6aed4ff65afe6d0a6aeb45eb2a3db33c97e780b1735cc9d672c08ee8dfc19",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "d98bbcaf8521afdc7b4d4e8d4c8b3329108c1390a194014f2080c69a7e01ab0b",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "746edbd053cb80fd601ae3f36f03d5db166f7c1f3c0ddd21d8d8289d1744477c",
+   "ts": 1792575098.2977407
+  },
+  {
+   "hash": "232b3daac088f177ff4ee1f10b89237f404755a547cc2c51cf816e0200666998",
+   "ts": 1792575098.2977407
   }
  ],
  "posted": [
@@ -3840,17 +3932,250 @@
    "score": 2,
    "breaking": false,
    "ts": 1792557035.2592192
+  },
+  {
+   "en": [
+    "approves",
+    "bitcoin",
+    "etf",
+    "landmark",
+    "ruling",
+    "sufficient",
+    "switzerland",
+    "trading",
+    "volume"
+   ],
+   "ru": [
+    "etf",
+    "битко",
+    "доста",
+    "знако",
+    "объем",
+    "одобр",
+    "поста",
+    "того",
+    "торго",
+    "швейц"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Швейцария одобряет знаковый биткоин-ETF после того, как постановила, что объем торгов достаточен",
+   "score": 5,
+   "breaking": true,
+   "ts": 1792575100.6817954
+  },
+  {
+   "en": [
+    "bank",
+    "bonds",
+    "central",
+    "dlt",
+    "launches",
+    "malaysia",
+    "platform",
+    "tokenized"
+   ],
+   "ru": [
+    "dlt",
+    "запус",
+    "малай",
+    "облиг",
+    "платф",
+    "токен"
+   ],
+   "nums": [],
+   "names": [
+    "dlt"
+   ],
+   "title": "ЦБ Малайзии запустил DLT-платформу для токенизированных облигаций",
+   "score": 5,
+   "breaking": false,
+   "ts": 1792575102.6649792
+  },
+  {
+   "en": [],
+   "ru": [
+    "etf",
+    "битко",
+    "дости",
+    "макси",
+    "месяц",
+    "прито"
+   ],
+   "nums": [
+    "526",
+    "714"
+   ],
+   "names": [],
+   "title": "Приток в биткоин-ETF достиг максимума за месяц",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792575104.6282535
+  },
+  {
+   "en": [],
+   "ru": [
+    "wintermute",
+    "анали",
+    "битко",
+    "ближа",
+    "время",
+    "оцени",
+    "персп"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [
+    "wintermute"
+   ],
+   "title": "Аналитики Wintermute оценили перспективы биткоина на ближайшее время",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792575106.64312
+  },
+  {
+   "en": [],
+   "ru": [
+    "cardano",
+    "chainlink",
+    "foundation",
+    "labs",
+    "sec",
+    "блокч",
+    "компа",
+    "крипт",
+    "обрат",
+    "стату",
+    "четыр"
+   ],
+   "nums": [],
+   "names": [
+    "cardano",
+    "chainlink",
+    "foundation",
+    "labs"
+   ],
+   "title": "Chainlink Labs, Cardano Foundation и еще четыре блокчейн-компании обратились в SEC из-за статуса криптовалют",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792575108.6171267
+  },
+  {
+   "en": [
+    "000",
+    "bitcoin",
+    "explore",
+    "merger",
+    "more",
+    "spacex",
+    "tesla",
+    "than",
+    "unite",
+    "would"
+   ],
+   "ru": [
+    "000",
+    "30",
+    "spacex",
+    "tesla",
+    "битко",
+    "более",
+    "возмо",
+    "котор",
+    "объед",
+    "рассм",
+    "слиян"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [
+    "spacex",
+    "tesla"
+   ],
+   "title": "SpaceX и Tesla рассматривают возможность слияния, которое объединит более 30 000 биткоинов",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792575110.5235462
+  },
+  {
+   "en": [
+    "focused",
+    "funding",
+    "leads",
+    "million",
+    "mural",
+    "payment",
+    "round",
+    "startup",
+    "tether"
+   ],
+   "ru": [
+    "15",
+    "mural",
+    "tether",
+    "возгл",
+    "долла",
+    "интел",
+    "искус",
+    "милли",
+    "ориен",
+    "плате",
+    "разме",
+    "раунд",
+    "старт",
+    "финан"
+   ],
+   "nums": [],
+   "names": [
+    "mural",
+    "tether"
+   ],
+   "title": "Tether возглавляет раунд финансирования в размере 15 миллионов долларов для платёжного стартапа Mural, ориентированного на искусственный интеллект",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792575112.4258816
+  },
+  {
+   "en": [
+    "continue",
+    "etf",
+    "ether",
+    "far",
+    "october",
+    "outflows",
+    "pass"
+   ],
+   "ru": [
+    "1",
+    "etf",
+    "ether",
+    "млрд",
+    "октяб",
+    "отток",
+    "превы",
+    "продо"
+   ],
+   "nums": [],
+   "names": [
+    "ether"
+   ],
+   "title": "Отток Ether ETF продолжается, в октябре он превысил $1 млрд.",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792575114.3274035
   }
  ],
  "last_evening_date": "2026-10-20",
  "milestone_last": {
-  "btc": 82751,
-  "eth": 2442.43,
+  "btc": 83444,
+  "eth": 2461.43,
   "ton": 1.35
  },
  "milestone_alerted": {
   "eth:2400": 1792518759.6062424
  },
  "last_weekly_week": "2026-W43",
- "last_morning_date": "2026-10-20"
+ "last_morning_date": "2026-10-21"
 }
