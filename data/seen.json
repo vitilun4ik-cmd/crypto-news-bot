@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 84769,
-  "eth": 2496.62,
-  "ts": 1792620023.974157
+  "btc": 84173,
+  "eth": 2473.59,
+  "ts": 1792629199.3548265
  },
  "whale_seen": [
   {
@@ -17,25 +17,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 32404236014,
-  "eth": 14047051568,
-  "ts": 1792620023.9744592
+  "btc": 32297587064,
+  "eth": 13816579258,
+  "ts": 1792629199.3550928
  },
- "last_eth_block": 26243830,
+ "last_eth_block": 26244590,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "f8b33616ed8517817e733e423d62b78b9b8d250381f81452a810ed0ceb7382bb",
-   "ts": 1792366918.925056
-  },
-  {
-   "hash": "6a9db7d51ce2f23f1b91b0362217840a752921cd853417ee165554aa1f4055f6",
-   "ts": 1792366918.925056
-  },
-  {
-   "hash": "d58d7c01fc78bedb50b2e5089faa52c66d16e9c282a0ba0aab076a8f038660af",
-   "ts": 1792366918.925056
-  },
   {
    "hash": "e84e057ade90b15a492f946583ee665a6a73e9f7466eb47dbd5a1b2a97c62472",
    "ts": 1792374440.10576
@@ -1431,35 +1419,29 @@
   {
    "hash": "5a0bdb775e08a70b492532ad90c15f57c86a68993b5edcf18ebd838f732a0f23",
    "ts": 1792620035.365915
+  },
+  {
+   "hash": "1bc59f89d6710bbc6eacaf73545f261741606b8f6da6f386caed7508d56baf64",
+   "ts": 1792629213.063454
+  },
+  {
+   "hash": "c84b0fb8c1d695db472f959fc80e592a7b59af4a620bbfba1e2f976a30d54f01",
+   "ts": 1792629213.063454
+  },
+  {
+   "hash": "cab800a998b73eea4f89d7d787b73de0500976781fd5bbb5ea7d4f5b5665f63a",
+   "ts": 1792629213.063454
+  },
+  {
+   "hash": "3073b4853536a3603fc30c66ba43c9206c9959a396a62f787f7ae23012693188",
+   "ts": 1792629213.063454
+  },
+  {
+   "hash": "839fc9d016aa30d7898cbb1b48ab400a76cf840f67be5e3ec0d7f9d4e8bc0324",
+   "ts": 1792629213.063454
   }
  ],
  "posted": [
-  {
-   "en": [],
-   "ru": [
-    "126",
-    "4",
-    "qubic",
-    "блокч",
-    "взлом",
-    "млн",
-    "объяв",
-    "потер",
-    "проек",
-    "токен"
-   ],
-   "nums": [
-    "126",
-    "1404"
-   ],
-   "names": [
-    "qubic"
-   ],
-   "title": "ИИ-блокчейн-проект Qubic объявил о взломе и потере токенов на $126,4 млн",
-   "score": 5,
-   "breaking": true,
-   "ts": 1792366920.3834643
-  },
   {
    "en": [
     "attacker",
@@ -4233,13 +4215,115 @@
    "score": 2,
    "breaking": false,
    "ts": 1792620040.6335814
+  },
+  {
+   "en": [
+    "across",
+    "aero",
+    "aerodrome",
+    "blockchain",
+    "launch",
+    "merge",
+    "networks",
+    "seven",
+    "velodrome"
+   ],
+   "ru": [
+    "aero",
+    "aerodrome",
+    "velodrome",
+    "блокч",
+    "запус",
+    "объед",
+    "семи",
+    "сетях"
+   ],
+   "nums": [],
+   "names": [
+    "aero",
+    "aerodrome",
+    "velodrome"
+   ],
+   "title": "Aerodrome и Velodrome объединяются для запуска Aero в семи сетях блокчейнов",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792629214.0558846
+  },
+  {
+   "en": [
+    "american",
+    "association",
+    "bankers",
+    "congress",
+    "genius",
+    "occ",
+    "rules",
+    "undermine"
+   ],
+   "ru": [
+    "occ",
+    "амери",
+    "ассоц",
+    "банки",
+    "гениа",
+    "конгр",
+    "подры",
+    "прави",
+    "сша"
+   ],
+   "nums": [],
+   "names": [
+    "occ"
+   ],
+   "title": "Ассоциация американских банкиров: ГЕНИАЛЬНЫЕ правила OCC «подрывают» Конгресс США",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792629215.875876
+  },
+  {
+   "en": [
+    "back",
+    "bitcoin",
+    "coinbase",
+    "comes",
+    "drug",
+    "fortune",
+    "irish",
+    "life",
+    "lord",
+    "lost",
+    "million",
+    "moves"
+   ],
+   "ru": [
+    "41",
+    "coinbase",
+    "битко",
+    "возвр",
+    "долла",
+    "жизни",
+    "ирлан",
+    "милли",
+    "нарко",
+    "перех",
+    "потер",
+    "состо"
+   ],
+   "nums": [],
+   "names": [
+    "coinbase"
+   ],
+   "title": "Потерянное биткоин-состояние ирландского наркобарона возвращается к жизни: 41 миллион долларов переходит на Coinbase",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792629217.7038913
   }
  ],
  "last_evening_date": "2026-10-21",
  "milestone_last": {
-  "btc": 84769,
-  "eth": 2496.62,
-  "ton": 1.36
+  "btc": 84173,
+  "eth": 2473.59,
+  "ton": 1.35
  },
  "milestone_alerted": {
   "eth:2500": 1792608684.1618419
