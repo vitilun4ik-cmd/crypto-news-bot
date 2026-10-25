@@ -2,17 +2,26 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 80521,
-  "eth": 2351.18,
-  "ts": 1792955850.7433715
+  "btc": 80246,
+  "eth": 2332.35,
+  "ts": 1792965012.015502
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "0xf04f82b4b2d737604896c4bb4eec76aa071548b5f393727d7b443ec568b6d4f8:0x21b",
+   "ts": 1792965016.1906734
+  },
+  {
+   "hash": "0xf04f82b4b2d737604896c4bb4eec76aa071548b5f393727d7b443ec568b6d4f8:0x225",
+   "ts": 1792965016.1906953
+  }
+ ],
  "volume_baseline": {
-  "btc": 13122803016,
-  "eth": 5850725009,
-  "ts": 1792955850.7434616
+  "btc": 12824310496,
+  "eth": 5730230808,
+  "ts": 1792965012.015607
  },
- "last_eth_block": 26271729,
+ "last_eth_block": 26272488,
  "risk_off_active": false,
  "seen": [
   {
@@ -770,6 +779,14 @@
   {
    "hash": "2edb350e0de75125630f1772319cdcda96f5b890f9d39aeb72e2628dd7c7086c",
    "ts": 1792955869.5020854
+  },
+  {
+   "hash": "fc0aef446a9a69896dbe9c8f0929136a1a6631f560cedf4c5b8b23e42c94b98c",
+   "ts": 1792965022.5379653
+  },
+  {
+   "hash": "7e63cc099ef0ae08b10b23d2a7c8dff41410ebb8a21d5e42ac10d87de63e847c",
+   "ts": 1792965022.5379653
   }
  ],
  "posted": [
@@ -3186,12 +3203,45 @@
    "score": 2,
    "breaking": false,
    "ts": 1792955871.5246284
+  },
+  {
+   "en": [
+    "act",
+    "ardoino",
+    "bitcoin",
+    "gets",
+    "mines",
+    "paolo",
+    "permission",
+    "run",
+    "wants",
+    "who"
+   ],
+   "ru": [
+    "ардои",
+    "битко",
+    "дейст",
+    "кто",
+    "майна",
+    "паоло",
+    "получ",
+    "разре",
+    "управ",
+    "хочет",
+    "чтобы"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Паоло Ардоино хочет, чтобы ИИ управлял биткоин-майнами. Кто получает разрешение действовать?",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792965023.4497583
   }
  ],
  "last_evening_date": "2026-10-25",
  "milestone_last": {
-  "btc": 80521,
-  "eth": 2351.18,
+  "btc": 80246,
+  "eth": 2332.35,
   "ton": 1.26
  },
  "milestone_alerted": {},
