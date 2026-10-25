@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 80246,
-  "eth": 2332.35,
-  "ts": 1792965012.015502
+  "btc": 80099,
+  "eth": 2327.38,
+  "ts": 1792971399.7477415
  },
  "whale_seen": [
   {
@@ -14,44 +14,36 @@
   {
    "hash": "0xf04f82b4b2d737604896c4bb4eec76aa071548b5f393727d7b443ec568b6d4f8:0x225",
    "ts": 1792965016.1906953
+  },
+  {
+   "hash": "0x9cdb0067f6f73d8aa1bac2d999e7da5892b9e2c0f8677841f452b3de2bb31ae4:0x600",
+   "ts": 1792971408.553051
+  },
+  {
+   "hash": "0x9cdb0067f6f73d8aa1bac2d999e7da5892b9e2c0f8677841f452b3de2bb31ae4:0x627",
+   "ts": 1792971408.553074
+  },
+  {
+   "hash": "0xb07a34c0e565f72aa6e137962cd65b5e30a1b9265205b3c8bf8e6c9d6cd8a741:0x7a7",
+   "ts": 1792971408.553158
+  },
+  {
+   "hash": "0xb07a34c0e565f72aa6e137962cd65b5e30a1b9265205b3c8bf8e6c9d6cd8a741:0x7ce",
+   "ts": 1792971408.553162
+  },
+  {
+   "hash": "0xb6cd26f7d9a17ce314afb854a4edadeb87c2a163e2962ed4a29fbd4394f2cdfe:0x28d",
+   "ts": 1792971408.5536914
   }
  ],
  "volume_baseline": {
-  "btc": 12824310496,
-  "eth": 5730230808,
-  "ts": 1792965012.015607
+  "btc": 13785071015,
+  "eth": 6166013351,
+  "ts": 1792971399.7478175
  },
- "last_eth_block": 26272488,
+ "last_eth_block": 26273020,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "a3ca5c3ef9bb2431c9df742da977f27274bce1f8f1bb3795ff2ebf6c75b2fe02",
-   "ts": 1792707735.724919
-  },
-  {
-   "hash": "25937d4e9680059cc29c99b4cbdb865c58aa7932451daaa086c519b7fbf1b8aa",
-   "ts": 1792707735.724919
-  },
-  {
-   "hash": "3c9cf2f58c71114b939cb69dce7f232f61b46a7f2909be1b06c74b155c561e5c",
-   "ts": 1792707735.724919
-  },
-  {
-   "hash": "718aeae35137c3788de29fa127ddb004a529ae435a3294ca15190b8439c5f696",
-   "ts": 1792707735.724919
-  },
-  {
-   "hash": "b0d2177fdcb4dae4888a41fd0fe0b1bbaa9fa61ba089c495f7c185c0a4d97773",
-   "ts": 1792707735.724919
-  },
-  {
-   "hash": "e9e565c3f702a2adcda490306158011b06495c8895c755317baf3a97ef261178",
-   "ts": 1792707735.724919
-  },
-  {
-   "hash": "13c99358c14d9493303e7ba282ae743c24575eaca4967210b89744d928738d27",
-   "ts": 1792707735.724919
-  },
   {
    "hash": "ffb77ab46adb96f117e78cac25d8b22de24e697d85fcd0dc6fc3d01231cdcfd9",
    "ts": 1792716258.8013391
@@ -790,115 +782,6 @@
   }
  ],
  "posted": [
-  {
-   "en": [
-    "circle",
-    "crypto",
-    "deals",
-    "liberty",
-    "shareholder",
-    "steve",
-    "sues",
-    "trump",
-    "witkoff",
-    "world"
-   ],
-   "ru": [
-    "circle",
-    "liberty",
-    "world",
-    "акцио",
-    "витко",
-    "крипт",
-    "подае",
-    "сдело",
-    "стива",
-    "суд",
-    "трамп"
-   ],
-   "nums": [],
-   "names": [
-    "circle",
-    "liberty",
-    "world"
-   ],
-   "title": "Акционер Circle подает в суд на Трампа, World Liberty и Стива Виткоффа из-за сделок с криптовалютой",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792707737.7059708
-  },
-  {
-   "en": [
-    "200",
-    "covering",
-    "data",
-    "dune",
-    "feeds",
-    "launches",
-    "onchain",
-    "real",
-    "time",
-    "trading",
-    "venues"
-   ],
-   "ru": [
-    "200",
-    "dune",
-    "време",
-    "данны",
-    "запус",
-    "охват",
-    "площа",
-    "поток",
-    "реаль",
-    "режим",
-    "торго"
-   ],
-   "nums": [
-    "200"
-   ],
-   "names": [
-    "dune"
-   ],
-   "title": "Dune запускает поток данных в режиме реального времени, охватывающий 200 торговых площадок",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792707739.6019573
-  },
-  {
-   "en": [
-    "81k",
-    "buy",
-    "moves",
-    "pac",
-    "race",
-    "senate",
-    "texas",
-    "winklevoss"
-   ],
-   "ru": [
-    "81",
-    "pac",
-    "winklevoss",
-    "гонке",
-    "долла",
-    "купив",
-    "рекла",
-    "сенат",
-    "техас",
-    "тысяч",
-    "участ"
-   ],
-   "nums": [],
-   "names": [
-    "pac",
-    "winklevoss"
-   ],
-   "title": "Winklevoss PAC участвует в гонке в Сенат Техаса, купив рекламу на 81 тысячу долларов",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792707741.4992628
-  },
   {
    "en": [
     "bitcoin",
@@ -3240,9 +3123,9 @@
  ],
  "last_evening_date": "2026-10-25",
  "milestone_last": {
-  "btc": 80246,
-  "eth": 2332.35,
-  "ton": 1.26
+  "btc": 80099,
+  "eth": 2327.38,
+  "ton": 1.25
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W43",
