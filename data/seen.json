@@ -2,19 +2,11 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 80782,
-  "eth": 2355.36,
-  "ts": 1792885567.3355634
+  "btc": 80756,
+  "eth": 2358.28,
+  "ts": 1792892528.801926
  },
  "whale_seen": [
-  {
-   "hash": "0xf2fe60cd43382d90f37824d3ed5de7320acb0380e5f2b1a40a533eaf69be7792:0x6c",
-   "ts": 1792869824.840891
-  },
-  {
-   "hash": "0xf2fe60cd43382d90f37824d3ed5de7320acb0380e5f2b1a40a533eaf69be7792:0x79",
-   "ts": 1792869824.840914
-  },
   {
    "hash": "0xe037fc02781bb9fec2bc69fce76346fcbceba688bc660b978f1c1733cd435149:0x40",
    "ts": 1792878064.5633607
@@ -33,33 +25,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 22019669477,
-  "eth": 9098579175,
-  "ts": 1792885567.3356385
+  "btc": 21133480359,
+  "eth": 8841809944,
+  "ts": 1792892528.802015
  },
- "last_eth_block": 26265888,
+ "last_eth_block": 26266467,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "1bc59f89d6710bbc6eacaf73545f261741606b8f6da6f386caed7508d56baf64",
-   "ts": 1792629213.063454
-  },
-  {
-   "hash": "c84b0fb8c1d695db472f959fc80e592a7b59af4a620bbfba1e2f976a30d54f01",
-   "ts": 1792629213.063454
-  },
-  {
-   "hash": "cab800a998b73eea4f89d7d787b73de0500976781fd5bbb5ea7d4f5b5665f63a",
-   "ts": 1792629213.063454
-  },
-  {
-   "hash": "3073b4853536a3603fc30c66ba43c9206c9959a396a62f787f7ae23012693188",
-   "ts": 1792629213.063454
-  },
-  {
-   "hash": "839fc9d016aa30d7898cbb1b48ab400a76cf840f67be5e3ec0d7f9d4e8bc0324",
-   "ts": 1792629213.063454
-  },
   {
    "hash": "e67c8adb32ebe1af41f5063b9c6cb314f231b892814b1e7fe8c3ef2bfa961238",
    "ts": 1792646179.317558
@@ -1114,108 +1086,6 @@
   }
  ],
  "posted": [
-  {
-   "en": [
-    "across",
-    "aero",
-    "aerodrome",
-    "blockchain",
-    "launch",
-    "merge",
-    "networks",
-    "seven",
-    "velodrome"
-   ],
-   "ru": [
-    "aero",
-    "aerodrome",
-    "velodrome",
-    "блокч",
-    "запус",
-    "объед",
-    "семи",
-    "сетях"
-   ],
-   "nums": [],
-   "names": [
-    "aero",
-    "aerodrome",
-    "velodrome"
-   ],
-   "title": "Aerodrome и Velodrome объединяются для запуска Aero в семи сетях блокчейнов",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792629214.0558846
-  },
-  {
-   "en": [
-    "american",
-    "association",
-    "bankers",
-    "congress",
-    "genius",
-    "occ",
-    "rules",
-    "undermine"
-   ],
-   "ru": [
-    "occ",
-    "амери",
-    "ассоц",
-    "банки",
-    "гениа",
-    "конгр",
-    "подры",
-    "прави",
-    "сша"
-   ],
-   "nums": [],
-   "names": [
-    "occ"
-   ],
-   "title": "Ассоциация американских банкиров: ГЕНИАЛЬНЫЕ правила OCC «подрывают» Конгресс США",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792629215.875876
-  },
-  {
-   "en": [
-    "back",
-    "bitcoin",
-    "coinbase",
-    "comes",
-    "drug",
-    "fortune",
-    "irish",
-    "life",
-    "lord",
-    "lost",
-    "million",
-    "moves"
-   ],
-   "ru": [
-    "41",
-    "coinbase",
-    "битко",
-    "возвр",
-    "долла",
-    "жизни",
-    "ирлан",
-    "милли",
-    "нарко",
-    "перех",
-    "потер",
-    "состо"
-   ],
-   "nums": [],
-   "names": [
-    "coinbase"
-   ],
-   "title": "Потерянное биткоин-состояние ирландского наркобарона возвращается к жизни: 41 миллион долларов переходит на Coinbase",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792629217.7038913
-  },
   {
    "en": [
     "attract",
@@ -3975,9 +3845,9 @@
  ],
  "last_evening_date": "2026-10-24",
  "milestone_last": {
-  "btc": 80782,
-  "eth": 2355.36,
-  "ton": 1.26
+  "btc": 80756,
+  "eth": 2358.28,
+  "ton": 1.25
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W43",
