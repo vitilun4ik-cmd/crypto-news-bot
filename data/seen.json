@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 80099,
-  "eth": 2327.38,
-  "ts": 1792971399.7477415
+  "btc": 79886,
+  "eth": 2319.13,
+  "ts": 1792978638.399869
  },
  "whale_seen": [
   {
@@ -34,40 +34,24 @@
   {
    "hash": "0xb6cd26f7d9a17ce314afb854a4edadeb87c2a163e2962ed4a29fbd4394f2cdfe:0x28d",
    "ts": 1792971408.5536914
+  },
+  {
+   "hash": "0x184d6991aaf6af3513bf6141c819c3bb849967ebed9803cef05735e582bfd64a:0x81",
+   "ts": 1792978652.114521
+  },
+  {
+   "hash": "0x184d6991aaf6af3513bf6141c819c3bb849967ebed9803cef05735e582bfd64a:0x8c",
+   "ts": 1792978652.1145446
   }
  ],
  "volume_baseline": {
-  "btc": 13785071015,
-  "eth": 6166013351,
-  "ts": 1792971399.7478175
+  "btc": 15031433376,
+  "eth": 6775130431,
+  "ts": 1792978638.912854
  },
- "last_eth_block": 26273020,
+ "last_eth_block": 26273619,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "ffb77ab46adb96f117e78cac25d8b22de24e697d85fcd0dc6fc3d01231cdcfd9",
-   "ts": 1792716258.8013391
-  },
-  {
-   "hash": "1e214c7d1e4543d3f90d0f5a0df41ad9b5973fdc49ee760910dbf6eabc3a3247",
-   "ts": 1792716258.8013391
-  },
-  {
-   "hash": "07b27d8dea69b8d8bd7d4544296f2d79225b63d68f59ecd4344517ee51b07455",
-   "ts": 1792716258.8013391
-  },
-  {
-   "hash": "2fbf82b46134e990b49906c2f75e69c6a0c7dee17db52cde510b74c0d6dc1a0a",
-   "ts": 1792716258.8013391
-  },
-  {
-   "hash": "0048cc0e693a49afadeacad716e544a9aea0b73e08595a8a356f5706e583312a",
-   "ts": 1792716258.8013391
-  },
-  {
-   "hash": "e72b2c5ff0c5905746fe087d3a4eda79f914819e95a7aa3c092f56cf3def2a23",
-   "ts": 1792716258.8013391
-  },
   {
    "hash": "0afa7e85518988fc323abde5949fae0f781f5922cdbf91a01d751bca477d8cc5",
    "ts": 1792733149.262264
@@ -779,154 +763,21 @@
   {
    "hash": "7e63cc099ef0ae08b10b23d2a7c8dff41410ebb8a21d5e42ac10d87de63e847c",
    "ts": 1792965022.5379653
+  },
+  {
+   "hash": "c82428c26421c11d65f9b81563acbc1af3fd210695751cdcb07d89b4de4c6a76",
+   "ts": 1792978658.4058797
+  },
+  {
+   "hash": "d70f0d53e9df45e8671322973a2addae601791484dc089a51c3edfb77de84fc2",
+   "ts": 1792978658.4058797
+  },
+  {
+   "hash": "a046e96c58d559dc8f1b84220341f01bf4b30c306895eeb7ed34bcbecac0d2fa",
+   "ts": 1792978658.4058797
   }
  ],
  "posted": [
-  {
-   "en": [
-    "bitcoin",
-    "btc",
-    "crashes",
-    "etfs",
-    "even",
-    "less",
-    "makes",
-    "selloffs",
-    "sold",
-    "street",
-    "through",
-    "violent",
-    "wall"
-   ],
-   "ru": [
-    "7",
-    "8",
-    "btc",
-    "etf",
-    "битко",
-    "делае",
-    "жесто",
-    "менее",
-    "обвал",
-    "прода",
-    "распр",
-    "резул",
-    "стрит",
-    "уолл",
-    "хотя"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Биткоин-ETF продавались в результате 7 из 8 обвалов, хотя Уолл-стрит делает распродажи BTC менее жестокими",
-   "score": 5,
-   "breaking": true,
-   "ts": 1792716260.2146986
-  },
-  {
-   "en": [
-    "democratic",
-    "firm",
-    "hines",
-    "investigator",
-    "looking",
-    "payments",
-    "senate",
-    "tether",
-    "top"
-   ],
-   "ru": [
-    "tether",
-    "выпла",
-    "главн",
-    "демок",
-    "парти",
-    "рассл",
-    "сенат",
-    "следо",
-    "фирме",
-    "хайнс"
-   ],
-   "nums": [],
-   "names": [
-    "tether"
-   ],
-   "title": "Главный следователь Сената от Демократической партии расследует выплаты Tether фирме Бо Хайнса",
-   "score": 3,
-   "breaking": false,
-   "ts": 1792716262.0311465
-  },
-  {
-   "en": [
-    "asia",
-    "ban",
-    "crypto",
-    "deepen",
-    "deepseek",
-    "express",
-    "swiss",
-    "ties"
-   ],
-   "ru": [
-    "asia",
-    "deepseek",
-    "express",
-    "азией",
-    "запре",
-    "крипт",
-    "новый",
-    "связи",
-    "сша",
-    "углуб",
-    "швейц"
-   ],
-   "nums": [],
-   "names": [
-    "asia",
-    "deepseek",
-    "express"
-   ],
-   "title": "Новый запрет DeepSeek в США, криптовалютные связи между Швейцарией и Азией углубляются: Asia Express",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792716263.8710845
-  },
-  {
-   "en": [
-    "another",
-    "awaited",
-    "emerge",
-    "ethereum",
-    "glamsterdam",
-    "hits",
-    "long",
-    "risks",
-    "roadblock",
-    "security",
-    "upgrade"
-   ],
-   "ru": [
-    "13",
-    "ethereum",
-    "glamsterdam",
-    "безоп",
-    "возни",
-    "долго",
-    "обнов",
-    "одним",
-    "поско",
-    "препя",
-    "сталк",
-    "угроз"
-   ],
-   "nums": [],
-   "names": [
-    "glamsterdam"
-   ],
-   "title": "Долгожданное обновление Ethereum Glamsterdam сталкивается с еще одним препятствием, поскольку возникает 13 угроз безопасности",
-   "score": 2,
-   "breaking": false,
-   "ts": 1792716265.7163277
-  },
   {
    "en": [
     "contracts",
@@ -3119,15 +2970,100 @@
    "score": 2,
    "breaking": false,
    "ts": 1792965023.4497583
+  },
+  {
+   "en": [],
+   "ru": [
+    "битко",
+    "назва",
+    "нуля",
+    "паден",
+    "палих",
+    "услов",
+    "цены",
+    "чамат"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Чамат Палихапития назвал условие падения цены биткоина до нуля",
+   "score": 3,
+   "breaking": false,
+   "ts": 1792978660.718311
+  },
+  {
+   "en": [
+    "anchorpoint",
+    "chartered",
+    "led",
+    "not",
+    "retail",
+    "rushing",
+    "stablecoin",
+    "standard"
+   ],
+   "ru": [
+    "anchorpoint",
+    "chartered",
+    "standard",
+    "заявл",
+    "розни",
+    "руков",
+    "стейб",
+    "тороп"
+   ],
+   "nums": [],
+   "names": [
+    "anchorpoint",
+    "chartered",
+    "standard"
+   ],
+   "title": "Anchorpoint под руководством Standard Chartered заявляет, что не торопится с розничным стейблкоином",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792978662.7447662
+  },
+  {
+   "en": [
+    "bond",
+    "eth",
+    "ethereum",
+    "larger",
+    "lido",
+    "opens",
+    "operator",
+    "validators"
+   ],
+   "ru": [
+    "32",
+    "eth",
+    "ethereum",
+    "lido",
+    "более",
+    "валид",
+    "крупн",
+    "облиг",
+    "опера",
+    "откры"
+   ],
+   "nums": [],
+   "names": [
+    "lido"
+   ],
+   "title": "Lido открывает более крупные валидаторы Ethereum с операторской облигацией в 32 ETH",
+   "score": 2,
+   "breaking": false,
+   "ts": 1792978664.75997
   }
  ],
  "last_evening_date": "2026-10-25",
  "milestone_last": {
-  "btc": 80099,
-  "eth": 2327.38,
-  "ton": 1.25
+  "btc": 79886,
+  "eth": 2319.13,
+  "ton": 1.24
  },
- "milestone_alerted": {},
+ "milestone_alerted": {
+  "btc:80000": 1792978638.3998926
+ },
  "last_weekly_week": "2026-W43",
  "last_morning_date": "2026-10-25"
 }
