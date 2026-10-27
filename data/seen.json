@@ -2,32 +2,19 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 79819,
-  "eth": 2308.51,
-  "ts": 1793057016.4312725
+  "btc": 79956,
+  "eth": 2318.13,
+  "ts": 1793067704.3580925
  },
- "whale_seen": [
-  {
-   "hash": "0x521fdf1d73308b1cbe6b0abe6fd50711e8b9fc6a7d559b556d7e1cca153e42be:0x14",
-   "ts": 1793044275.1369662
-  },
-  {
-   "hash": "0x81afb8ebdf23a3c7fc70f5ca9cb52aaf0ab8ac999c085d3b82023855be4a495a:0x2cb",
-   "ts": 1793044275.138081
-  }
- ],
+ "whale_seen": [],
  "volume_baseline": {
-  "btc": 29058964475,
-  "eth": 10509194946,
-  "ts": 1793057016.4313383
+  "btc": 27692848473,
+  "eth": 9497082974,
+  "ts": 1793067704.358334
  },
- "last_eth_block": 26280130,
+ "last_eth_block": 26281019,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "91de9a2a509a0918d6c10305ab30281822f8a9277bc61bd88c2bf5cb42d05a61",
-   "ts": 1792803547.5941987
-  },
   {
    "hash": "8d9714aaf33dcc1ea6e5a1898b995c5d275ae9adb2a74b67eaf35d8c375a6f86",
    "ts": 1792820228.9173162
@@ -723,6 +710,22 @@
   {
    "hash": "414477e54f7f15ed2c354d3d5b48b02c2e6be6bf2cbcf967355ea168e4c99690",
    "ts": 1793057045.5283828
+  },
+  {
+   "hash": "17f5d3c74c89da3301df62d32b016eaae8d148f471f3f700cebdc1c1c015cd71",
+   "ts": 1793067723.2666788
+  },
+  {
+   "hash": "92fa333ce5a4fe7e2d7ecbc7641cdd2d9e975e40b5f167d5444e84fd591ae0ce",
+   "ts": 1793067723.2666788
+  },
+  {
+   "hash": "35e8cd7ae6471c9b63d19dcb5cc1330bcb82b515aa37a5de76073bb2b7db8915",
+   "ts": 1793067723.2666788
+  },
+  {
+   "hash": "3c87c11e9a03d0465501fa61f0dee14dcacb1a9c8ad1b9c7e66627034bcac18b",
+   "ts": 1793067723.2666788
   }
  ],
  "posted": [
@@ -2672,12 +2675,118 @@
    "score": 2,
    "breaking": false,
    "ts": 1793057048.4505856
+  },
+  {
+   "en": [
+    "blackrock",
+    "japanese",
+    "joins",
+    "link",
+    "mmfs",
+    "sbi",
+    "stablecoins",
+    "startale",
+    "tokenized",
+    "yen"
+   ],
+   "ru": [
+    "blackrock",
+    "mmf",
+    "sbi",
+    "startale",
+    "иены",
+    "присо",
+    "связа",
+    "стейб",
+    "токен",
+    "чтобы",
+    "японс"
+   ],
+   "nums": [],
+   "names": [
+    "blackrock",
+    "mmf",
+    "sbi",
+    "startale"
+   ],
+   "title": "BlackRock присоединяется к SBI и Startale, чтобы связать токенизированные MMF со стейблкоинами японской иены",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793067724.330283
+  },
+  {
+   "en": [
+    "approval",
+    "bank",
+    "final",
+    "national",
+    "ripple",
+    "trust",
+    "wins"
+   ],
+   "ru": [
+    "ripple",
+    "банка",
+    "нацио",
+    "одобр",
+    "оконч",
+    "получ",
+    "созда",
+    "сша",
+    "траст"
+   ],
+   "nums": [],
+   "names": [
+    "ripple"
+   ],
+   "title": "Ripple получила окончательное одобрение в США для создания национального трастового банка",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793067726.2437391
+  },
+  {
+   "en": [
+    "aave",
+    "bitcoin",
+    "but",
+    "control",
+    "market",
+    "native",
+    "only",
+    "payment",
+    "rules",
+    "settles",
+    "them",
+    "wbtc"
+   ],
+   "ru": [
+    "3",
+    "aave",
+    "wbtc",
+    "битко",
+    "контр",
+    "оплат",
+    "прави",
+    "рынок",
+    "собст",
+    "тольк",
+    "урегу"
+   ],
+   "nums": [],
+   "names": [
+    "aave",
+    "wbtc"
+   ],
+   "title": "3 правила оплаты контролируют собственный рынок биткоинов Aave, но их урегулирует только WBTC",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793067728.1547031
   }
  ],
  "last_evening_date": "2026-10-26",
  "milestone_last": {
-  "btc": 79819,
-  "eth": 2308.51,
+  "btc": 79956,
+  "eth": 2318.13,
   "ton": 1.2
  },
  "milestone_alerted": {
