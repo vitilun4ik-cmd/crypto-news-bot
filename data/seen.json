@@ -2,34 +2,22 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 80803,
-  "eth": 2347.47,
-  "ts": 1793142312.338415
+  "btc": 80777,
+  "eth": 2351.52,
+  "ts": 1793153228.103984
  },
  "whale_seen": [
-  {
-   "hash": "f230f9027453a490a2ad568669761193cf6ff00a7a458af1b89a896155cc54c2",
-   "ts": 1793129223.0299778
-  },
-  {
-   "hash": "0xda5e5252676fdcd42ca0c92527ed2f38bceaa5bcadee0f3adcfc21f3caf427da",
-   "ts": 1793129232.7790408
-  },
-  {
-   "hash": "0x2112bd5a565c299ae1fb120df8bc9171e0556a59b91864069bfbb3966a4f3e8a",
-   "ts": 1793129235.019091
-  },
   {
    "hash": "0x90811e1344af0dec51f35fe36f49f44e849a90a147e2e4d58a41b80cadce23cc",
    "ts": 1793142313.8522635
   }
  ],
  "volume_baseline": {
-  "btc": 24134552147,
-  "eth": 9422249495,
-  "ts": 1793142312.3387089
+  "btc": 24160507197,
+  "eth": 9464377789,
+  "ts": 1793153228.104155
  },
- "last_eth_block": 26287222,
+ "last_eth_block": 26288128,
  "risk_off_active": false,
  "seen": [
   {
@@ -1031,6 +1019,10 @@
   {
    "hash": "bf6852e6b6823e9715fd92503f618165a8cbf652efc20c90e0a9c77e30c0d020",
    "ts": 1793142337.4831533
+  },
+  {
+   "hash": "c74c304834b65adb6bd39912e4477a995639c3bd9b1bd9762eeabc8959c6b5cf",
+   "ts": 1793153243.934068
   }
  ],
  "posted": [
@@ -3335,8 +3327,8 @@
  ],
  "last_evening_date": "2026-10-27",
  "milestone_last": {
-  "btc": 80803,
-  "eth": 2347.47,
+  "btc": 80777,
+  "eth": 2351.52,
   "ton": 1.23
  },
  "milestone_alerted": {
