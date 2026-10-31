@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 77022,
-  "eth": 2236.99,
-  "ts": 1793402180.3084972
+  "btc": 77341,
+  "eth": 2244.39,
+  "ts": 1793413579.0714076
  },
  "whale_seen": [
   {
@@ -13,17 +13,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 202735967570,
-  "eth": 20056787825,
-  "ts": 1793402180.3087592
+  "btc": 201327837342,
+  "eth": 15160754799,
+  "ts": 1793413579.0714931
  },
- "last_eth_block": 26308801,
+ "last_eth_block": 26309746,
  "risk_off_active": true,
  "seen": [
-  {
-   "hash": "c74c304834b65adb6bd39912e4477a995639c3bd9b1bd9762eeabc8959c6b5cf",
-   "ts": 1793153243.934068
-  },
   {
    "hash": "19fb5ed637aeb0a9a93d6c28de8f62358b0661869fe50f8226ea2d79061036c6",
    "ts": 1793175634.5878308
@@ -1651,6 +1647,10 @@
   {
    "hash": "bbebb511c75cd5fc93bd79ec8facba297d9ca6d3668fc40e021b52fce1b3fd08",
    "ts": 1793402190.8143115
+  },
+  {
+   "hash": "6548449f55944cbfadef2dae7b6cdab79489cad96e1c4bfa24e36333c81f967f",
+   "ts": 1793413599.6359684
   }
  ],
  "posted": [
@@ -4389,9 +4389,9 @@
  ],
  "last_evening_date": "2026-10-30",
  "milestone_last": {
-  "btc": 77022,
-  "eth": 2236.99,
-  "ton": 1.17
+  "btc": 77341,
+  "eth": 2244.39,
+  "ton": 1.19
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W44",
