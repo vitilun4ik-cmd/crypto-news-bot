@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 77684,
-  "eth": 2256.16,
-  "ts": 1793572826.7342632
+  "btc": 78539,
+  "eth": 2291.16,
+  "ts": 1793584299.0774755
  },
  "whale_seen": [
   {
@@ -17,69 +17,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 65794839607,
-  "eth": 4613760324,
-  "ts": 1793572826.7344816
+  "btc": 81987014212,
+  "eth": 5801932778,
+  "ts": 1793584299.0777383
  },
- "last_eth_block": 26322966,
+ "last_eth_block": 26323922,
  "risk_off_active": true,
  "seen": [
-  {
-   "hash": "bb56f0df7cdaf659880538b8efe12823e817967f918e2f85f2911dc55a74706e",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "9c1b2a8664452b2bd66d416c959008ddaa6c0111f5c459fa18844b3d69b7b073",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "6f63fc02d5637174c10346a5743622c504a5c15d062188f648d45424cee7a7e8",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "766fb23b86c0f6f83f66c5c050c5c8315d128e339a2e7a3495f5d634a96c979b",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "60689e5e903acf42b70fe428b001d43fbc0ecdf0ec8bf7ac7a50749cc889f442",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "77f8f0bfb8e3710a96456603186cfd8e6c964bc21040f609ffee1c3951905906",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "e1e7ebb0740568f156ed19bb7e5a8d333cee933c023e21c5343de6fd575666b3",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "207009cbfb36db26314dd105d9bddd6b09630c64a0865434bd896d37ab940af5",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "df97390bd9e35814d600242af31232be763f3b8a9ed628e99ee2312827e2b75e",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "ea10f462dff255f8905e22224efc5def34adef6a037578dcfa2faa438beba30a",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "aa30393ee6f7340288a7c7cbcf96c3dca520fb2618d7526c5a6a29700d823c41",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "8657f84661e7a11e525f6ab8a70c4b6fb50e2bab9ff4935a0ed779c56d5c2f04",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "9b7abe2b35a973484b969ffbd3d09111d0e61bbedc9754c172953ce06bb1ea52",
-   "ts": 1793324891.2507706
-  },
-  {
-   "hash": "820c7fa2ad6e73aba3c92f3cf6244dd149439fe0634566b79eb9e8b00cae52dd",
-   "ts": 1793324891.2507706
-  },
   {
    "hash": "27cbaf311d48c0ede2460ca5dbdfe8fa929a7549d86746879e2ebb41c31e85f1",
    "ts": 1793346291.909591
@@ -911,317 +855,17 @@
   {
    "hash": "eab1da52f9046762b7a4d4da58671bc0fc33f6c2f63560471de7ec3bf8e83663",
    "ts": 1793572842.8048937
+  },
+  {
+   "hash": "55c55bb42ca0bc9c119349c4fe7be02af1cdb983e8693c524e64cf737fb1c197",
+   "ts": 1793584318.1868756
+  },
+  {
+   "hash": "baf2fcee2448abedbc8e470ea14bf2ab7c63d74c2c169f9a8965fcd8bd8f3da3",
+   "ts": 1793584318.1868756
   }
  ],
  "posted": [
-  {
-   "en": [
-    "billion",
-    "binance",
-    "circle",
-    "crypto",
-    "firm",
-    "freeze",
-    "hack",
-    "joins",
-    "near",
-    "outflows",
-    "ripple",
-    "stablecoin",
-    "tether",
-    "trump"
-   ],
-   "ru": [
-    "2",
-    "6",
-    "binance",
-    "circle",
-    "ripple",
-    "tether",
-    "долла",
-    "замор",
-    "крипт",
-    "милли",
-    "около",
-    "отток",
-    "поско",
-    "присо",
-    "соста",
-    "стейб",
-    "трамп",
-    "фирма",
-    "хакер"
-   ],
-   "nums": [],
-   "names": [
-    "binance",
-    "circle",
-    "ripple",
-    "tether"
-   ],
-   "title": "Криптовалютная фирма Трампа присоединяется к Tether, Circle и Ripple в заморозке стейблкоинов на 2,6 миллиарда долларов, поскольку хакерский отток Binance составляет около 6 миллиардов долларов",
-   "score": 5,
-   "breaking": true,
-   "ts": 1793324895.2748466
-  },
-  {
-   "en": [
-    "77k",
-    "binance",
-    "bitcoin",
-    "bnb",
-    "falls",
-    "hack",
-    "markets",
-    "nears",
-    "rattles"
-   ],
-   "ru": [
-    "77",
-    "8",
-    "binance",
-    "bnb",
-    "битко",
-    "взлом",
-    "падае",
-    "потря",
-    "прибл",
-    "рынки",
-    "тыс"
-   ],
-   "nums": [],
-   "names": [
-    "binance"
-   ],
-   "title": "Взлом Binance потряс рынки: BNB падает на 8%, биткоин приближается к $77 тыс.",
-   "score": 3,
-   "breaking": false,
-   "ts": 1793324897.2270167
-  },
-  {
-   "en": [
-    "assets",
-    "backing",
-    "binance",
-    "customer",
-    "data",
-    "drained",
-    "hack",
-    "reserve",
-    "shows",
-    "wallets"
-   ],
-   "ru": [
-    "binance",
-    "актив",
-    "взлом",
-    "данны",
-    "клиен",
-    "кошел",
-    "опуст",
-    "подде",
-    "показ",
-    "резер"
-   ],
-   "nums": [],
-   "names": [
-    "binance"
-   ],
-   "title": "Взлом Binance опустошил кошельки, поддерживающие активы клиентов, показывают данные резервов",
-   "score": 2,
-   "breaking": false,
-   "ts": 1793324899.176644
-  },
-  {
-   "en": [
-    "binance",
-    "blockaid",
-    "ceo",
-    "hack",
-    "involve",
-    "key",
-    "may",
-    "misuse",
-    "not",
-    "private",
-    "theft"
-   ],
-   "ru": [
-    "binance",
-    "blockaid",
-    "взлом",
-    "включ",
-    "генер",
-    "дирек",
-    "закры",
-    "испол",
-    "ключа",
-    "кражу",
-    "непра"
-   ],
-   "nums": [],
-   "names": [
-    "binance",
-    "blockaid"
-   ],
-   "title": "Взлом Binance может включать «неправомерное использование», а не кражу закрытого ключа: генеральный директор Blockaid",
-   "score": 2,
-   "breaking": false,
-   "ts": 1793324901.136273
-  },
-  {
-   "en": [
-    "asia",
-    "before",
-    "broke",
-    "express",
-    "ledger",
-    "month",
-    "news",
-    "reported",
-    "singapore",
-    "tampered"
-   ],
-   "ru": [
-    "asia",
-    "express",
-    "ledger",
-    "tampered",
-    "месяц",
-    "новос",
-    "появи",
-    "появл",
-    "синга",
-    "сообщ"
-   ],
-   "nums": [],
-   "names": [
-    "asia",
-    "express",
-    "ledger",
-    "tampered"
-   ],
-   "title": "Сообщение о Tampered Ledger появилось в Сингапуре за месяц до появления новостей: Asia Express",
-   "score": 2,
-   "breaking": false,
-   "ts": 1793324903.0915363
-  },
-  {
-   "en": [
-    "blueprint",
-    "crypto",
-    "ethereum",
-    "funding",
-    "ico",
-    "shifts",
-    "silicon",
-    "using",
-    "valley"
-   ],
-   "ru": [
-    "ethereum",
-    "ico",
-    "долин",
-    "испол",
-    "кремн",
-    "крипт",
-    "перев",
-    "план",
-    "финан"
-   ],
-   "nums": [],
-   "names": [
-    "ico"
-   ],
-   "title": "Кремниевая долина переводит финансирование ИИ на криптовалюту, используя план ICO Ethereum",
-   "score": 2,
-   "breaking": false,
-   "ts": 1793324905.0409093
-  },
-  {
-   "en": [
-    "banks",
-    "bottleneck",
-    "fed",
-    "fix",
-    "freeze",
-    "market",
-    "mean",
-    "nothing",
-    "rate",
-    "repo",
-    "unless"
-   ],
-   "ru": [
-    "банки",
-    "будет",
-    "если",
-    "замор",
-    "значи",
-    "место",
-    "ничег",
-    "репо",
-    "рынке",
-    "ставо",
-    "узкое",
-    "устра",
-    "фрс"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Замораживание ставок ФРС ничего не будет значить, если банки не устранят узкое место на рынке репо",
-   "score": 2,
-   "breaking": false,
-   "ts": 1793324906.9912994
-  },
-  {
-   "en": [
-    "000",
-    "below",
-    "binance",
-    "bitcoin",
-    "cash",
-    "drained",
-    "hot",
-    "linked",
-    "reportedly",
-    "tornado",
-    "wallet",
-    "whipsaws"
-   ],
-   "ru": [
-    "000",
-    "79",
-    "binance",
-    "cash",
-    "tornado",
-    "битко",
-    "горяч",
-    "долла",
-    "кошел",
-    "ниже",
-    "опуст",
-    "поско",
-    "резко",
-    "связа",
-    "сообщ",
-    "упал"
-   ],
-   "nums": [
-    "000",
-    "126",
-    "297"
-   ],
-   "names": [
-    "binance",
-    "cash",
-    "tornado"
-   ],
-   "title": "Биткоин резко упал ниже 79 000 долларов, поскольку горячий кошелек Binance, как сообщается, опустошен кошельком, связанным с Tornado Cash",
-   "score": 2,
-   "breaking": false,
-   "ts": 1793324908.9481578
-  },
   {
    "en": [
     "billion",
@@ -3188,8 +2832,8 @@
  ],
  "last_evening_date": "2026-11-01",
  "milestone_last": {
-  "btc": 77684,
-  "eth": 2256.16,
+  "btc": 78539,
+  "eth": 2291.16,
   "ton": 1.21
  },
  "milestone_alerted": {},
