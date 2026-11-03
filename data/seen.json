@@ -2,23 +2,24 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 77098,
-  "eth": 2256.79,
-  "ts": 1793668731.4216251
+  "btc": 76753,
+  "eth": 2255.83,
+  "ts": 1793692713.3447278
  },
- "whale_seen": [],
+ "whale_seen": [
+  {
+   "hash": "1ae7a8b8fb825897e52089ff88ea17712aa8c234e8d8032d62d6093e75e2d136",
+   "ts": 1793692713.860058
+  }
+ ],
  "volume_baseline": {
-  "btc": 25137540476,
-  "eth": 10937324213,
-  "ts": 1793668731.4218013
+  "btc": 26499227999,
+  "eth": 9772812628,
+  "ts": 1793692713.3448253
  },
- "last_eth_block": 26330933,
+ "last_eth_block": 26332928,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "6548449f55944cbfadef2dae7b6cdab79489cad96e1c4bfa24e36333c81f967f",
-   "ts": 1793413599.6359684
-  },
   {
    "hash": "a0e10395ed611b22d2221ae5d0bfe866c7efbb0b15b2dc2cd28a59d798704ab8",
    "ts": 1793436290.1864333
@@ -914,6 +915,82 @@
   {
    "hash": "dc01255d082e0116a33877778f1f404e6a881638c97030d86307b0a70a5e347a",
    "ts": 1793668751.4191253
+  },
+  {
+   "hash": "5f416eb1155e03a86cdf8bca792d666fbf298ec0daa959d707a462199635eaba",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "d436e47aac411fbdc3aa55ce165f6b73600f22e856b926c9323a9ab547754399",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "de1aa9b0abb539b41670821d591905c2659e13d436260bcc83bbf88fc8c0d568",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "e55efff87c77e7d8941e930ae2acef7914523a0cc78ee255f0b9917f0ae67e57",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "78b61a099c2001aba359a630eb886e5a12f74f88ec1c678528fba51b1362b824",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "c57c10aa9cd80f60247553f53f1d92503be022fe8302364b56bb4c930b94ad74",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "76640f67c5189ec844ba60f48431b2ae184f76ac430e3b2e9d28ae0e7e600c4e",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "613e10b073fb111af1e226bb42ba913a12b6fd03c69b5ac903c2873b0a78754d",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "1d07ade45e14b932ba4d25bf5c4bfbc7effc17547d435d026ab0f4ca835c204a",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "5b948d0882a7a5e84e97f29321e1fb190c66324037aad6b37b3b1cfd8e5209a6",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "2a590b75e44f59c0f29b8d370412d24e42179ab073af9c1c5974736f228a0f4c",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "5be2587705de347613dbac8ef61a33862897bbbc282a70f486dfe077ac9156f6",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "a1e40df2b0f136844619a0c97367dbb2dae311b08ca1fa72faa635666e37a98c",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "0a91f495cacc37993ea208527769c6119e47a1f162e769fcca6df3dd508fedd7",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "4ef37094f3d3dff7943b77d51eae130e63fd85bd6dbb194e4c92ba25c25b869e",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "ed90dc13c5dcc0c217075d86852dc9383e0a4ec337538e4fffee614540695c4e",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "351bc652a450c0028e48bff7dd9ce8da8c2cb8d8b4a54749d3bb953074e1b79d",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "e9417cf9a38081dd1ea23ae851626b6fdf663852ad26e9ce930b10d33edc7ab9",
+   "ts": 1793692722.379115
+  },
+  {
+   "hash": "52eca65794dcf6427d3bea760eca6e1423d4eb5933c9eac61f1f167093b54a0d",
+   "ts": 1793692722.379115
   }
  ],
  "posted": [
@@ -2701,15 +2778,278 @@
    "score": 2,
    "breaking": false,
    "ts": 1793668768.7344263
+  },
+  {
+   "en": [
+    "580",
+    "about",
+    "arbitrum",
+    "binance",
+    "bitcoin",
+    "council",
+    "data",
+    "funds",
+    "hack",
+    "hacker",
+    "half",
+    "key",
+    "million",
+    "moved",
+    "safu",
+    "shows",
+    "spent",
+    "without",
+    "worth"
+   ],
+   "ru": [
+    "580",
+    "binance",
+    "safu",
+    "битко",
+    "данны",
+    "долла",
+    "милли",
+    "около",
+    "полов",
+    "потра",
+    "своих",
+    "сумму"
+   ],
+   "nums": [
+    "580"
+   ],
+   "names": [
+    "arbitrum",
+    "binance",
+    "safu"
+   ],
+   "title": "По данным данных, Binance потратила половину своих биткоинов SAFU на сумму около 580 миллионов долларов.",
+   "score": 6,
+   "breaking": true,
+   "ts": 1793692726.2851915
+  },
+  {
+   "en": [],
+   "ru": [
+    "акций",
+    "битко",
+    "выбор",
+    "давле",
+    "перед",
+    "распр",
+    "сша",
+    "техно",
+    "усили"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Распродажа технологических акций усилила давление на биткоин перед выборами в США",
+   "score": 3,
+   "breaking": false,
+   "ts": 1793692728.1761754
+  },
+  {
+   "en": [],
+   "ru": [
+    "49",
+    "bitcoin",
+    "chainalysis",
+    "mercado",
+    "взлом",
+    "млн",
+    "оцени",
+    "ущерб"
+   ],
+   "nums": [],
+   "names": [
+    "chainalysis",
+    "mercado"
+   ],
+   "title": "Chainalysis оценила ущерб от взлома Mercado Bitcoin в $49 млн",
+   "score": 3,
+   "breaking": false,
+   "ts": 1793692729.982545
+  },
+  {
+   "en": [
+    "000",
+    "ahead",
+    "below",
+    "bitcoin",
+    "chip",
+    "deepens",
+    "drops",
+    "midterm",
+    "rout",
+    "vote"
+   ],
+   "ru": [
+    "000",
+    "77",
+    "битко",
+    "голос",
+    "долла",
+    "ниже",
+    "перед",
+    "поско",
+    "проме",
+    "разгр",
+    "сша",
+    "упал",
+    "усили",
+    "чипов"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [],
+   "title": "Биткоин упал ниже 77 000 долларов, поскольку разгром чипов усиливается перед промежуточным голосованием в США",
+   "score": 3,
+   "breaking": false,
+   "ts": 1793692731.8072248
+  },
+  {
+   "en": [],
+   "ru": [
+    "2026",
+    "битко",
+    "ключе",
+    "ноябр",
+    "один",
+    "остае",
+    "прогн",
+    "урове"
+   ],
+   "nums": [
+    "000"
+   ],
+   "names": [],
+   "title": "Прогноз биткоина на ноябрь 2026 года: один уровень остается ключевым",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793692733.6144836
+  },
+  {
+   "en": [
+    "adds",
+    "ark",
+    "buys",
+    "circle",
+    "coinbase",
+    "invest",
+    "lower",
+    "million",
+    "robinhood",
+    "stocks",
+    "trade"
+   ],
+   "ru": [
+    "3",
+    "4",
+    "ark",
+    "circle",
+    "coinbase",
+    "invest",
+    "robinhood",
+    "акции",
+    "добав",
+    "долла",
+    "милли",
+    "ниже",
+    "покуп",
+    "поско",
+    "торгу"
+   ],
+   "nums": [
+    "645",
+    "820"
+   ],
+   "names": [
+    "ark",
+    "circle",
+    "coinbase",
+    "invest",
+    "robinhood"
+   ],
+   "title": "Ark Invest покупает Coinbase на 3,4 миллиона долларов, добавляет Circle и Robinhood, поскольку акции торгуются ниже",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793692735.4435794
+  },
+  {
+   "en": [
+    "app",
+    "changes",
+    "citing",
+    "com",
+    "consumer",
+    "crypto",
+    "hong",
+    "kong",
+    "regulatory",
+    "withdraw"
+   ],
+   "ru": [
+    "com",
+    "crypto",
+    "гонко",
+    "закон",
+    "измен",
+    "отзов",
+    "потре",
+    "прило",
+    "ссыла"
+   ],
+   "nums": [],
+   "names": [
+    "com"
+   ],
+   "title": "Crypto.com отзовет потребительское приложение в Гонконге, ссылаясь на изменения в законодательстве",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793692737.27364
+  },
+  {
+   "en": [
+    "binance",
+    "boost",
+    "cold",
+    "exchanges",
+    "hack",
+    "korea",
+    "south",
+    "storage",
+    "urges"
+   ],
+   "ru": [
+    "binance",
+    "биржи",
+    "взлом",
+    "колич",
+    "корея",
+    "призы",
+    "увели",
+    "холод",
+    "храни",
+    "южная"
+   ],
+   "nums": [],
+   "names": [
+    "binance"
+   ],
+   "title": "Южная Корея призывает биржи увеличить количество холодных хранилищ после взлома Binance",
+   "score": 2,
+   "breaking": false,
+   "ts": 1793692739.1183007
   }
  ],
  "last_evening_date": "2026-11-02",
  "milestone_last": {
-  "btc": 77098,
-  "eth": 2256.79,
-  "ton": 1.18
+  "btc": 76753,
+  "eth": 2255.83,
+  "ton": 1.16
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W45",
- "last_morning_date": "2026-11-02"
+ "last_morning_date": "2026-11-03"
 }
