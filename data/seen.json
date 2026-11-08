@@ -2,17 +2,17 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 75712,
-  "eth": 2232.52,
-  "ts": 1794091749.3547602
+  "btc": 75686,
+  "eth": 2232.28,
+  "ts": 1794102787.754524
  },
  "whale_seen": [],
  "volume_baseline": {
-  "btc": 11219967766,
-  "eth": 4257495885,
-  "ts": 1794091749.3549912
+  "btc": 10926603445,
+  "eth": 4103450480,
+  "ts": 1794102787.7546008
  },
- "last_eth_block": 26366069,
+ "last_eth_block": 26366987,
  "risk_off_active": false,
  "seen": [
   {
@@ -3648,9 +3648,9 @@
  ],
  "last_evening_date": "2026-11-07",
  "milestone_last": {
-  "btc": 75712,
-  "eth": 2232.52,
-  "ton": 1.068
+  "btc": 75686,
+  "eth": 2232.28,
+  "ton": 1.057
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W45",
