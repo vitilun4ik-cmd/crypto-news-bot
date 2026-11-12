@@ -2,32 +2,28 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 74366,
-  "eth": 2077.49,
-  "ts": 1794427565.3960876
+  "btc": 73616,
+  "eth": 2048.05,
+  "ts": 1794448366.5953538
  },
  "whale_seen": [
   {
    "hash": "0xe825e6aaba34f4d756046b2cfee4e189ec25e08ac48f1862bb833214e5ba2b59:0x123",
    "ts": 1794427570.4301126
+  },
+  {
+   "hash": "0x6b80eb46df21eaea41bfcd9c4368187985b4b8de49a20535038d647d4a076de9:0xe4",
+   "ts": 1794448370.3839858
   }
  ],
  "volume_baseline": {
-  "btc": 26031980589,
-  "eth": 9010491964,
-  "ts": 1794427565.396336
+  "btc": 25727914486,
+  "eth": 9081633118,
+  "ts": 1794448366.5954149
  },
- "last_eth_block": 26393963,
+ "last_eth_block": 26395694,
  "risk_off_active": false,
  "seen": [
-  {
-   "hash": "4687b7eb895fe9784ad5b23095acd3497c9a07d8577b1322a11d63b340d38726",
-   "ts": 1794180813.2207854
-  },
-  {
-   "hash": "cc0630038cb61c55b6f3758b05b078b64a32b546e5abf7bcd7f91395bf72d2c9",
-   "ts": 1794180813.2207854
-  },
   {
    "hash": "fefdfb1292fbd21696c710af5b0be2cbfd8a60c49d70e499ad14c5e1e3796502",
    "ts": 1794192946.9176188
@@ -1623,6 +1619,62 @@
   {
    "hash": "6973d40b5cde7b4f680bf3919b9c02b14f666492b5092e0bb3f9aaf1cf90c8de",
    "ts": 1794427576.0603774
+  },
+  {
+   "hash": "25bb176298ae26527ece89dd1851b18ca1f4c3d41c4d87c78ec83116c11eac49",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "4808621fdfa426749a9d0c0e983bb309c7dbd862a83cc56b85348b2118f63218",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "db14b333f957177068b07808caef45cd15d9bceca0b6d89345bb6a058b662750",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "3766461c3459867a38abab1f1d2414506fb2ce2fe166663b1e0e032d03f6af18",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "2ff14a8c445b2475201fdc2e066542230b3d3816b72b12d2b7fcc723cb771590",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "15c8a1a17a47bf53998340427edf93d6dcdf254cda8862cd4de3383813459a77",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "8dacb3fddba0372f2804b35f77911e09908f66875a1ab91fd29f3e459ec3c033",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "3a16e122f57cd1ca3dadd0ecfd0cdd2184ccbe99f3c7714eb34250c1340d0059",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "45ec1a69c4507b81484640b411a735b5c3294063598ad78b890667eed90fc4a7",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "a1e15d72c2c9f481f61cd9a650e5bc807789fa923e3cd648fb7616fb8b413e10",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "471895fb756a3453d384e433784cb8432bb7b66d26b7fe7b90a8e9ace69334f3",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "3d0ad494ba0a14f99a03b4f53d8103f6ffdcc0660933af5fa0539924c67ed13e",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "c984269b22260d7b9975c263eea81800ea501297d8db4df39c5b0e6f8aab0795",
+   "ts": 1794448375.4674704
+  },
+  {
+   "hash": "31c2d79c5dbf8c472b8a31e279eb2b0ee7ddf060275157b8378ae158ac9f5ebc",
+   "ts": 1794448375.4674704
   }
  ],
  "posted": [
@@ -3540,13 +3592,270 @@
    "score": 3,
    "breaking": false,
    "ts": 1794427592.948198
+  },
+  {
+   "en": [
+    "binance",
+    "bitcoin",
+    "crashes",
+    "driven",
+    "hacker",
+    "rapidly",
+    "stockpile",
+    "swaps",
+    "xrp"
+   ],
+   "ru": [
+    "binance",
+    "xrp",
+    "битко",
+    "быстр",
+    "запас",
+    "рушат",
+    "свопо",
+    "хакер"
+   ],
+   "nums": [],
+   "names": [
+    "binance"
+   ],
+   "title": "Запасы XRP хакера Binance быстро рушатся из-за биткоин-свопов",
+   "score": 5,
+   "breaking": true,
+   "ts": 1794448379.2176888
+  },
+  {
+   "en": [
+    "bitcoin",
+    "center",
+    "challenges",
+    "data",
+    "edge",
+    "give",
+    "miners",
+    "remain",
+    "restrictions",
+    "though"
+   ],
+   "ru": [
+    "битко",
+    "данны",
+    "дать",
+    "интел",
+    "искус",
+    "майне",
+    "облас",
+    "обраб",
+    "огран",
+    "остаю",
+    "преим",
+    "пробл",
+    "сша",
+    "хотя",
+    "центр"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Ограничения центров обработки данных в США могут дать майнерам биткоинов преимущество в области искусственного интеллекта, хотя проблемы остаются",
+   "score": 3,
+   "breaking": false,
+   "ts": 1794448381.041123
+  },
+  {
+   "en": [
+    "app",
+    "ceo",
+    "close",
+    "defi",
+    "dogecoin",
+    "dogeos",
+    "features",
+    "launching",
+    "layer",
+    "very"
+   ],
+   "ru": [
+    "defi",
+    "dogecoin",
+    "dogeos",
+    "близк",
+    "генер",
+    "дирек",
+    "запус",
+    "очень",
+    "прило",
+    "уровн",
+    "функц"
+   ],
+   "nums": [],
+   "names": [
+    "dogecoin",
+    "dogeos"
+   ],
+   "title": "DogeOS «очень, очень близка» к запуску функций DeFi и уровня приложений для Dogecoin: генеральный директор",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794448382.8483934
+  },
+  {
+   "en": [
+    "ecosystem",
+    "exit",
+    "latest",
+    "shut",
+    "sui",
+    "suiet",
+    "wallet"
+   ],
+   "ru": [
+    "sui",
+    "suiet",
+    "выход",
+    "закро",
+    "кошел",
+    "после",
+    "экоси"
+   ],
+   "nums": [],
+   "names": [
+    "sui",
+    "suiet"
+   ],
+   "title": "Кошелек Suiet закроется после последнего выхода из экосистемы Sui",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794448384.7005148
+  },
+  {
+   "en": [
+    "allies",
+    "congress",
+    "crypto",
+    "house",
+    "more",
+    "races",
+    "send",
+    "uncalled"
+   ],
+   "ru": [
+    "больш",
+    "гонки",
+    "конгр",
+    "крипт",
+    "неназ",
+    "отпра",
+    "палат",
+    "предс",
+    "союзн",
+    "сша"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Неназванные гонки в Палате представителей США могут отправить в Конгресс больше крипто-союзников",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794448386.5129817
+  },
+  {
+   "en": [
+    "bloomberg",
+    "crypto",
+    "digital",
+    "explores",
+    "laser",
+    "nomura",
+    "sale",
+    "unit"
+   ],
+   "ru": [
+    "bloomberg",
+    "digital",
+    "laser",
+    "nomura",
+    "возмо",
+    "изуча",
+    "крипт",
+    "прода"
+   ],
+   "nums": [],
+   "names": [
+    "bloomberg",
+    "digital",
+    "laser",
+    "nomura"
+   ],
+   "title": "Nomura изучает возможность продажи криптоподразделения Laser Digital: Bloomberg",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794448388.3245273
+  },
+  {
+   "en": [
+    "bitcoin",
+    "drain",
+    "empty",
+    "etf",
+    "leave",
+    "outflows",
+    "running",
+    "stablecoin"
+   ],
+   "ru": [
+    "etf",
+    "битко",
+    "отток",
+    "приво",
+    "пусты",
+    "работ",
+    "стейб",
+    "тому",
+    "утечк"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Утечка стейблкоинов и отток ETF приводят к тому, что биткоин «работает пустым»",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794448390.141308
+  },
+  {
+   "en": [
+    "billion",
+    "bitcoin",
+    "btc",
+    "exchanges",
+    "holders",
+    "loss",
+    "send",
+    "short",
+    "term"
+   ],
+   "ru": [
+    "3",
+    "6",
+    "btc",
+    "биржи",
+    "битко",
+    "держа",
+    "долла",
+    "кратк",
+    "милли",
+    "отпра",
+    "убытк"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Краткосрочные держатели биткоинов отправляют 3,6 миллиарда долларов в BTC на биржи с убытком",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794448391.9408646
   }
  ],
  "last_evening_date": "2026-11-11",
  "milestone_last": {
-  "btc": 74366,
-  "eth": 2077.49,
-  "ton": 1.2
+  "btc": 73616,
+  "eth": 2048.05,
+  "ton": 1.19
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W46",
