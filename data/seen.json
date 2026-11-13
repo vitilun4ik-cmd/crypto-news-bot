@@ -2,38 +2,26 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 71321,
-  "eth": 2010.5,
-  "ts": 1794523946.0132575
+  "btc": 69660,
+  "eth": 1977.03,
+  "ts": 1794540011.3137636
  },
  "whale_seen": [
   {
-   "hash": "0x52d272e01856e9a6180bf811049cabc0d5e90eb58ade2984244b2060428ce02d",
-   "ts": 1794505398.8113682
+   "hash": "0xda12c1685da5649deeac0989675601236bb0f1cd04f6cc945ac62d25af3841fb:0xa7",
+   "ts": 1794540027.4579234
   },
   {
-   "hash": "0x63c79bb97ca28211e5a853ba1109992ae9d715d846fe03e267d728e0587860a6",
-   "ts": 1794505400.3700378
-  },
-  {
-   "hash": "0x1c73d4ca82585a1d3bd823937100d7b28fe36d610c0f379eb4701f10dbef8a8e",
-   "ts": 1794505404.8214602
-  },
-  {
-   "hash": "0xc3ddb5f9f7791ee02eeaac1a58dd64226902f6d884af1228ce03d5022ad92ec6:0x90",
-   "ts": 1794505405.5157375
-  },
-  {
-   "hash": "0xc3ddb5f9f7791ee02eeaac1a58dd64226902f6d884af1228ce03d5022ad92ec6:0x2b9",
-   "ts": 1794505405.5158029
+   "hash": "0xda12c1685da5649deeac0989675601236bb0f1cd04f6cc945ac62d25af3841fb:0xc3",
+   "ts": 1794540027.4579508
   }
  ],
  "volume_baseline": {
-  "btc": 27832558450,
-  "eth": 10516464194,
-  "ts": 1794523946.0133367
+  "btc": 31264318483,
+  "eth": 10990390976,
+  "ts": 1794540012.385867
  },
- "last_eth_block": 26401973,
+ "last_eth_block": 26403309,
  "risk_off_active": false,
  "seen": [
   {
@@ -1715,6 +1703,14 @@
   {
    "hash": "693582ea51d06655c89f7dbc195e62e325af5935050953eee7c7c0ec6155794c",
    "ts": 1794523968.4145062
+  },
+  {
+   "hash": "49ed4f4fae577560530da1128be5d51436e89a6c5a1a305bbfcd5b3dfb595baa",
+   "ts": 1794540034.1561227
+  },
+  {
+   "hash": "2082d929690b4b0fd7bb0c2232278908dcb1fb4adb2d2788873eeab1b111a3b4",
+   "ts": 1794540034.1561227
   }
  ],
  "posted": [
@@ -4078,11 +4074,14 @@
  ],
  "last_evening_date": "2026-11-12",
  "milestone_last": {
-  "btc": 71321,
-  "eth": 2010.5,
+  "btc": 69660,
+  "eth": 1977.03,
   "ton": 1.14
  },
- "milestone_alerted": {},
+ "milestone_alerted": {
+  "btc:70000": 1794540011.3137927,
+  "eth:2000": 1794540011.3137927
+ },
  "last_weekly_week": "2026-W46",
  "last_morning_date": "2026-11-12"
 }
