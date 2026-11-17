@@ -2,9 +2,9 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 64815,
-  "eth": 1816.86,
-  "ts": 1794872931.9615517
+  "btc": 64773,
+  "eth": 1828.76,
+  "ts": 1794892541.7286692
  },
  "whale_seen": [
   {
@@ -13,17 +13,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 32962283030,
-  "eth": 11395347540,
-  "ts": 1794872931.9616194
+  "btc": 33359499400,
+  "eth": 11225037318,
+  "ts": 1794892541.728731
  },
- "last_eth_block": 26430983,
+ "last_eth_block": 26432609,
  "risk_off_active": true,
  "seen": [
-  {
-   "hash": "7ab65103cba9c277f021dc931186916023a1f2ce9c7d308c20b9a1deb62aa47e",
-   "ts": 1794627477.2240112
-  },
   {
    "hash": "45a1dcc64a8aa54f67aa862daada5b314aa50509ffd30c073f3fca842067a8ed",
    "ts": 1794653930.2884629
@@ -851,41 +847,33 @@
   {
    "hash": "bf144da39e21203887495c2cde1265258c662892bccbefe4537238cc963f7c77",
    "ts": 1794872941.7973602
+  },
+  {
+   "hash": "5bd4de65556520aa9edc27bc0928cced68d0793ba11f3856e6540683ccd94aa4",
+   "ts": 1794892562.425412
+  },
+  {
+   "hash": "e17d2d499d12e4df281c6077588d03e975a187f805bd39968ae993eb00166f12",
+   "ts": 1794892562.425412
+  },
+  {
+   "hash": "2b56dfbc324a5fe50f8e65781613ace07c0c5379d8768aa450e4b16883e0be92",
+   "ts": 1794892562.425412
+  },
+  {
+   "hash": "5f3ed40f6a6e2122fcb5253907f5719ccd181d81723552795b549bf0bc5a9ddb",
+   "ts": 1794892562.425412
+  },
+  {
+   "hash": "33be213aebb455bf449cadcd6f1459841676460f55dd5214a72402318ddfc23c",
+   "ts": 1794892562.425412
+  },
+  {
+   "hash": "991cd1cd151121393c6636cc3b2e33f4592c5e8ef3fd671909c8ff3a0a36d759",
+   "ts": 1794892562.425412
   }
  ],
  "posted": [
-  {
-   "en": [
-    "ahead",
-    "charters",
-    "crypto",
-    "grows",
-    "move",
-    "regulators",
-    "scrutiny",
-    "senate",
-    "trust"
-   ],
-   "ru": [
-    "внима",
-    "впере",
-    "крипт",
-    "отнош",
-    "поско",
-    "продв",
-    "регул",
-    "сенат",
-    "сша",
-    "усили",
-    "устав"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Регуляторы США продвигаются вперед в отношении уставов криптотрастов, поскольку внимание Сената усиливается",
-   "score": 2,
-   "breaking": false,
-   "ts": 1794613729.7950606
-  },
   {
    "en": [],
    "ru": [
@@ -2740,13 +2728,109 @@
    "score": 3,
    "breaking": false,
    "ts": 1794872958.1807535
+  },
+  {
+   "en": [
+    "backed",
+    "evernorth",
+    "holdings",
+    "listing",
+    "pre",
+    "ripple",
+    "written",
+    "xrp"
+   ],
+   "ru": [
+    "60",
+    "evernorth",
+    "ripple",
+    "xrp",
+    "актив",
+    "компа",
+    "листи",
+    "перед",
+    "подде",
+    "свои",
+    "списа"
+   ],
+   "nums": [],
+   "names": [
+    "evernorth",
+    "ripple"
+   ],
+   "title": "Компания Evernorth, поддерживаемая Ripple, списала свои активы XRP перед листингом на 60%.",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794892564.7506192
+  },
+  {
+   "en": [
+    "178",
+    "card",
+    "credit",
+    "crypto",
+    "hackers",
+    "inject",
+    "major",
+    "malware",
+    "stealing",
+    "websites"
+   ],
+   "ru": [
+    "178",
+    "веб",
+    "внедр",
+    "вредо",
+    "карт",
+    "кражи",
+    "креди",
+    "крупн",
+    "сайто",
+    "хакер"
+   ],
+   "nums": [
+    "178"
+   ],
+   "names": [],
+   "title": "Хакеры внедряют вредоносное ПО для кражи кредитных карт на 178 крупных веб-сайтов",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794892566.6734374
+  },
+  {
+   "en": [
+    "ethereum",
+    "exposes",
+    "flaw",
+    "lets",
+    "payments",
+    "skip",
+    "test",
+    "transactions"
+   ],
+   "ru": [
+    "ethereum",
+    "выяви",
+    "ошибк",
+    "плате",
+    "позво",
+    "пропу",
+    "тест",
+    "транз"
+   ],
+   "nums": [],
+   "names": [],
+   "title": "Тест Ethereum выявил ошибку, позволяющую транзакциям пропускать платежи",
+   "score": 2,
+   "breaking": false,
+   "ts": 1794892568.5931227
   }
  ],
  "last_evening_date": "2026-11-16",
  "milestone_last": {
-  "btc": 64815,
-  "eth": 1816.86,
-  "ton": 1.048
+  "btc": 64773,
+  "eth": 1828.76,
+  "ton": 1.041
  },
  "milestone_alerted": {},
  "last_weekly_week": "2026-W47",
