@@ -2,19 +2,11 @@
  "bootstrapped": true,
  "pinned_ticker_message_id": 58,
  "price_alert_baseline": {
-  "btc": 59150,
-  "eth": 1624.78,
-  "ts": 1795216000.142927
+  "btc": 56659,
+  "eth": 1568.62,
+  "ts": 1795233271.2156665
  },
  "whale_seen": [
-  {
-   "hash": "8ceb1b316b161ea7bd7259b8dc2ad13b59f10f842c01ac98361d4ff3755f2a9b",
-   "ts": 1795194771.6272204
-  },
-  {
-   "hash": "0x3ab44c7c53f82635d59e5a4d94483ccaee82a1f03a2708cb74295c91806f788a",
-   "ts": 1795194779.0355904
-  },
   {
    "hash": "90a0dae18e49283b4c21ce84b579d9186a75c52ee6e4de6317383c640b56e2c2",
    "ts": 1795216001.4858372
@@ -25,45 +17,13 @@
   }
  ],
  "volume_baseline": {
-  "btc": 55371229735,
-  "eth": 19945539841,
-  "ts": 1795216000.1429908
+  "btc": 56239515295,
+  "eth": 20419551734,
+  "ts": 1795233271.911952
  },
- "last_eth_block": 26459483,
+ "last_eth_block": 26460916,
  "risk_off_active": true,
  "seen": [
-  {
-   "hash": "5c140cc310be9d83d5b54225c763fc79f818bc9603788d7cf2e27ecc88253011",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "807d70acc2f3a9ab2ba491a37584da3643c7f0bf337eecfce8d960d053079f72",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "072da268306ecbcf6fd60f9f237ca978a30831ef273a690f19236b7f160a09f4",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "5cc5fd251ceaba2eb56a1052eb2c3bed4e6a9687e0823864c31806082b852258",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "e0b8165c2c9cfa6c3e9e9c39541503c6302e64f87e2ec9aaa53630f1217199fe",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "c0f710bc6b9b5c8eb9e51e8a5f94686e458b9be02dfb3428aaaaa702bc40a558",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "02a397732cbc2e695c73cdf5e3300ef92ca0e776f3d8e6c555414d353dc20532",
-   "ts": 1794973826.2716541
-  },
-  {
-   "hash": "554d4c30a2551811a877010dc7007dff1f79192c7a947e143625e09000d16ad3",
-   "ts": 1794973826.2716541
-  },
   {
    "hash": "6e2e7ca60bec97e5d2baf65d49221ece82ec00fc3f2ad3fc24a066cbb098eac2",
    "ts": 1795004403.5853865
@@ -1555,171 +1515,21 @@
   {
    "hash": "e1a9bbad232b3cfc27c105c951efa8b7533779b953b24011acb3b25d318b7aaa",
    "ts": 1795216020.5900123
+  },
+  {
+   "hash": "518b453f1ccb0b4a69551728cb24765deb2dc6bd433756cd89bf84bc6545b511",
+   "ts": 1795233285.6883647
+  },
+  {
+   "hash": "2fcfb10a6308f253426a53914b30960c6388f48c1d6f84bbc70124b34a27b494",
+   "ts": 1795233285.6883647
+  },
+  {
+   "hash": "99fbf0d1cded53aa841d078110008e974304ae4845e4c0b415dc63bf5065ea34",
+   "ts": 1795233285.6883647
   }
  ],
  "posted": [
-  {
-   "en": [
-    "being",
-    "blocks",
-    "coinbase",
-    "deepfake",
-    "defense",
-    "elon",
-    "million",
-    "musk",
-    "scam",
-    "sent"
-   ],
-   "ru": [
-    "4",
-    "7",
-    "coinbase",
-    "аферу",
-    "блоки",
-    "долла",
-    "защит",
-    "илоно",
-    "маско",
-    "милли",
-    "отпра",
-    "сша",
-    "фейко"
-   ],
-   "nums": [],
-   "names": [
-    "coinbase"
-   ],
-   "title": "Защита Coinbase AI блокирует отправку 4,7 миллионов долларов США в фейковую аферу с Илоном Маском",
-   "score": 2,
-   "breaking": false,
-   "ts": 1794973828.6643915
-  },
-  {
-   "en": [
-    "crypto",
-    "happening",
-    "startup",
-    "valuations"
-   ],
-   "ru": [
-    "крипт",
-    "оценк",
-    "проис",
-    "старт",
-    "стоим"
-   ],
-   "nums": [],
-   "names": [],
-   "title": "Что происходит с оценкой стоимости криптовалютных стартапов?",
-   "score": 2,
-   "breaking": false,
-   "ts": 1794973830.7689188
-  },
-  {
-   "en": [
-    "dubai",
-    "hardware",
-    "implant",
-    "ledger",
-    "megastore",
-    "reaches",
-    "saga",
-    "virgin"
-   ],
-   "ru": [
-    "ledger",
-    "megastore",
-    "virgin",
-    "аппар",
-    "дости",
-    "дубае",
-    "импла",
-    "магаз",
-    "сага"
-   ],
-   "nums": [
-    "000",
-    "604"
-   ],
-   "names": [
-    "ledger",
-    "megastore",
-    "virgin"
-   ],
-   "title": "Сага об аппаратных имплантатах Ledger достигла магазина Virgin Megastore в Дубае",
-   "score": 2,
-   "breaking": false,
-   "ts": 1794973832.8142385
-  },
-  {
-   "en": [
-    "anthropic",
-    "bitcoin",
-    "drain",
-    "faces",
-    "ipo",
-    "liquidity",
-    "millions",
-    "unlocks"
-   ],
-   "ru": [
-    "anthropic",
-    "ipo",
-    "битко",
-    "ликви",
-    "милли",
-    "откры",
-    "поско",
-    "сталк",
-    "утечк"
-   ],
-   "nums": [],
-   "names": [
-    "anthropic",
-    "ipo"
-   ],
-   "title": "Биткоин сталкивается с утечкой ликвидности, поскольку Anthropic IPO открывает миллионы",
-   "score": 2,
-   "breaking": false,
-   "ts": 1794973834.8477275
-  },
-  {
-   "en": [
-    "2026",
-    "add",
-    "asset",
-    "binance",
-    "bstocks",
-    "collateral",
-    "securities",
-    "tokenized"
-   ],
-   "ru": [
-    "18",
-    "2026",
-    "7",
-    "binance",
-    "bstocks",
-    "актив",
-    "бумаг",
-    "добав",
-    "залог",
-    "качес",
-    "ноябр",
-    "токен",
-    "ценны"
-   ],
-   "nums": [],
-   "names": [
-    "binance",
-    "bstocks"
-   ],
-   "title": "Binance добавит 7 токенизированных ценных бумаг bStocks в качестве залогового актива - 18 ноября 2026 г.",
-   "score": 2,
-   "breaking": false,
-   "ts": 1794973836.8794398
-  },
   {
    "en": [
     "ahead",
@@ -3884,14 +3694,15 @@
  ],
  "last_evening_date": "2026-11-20",
  "milestone_last": {
-  "btc": 59150,
-  "eth": 1624.78,
-  "ton": 0.983036
+  "btc": 56659,
+  "eth": 1568.62,
+  "ton": 0.910372
  },
  "milestone_alerted": {
   "btc:60000": 1795194769.7116709,
   "eth:1700": 1795194769.7116709,
-  "ton:1": 1795194769.7116709
+  "ton:1": 1795194769.7116709,
+  "eth:1600": 1795233271.563282
  },
  "last_weekly_week": "2026-W47",
  "last_morning_date": "2026-11-20"
